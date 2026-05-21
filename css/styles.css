@@ -188,6 +188,27 @@ header {
   border:1px solid var(--balmoral);
 }
 
+.analytics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.analytics-grid .chart-card {
+  min-height: 280px;
+}
+
+.analytics-grid .chart-fixed {
+  height: 300px;
+}
+
+@media (max-width: 1200px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .kpi-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; margin-bottom:20px; }
 .kpi-card {
   background:var(--card);

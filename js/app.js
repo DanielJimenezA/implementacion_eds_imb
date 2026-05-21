@@ -457,35 +457,128 @@ function cargarLeyenda() {
 }
 
 function cargarDistribucionEtapas(data) {
-  const conteo = {};
-  etapasOrden.forEach((etapa) => (conteo[etapa] = 0));
-
-  data.forEach((item) => {
-    const etapa = obtenerEtapa(item);
-    conteo[etapa] = (conteo[etapa] || 0) + 1;
-  });
+  const etapas = [
+    {
+      nombre: "Diagnóstico de infraestructura concluido",
+      color: "#E04525",
+      cumple: (item) =>
+        contieneConcluido(item.formato_tics_servicios) ||
+        valorUpper(item.formato_tics_servicios).includes("ENVIADO") ||
+        item.avance >= 12.5,
+    },
+    {
+      nombre: "Entrega de equipos y config. de red concluida",
+      color: "#F47C20",
+      cumple: (item) =>
+        contieneConcluido(item.entrega_equipos_red) ||
+        item.avance >= 25,
+    },
+    {
+      nombre: "Formato PHEDS concluido",
+      color: "#F2B52E",
+      cumple: (item) =>
+        contieneConcluido(item.formato_pheds) ||
+        item.avance >= 37.5,
+    },
+    {
+      nombre: "Formato MOCE concluido",
+      color: "#B7D44A",
+      cumple: (item) =>
+        contieneConcluido(item.formato_moce) ||
+        item.avance >= 50,
+    },
+    {
+      nombre: "Configuraciones iniciales concluidas",
+      color: "#A6CF55",
+      cumple: (item) =>
+        contieneConcluido(item.configuraciones_iniciales) ||
+        item.avance >= 62.5,
+    },
+    {
+      nombre: "Capacitaciones concluidas",
+      color: "#67B74B",
+      cumple: (item) =>
+        contieneConcluido(item.capacitaciones) ||
+        item.avance >= 75,
+    },
+    {
+      nombre: "En uso del PHEDS",
+      color: "#4AA090",
+      cumple: (item) =>
+        contieneSi(item.uso_pheds) ||
+        item.avance >= 87.5,
+    },
+    {
+      nombre: "En uso del MOCE",
+      color: "#3070C0",
+      cumple: (item) =>
+        contieneSi(item.uso_moce) ||
+        item.avance >= 100,
+    },
+    {
+      nombre: "No ha iniciado",
+      color: "#7A1E1E",
+      cumple: (item) => item.avance === 0,
+    },
+  ];
 
   const total = data.length || 1;
 
-  document.getElementById("stage-summary").innerHTML = etapasOrden
+  document.getElementById("stage-summary").innerHTML = etapas
     .map((etapa) => {
-      const valor = conteo[etapa] || 0;
+      const valor = data.filter(etapa.cumple).length;
       const porcentaje = (valor / total) * 100;
-      const color = etapaColores[etapa];
 
       return `
         <div class="stage-bar-row">
-          <span class="etapa-dot" style="background:${color}"></span>
-          <div class="stage-bar-label">${etapa}</div>
+          <span class="etapa-dot" style="background:${etapa.color}"></span>
+
+          <div class="stage-bar-label">${etapa.nombre}</div>
+
           <div class="stage-bar-track">
-            <div class="stage-bar-fill" style="width:${porcentaje}%; background:${color}"></div>
+            <div
+              class="stage-bar-fill"
+              style="width:${porcentaje}%; background:${etapa.color}"
+            ></div>
           </div>
+
           <div class="stage-bar-count">${valor}</div>
         </div>
       `;
     })
     .join("");
 }
+
+// function cargarDistribucionEtapas(data) {
+//   const conteo = {};
+//   etapasOrden.forEach((etapa) => (conteo[etapa] = 0));
+
+//   data.forEach((item) => {
+//     const etapa = obtenerEtapa(item);
+//     conteo[etapa] = (conteo[etapa] || 0) + 1;
+//   });
+
+//   const total = data.length || 1;
+
+//   document.getElementById("stage-summary").innerHTML = etapasOrden
+//     .map((etapa) => {
+//       const valor = conteo[etapa] || 0;
+//       const porcentaje = (valor / total) * 100;
+//       const color = etapaColores[etapa];
+
+//       return `
+//         <div class="stage-bar-row">
+//           <span class="etapa-dot" style="background:${color}"></span>
+//           <div class="stage-bar-label">${etapa}</div>
+//           <div class="stage-bar-track">
+//             <div class="stage-bar-fill" style="width:${porcentaje}%; background:${color}"></div>
+//           </div>
+//           <div class="stage-bar-count">${valor}</div>
+//         </div>
+//       `;
+//     })
+//     .join("");
+// }
 
 function cargarGraficaTipologia(data) {
   const resumen = {};
