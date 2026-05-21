@@ -1,309 +1,678 @@
 let mapa;
 let markers = [];
 let datosGlobales = [];
-let datosFiltrados = [];
 let tipoChart = null;
 
-const ETAPAS = [
-  { id:'sin_inicio', label:'Sin inicio', min:0, max:0, color:'#722222', bg:'#F7E8EC' },
-  { id:'inicial', label:'Inicial', min:0.00001, max:24.9999, color:'#9F2241', bg:'#F7E8EC' },
-  { id:'bajo', label:'Bajo', min:25, max:49.9999, color:'#BC955C', bg:'#FBF6EE' },
-  { id:'medio', label:'Medio', min:50, max:74.9999, color:'#778D76', bg:'#E8F0EE' },
-  { id:'alto', label:'Alto', min:75, max:99.9999, color:'#4AA090', bg:'#E8F0EE' },
-  { id:'concluido', label:'Concluido', min:100, max:100, color:'#3070C0', bg:'#E8F0EE' }
+const mexicoBounds = [
+  [14.0, -118.5],
+  [33.8, -85.0],
 ];
+
+const etapasOrden = [
+  "No ha iniciado",
+  "Diagnóstico de infraestructura concluido",
+  "Entrega de equipos y config. de red concluida",
+  "Formato PHEDS concluido",
+  "Formato MoCE concluido",
+  "Configuraciones iniciales concluidas",
+  "Capacitaciones concluidas",
+  "En uso del PHEDS",
+  "En uso del MoCE",
+];
+
+const etapaColores = {
+  "No ha iniciado": "#7A1E1E",
+  "Diagnóstico de infraestructura concluido": "#E04525",
+  "Entrega de equipos y config. de red concluida": "#F47C20",
+  "Formato PHEDS concluido": "#F2B52E",
+  "Formato MoCE concluido": "#B7D44A",
+  "Configuraciones iniciales concluidas": "#A6CF55",
+  "Capacitaciones concluidas": "#67B74B",
+  "En uso del PHEDS": "#4AA090",
+  "En uso del MoCE": "#3070C0",
+};
+
+document.addEventListener("DOMContentLoaded", cargarDatos);
 
 async function cargarDatos() {
   try {
-    const response = await fetch('data/unidades.json');
-    if (!response.ok) throw new Error('No se pudo cargar data/unidades.json');
+    const response = await fetch("data/unidades.json");
 
-    const raw = await response.json();
-    datosGlobales = raw.map(normalizarRegistro).filter(d => d.lat !== null && d.lon !== null);
-    datosFiltrados = [...datosGlobales];
+    if (!response.ok) {
+      throw new Error("No se pudo cargar data/unidades.json");
+    }
+
+    const data = await response.json();
+
+    datosGlobales = data
+      .map(normalizarRegistro)
+      .filter((d) => d.latitud !== null && d.longitud !== null && d.clues !== "");
 
     inicializarMapa();
     cargarLeyenda();
     cargarFiltros(datosGlobales);
-    render(datosGlobales);
+    aplicarFiltros();
   } catch (error) {
-    console.error(error);
-    document.body.insertAdjacentHTML('beforeend', `<div class="no-data">No se pudieron cargar los datos. Revisa la consola del navegador.</div>`);
+    console.error("Error cargando datos:", error);
+    alert("No se pudieron cargar los datos. Revisa la consola con F12.");
   }
 }
 
-function normalizarRegistro(d) {
+function normalizarRegistro(item) {
   return {
-    clues: texto(d.clues),
-    inst: texto(d.inst),
-    entidad: texto(d.entidad),
-    municipio: texto(d.municipio),
-    nombre: texto(d.nombre_unidad ?? d.nombre),
-    categoria: texto(d.categoria_gerencial_ampliada ?? d['categoria_gerencial_ampliada'] ?? d['categoría gerencial ampliada'] ?? d.categoria),
-    tipologia: texto(d.tipologia),
-    subtipologia: texto(d.subtipologia ?? d['subtipología']),
-    estatus: texto(d.estatus_operacion ?? d.estatus),
-    estrato: texto(d.estrato_unidad ?? d['estrato unidad']),
-    consultorios: numero(d.total_consultorios ?? d.consultorios),
-    quirofanos: numero(d.total_quirofanos ?? d.quirofanos),
-    camas: numero(d.total_camas ?? d.total ?? d.camas),
-    lat: numeroONull(d.latitud ?? d.lat),
-    lon: numeroONull(d.longitud ?? d.lon),
-    avance: avanceNormalizado(d.avance),
-    formatoTics: texto(d.formato_tics_servicios ?? d['formato tics/servicios']),
-    red: texto(d.entrega_de_equipos_red ?? d.entrega_de_equipos___red ?? d['entrega de equipos / red']),
-    pheds: texto(d.formato_pheds),
-    moce: texto(d.formato_moce),
-    observaciones: texto(d.observaciones)
+    ...item,
+    clues: texto(item.clues),
+    entidad: texto(item.entidad),
+    municipio: texto(item.municipio),
+    nombre_unidad: texto(item.nombre_unidad),
+    categoria_gerencial: texto(item.categoria_gerencial),
+    tipologia: texto(item.tipologia),
+    estatus_operacion: texto(item.estatus_operacion),
+    latitud: numeroONull(item.latitud),
+    longitud: numeroONull(item.longitud),
+    avance: avanceNormalizado(item.avance),
+    total_consultorios: numero(item.total_consultorios),
+    total_quirofanos: numero(item.total_quirofanos),
+    total_camas: numero(item.total_camas ?? item.total),
+    formato_tics_servicios: texto(item.formato_tics_servicios),
+    entrega_equipos_red: texto(item.entrega_equipos_red),
+    formato_pheds: texto(item.formato_pheds),
+    formato_moce: texto(item.formato_moce),
+    configuraciones_iniciales: texto(item.configuraciones_iniciales),
+    capacitaciones: texto(item.capacitaciones),
+    uso_pheds: texto(item.uso_pheds),
+    uso_moce: texto(item.uso_moce),
+    observaciones: texto(item.observaciones),
   };
 }
 
-function texto(v) { return v === null || v === undefined ? '' : String(v).trim(); }
-function numero(v) { const n = Number(v); return Number.isFinite(n) ? n : 0; }
-function numeroONull(v) { const n = Number(v); return Number.isFinite(n) ? n : null; }
-function avanceNormalizado(v) { const n = numero(v); return n > 0 && n <= 1 ? n * 100 : n; }
-function fmt(n, dec=0) { return Number(n || 0).toLocaleString('es-MX', { maximumFractionDigits:dec, minimumFractionDigits:dec }); }
-
-function etapaDeAvance(avance) {
-  const a = avanceNormalizado(avance);
-  return ETAPAS.find(e => a >= e.min && a <= e.max) || ETAPAS[0];
-}
-
-function colorAvance(avance) { return etapaDeAvance(avance).color; }
-
 function inicializarMapa() {
-  mapa = L.map('map', { scrollWheelZoom:true }).setView([23.6345, -102.5528], 5);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution:'&copy; OpenStreetMap'
+  mapa = L.map("map", {
+    center: [23.6345, -102.5528],
+    zoom: 5,
+    minZoom: 5,
+    maxZoom: 16,
+    maxBounds: mexicoBounds,
+    maxBoundsViscosity: 1.0,
+  });
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; OpenStreetMap",
   }).addTo(mapa);
+
+  mapa.fitBounds(mexicoBounds);
 }
 
-function cargarLeyenda() {
-  const grid = document.getElementById('legend-grid');
-  grid.innerHTML = ETAPAS.map(e => `
-    <div class="legend-item">
-      <span class="legend-dot" style="background:${e.color}"></span>
-      <span>${e.label}</span>
-    </div>
-  `).join('');
+function texto(valor) {
+  if (valor === null || valor === undefined) return "";
+  return String(valor).trim();
+}
+
+function numero(valor) {
+  const n = Number(valor);
+  return Number.isFinite(n) ? n : 0;
+}
+
+function numeroONull(valor) {
+  const n = Number(valor);
+  return Number.isFinite(n) ? n : null;
+}
+
+function avanceNormalizado(valor) {
+  let n = Number(valor);
+
+  if (!Number.isFinite(n)) return 0;
+
+  if (n > 0 && n <= 1) {
+    n = n * 100;
+  }
+
+  return n;
+}
+
+function valorUpper(valor) {
+  return texto(valor).toUpperCase();
+}
+
+function contieneConcluido(valor) {
+  return valorUpper(valor).includes("CONCLUID");
+}
+
+function contieneSi(valor) {
+  const v = valorUpper(valor);
+  return v === "SI" || v === "SÍ" || v.includes("SI");
+}
+
+function obtenerEtapa(item) {
+  if (contieneSi(item.uso_moce) || item.avance >= 87.5) {
+    return "En uso del MoCE";
+  }
+
+  if (contieneSi(item.uso_pheds) || item.avance >= 75) {
+    return "En uso del PHEDS";
+  }
+
+  if (contieneConcluido(item.capacitaciones)) {
+    return "Capacitaciones concluidas";
+  }
+
+  if (contieneConcluido(item.configuraciones_iniciales)) {
+    return "Configuraciones iniciales concluidas";
+  }
+
+  if (contieneConcluido(item.formato_moce)) {
+    return "Formato MoCE concluido";
+  }
+
+  if (contieneConcluido(item.formato_pheds)) {
+    return "Formato PHEDS concluido";
+  }
+
+  if (contieneConcluido(item.entrega_equipos_red)) {
+    return "Entrega de equipos y config. de red concluida";
+  }
+
+  if (
+    contieneConcluido(item.formato_tics_servicios) ||
+    valorUpper(item.formato_tics_servicios).includes("ENVIADO")
+  ) {
+    return "Diagnóstico de infraestructura concluido";
+  }
+
+  return "No ha iniciado";
 }
 
 function cargarFiltros(data) {
-  llenarSelect('f-entidad', [...new Set(data.map(d => d.entidad).filter(Boolean))].sort());
-  llenarSelect('f-tipologia', [...new Set(data.map(d => d.tipologia).filter(Boolean))].sort());
-  llenarSelect('f-estatus', [...new Set(data.map(d => d.estatus).filter(Boolean))].sort());
-  llenarSelect('f-etapa', ETAPAS.map(e => e.label));
+  llenarSelect("f-entidad", data, "entidad");
+  llenarSelect("f-categoria", data, "categoria_gerencial");
+  llenarSelect("f-tipologia", data, "tipologia");
+  llenarSelect("f-estatus", data, "estatus_operacion");
 
-  ['f-search','f-entidad','f-tipologia','f-estatus','f-etapa','f-avance'].forEach(id => {
-    document.getElementById(id).addEventListener('input', aplicarFiltros);
-    document.getElementById(id).addEventListener('change', aplicarFiltros);
+  const etapaSelect = document.getElementById("f-etapa");
+  etapaSelect.innerHTML = `<option value="">Todas las etapas</option>`;
+  etapasOrden.forEach((etapa) => {
+    const option = document.createElement("option");
+    option.value = etapa;
+    option.textContent = etapa;
+    etapaSelect.appendChild(option);
   });
-  document.getElementById('btn-reset').addEventListener('click', resetFilters);
+
+  document.getElementById("f-search").addEventListener("input", aplicarFiltros);
+  document.getElementById("f-entidad").addEventListener("change", aplicarFiltros);
+  document.getElementById("f-categoria").addEventListener("change", aplicarFiltros);
+  document.getElementById("f-tipologia").addEventListener("change", aplicarFiltros);
+  document.getElementById("f-estatus").addEventListener("change", aplicarFiltros);
+  document.getElementById("f-etapa").addEventListener("change", aplicarFiltros);
+  document.getElementById("f-avance").addEventListener("input", aplicarFiltros);
+  document.getElementById("btn-reset").addEventListener("click", resetFilters);
 }
 
-function llenarSelect(id, valores) {
+function llenarSelect(id, data, campo) {
   const select = document.getElementById(id);
-  const primera = select.querySelector('option')?.outerHTML || '<option value="">Todos</option>';
-  select.innerHTML = primera + valores.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('');
-}
+  const valorInicial = select.querySelector("option")?.textContent || "Todos";
 
-function aplicarFiltros() {
-  const q = document.getElementById('f-search').value.toLowerCase();
-  const entidad = document.getElementById('f-entidad').value;
-  const tipologia = document.getElementById('f-tipologia').value;
-  const estatus = document.getElementById('f-estatus').value;
-  const etapa = document.getElementById('f-etapa').value;
-  const avanceMin = Number(document.getElementById('f-avance').value);
+  select.innerHTML = `<option value="">${valorInicial}</option>`;
 
-  document.getElementById('avance-value').textContent = `${avanceMin}%`;
+  const valores = [...new Set(data.map((d) => texto(d[campo])).filter(Boolean))].sort();
 
-  datosFiltrados = datosGlobales.filter(d => {
-    const matchQ = !q || d.clues.toLowerCase().includes(q) || d.nombre.toLowerCase().includes(q);
-    const matchEntidad = !entidad || d.entidad === entidad;
-    const matchTipologia = !tipologia || d.tipologia === tipologia;
-    const matchEstatus = !estatus || d.estatus === estatus;
-    const matchEtapa = !etapa || etapaDeAvance(d.avance).label === etapa;
-    const matchAvance = d.avance >= avanceMin;
-    return matchQ && matchEntidad && matchTipologia && matchEstatus && matchEtapa && matchAvance;
+  valores.forEach((valor) => {
+    const option = document.createElement("option");
+    option.value = valor;
+    option.textContent = valor;
+    select.appendChild(option);
   });
-
-  render(datosFiltrados);
 }
 
 function resetFilters() {
-  document.getElementById('f-search').value = '';
-  document.getElementById('f-entidad').value = '';
-  document.getElementById('f-tipologia').value = '';
-  document.getElementById('f-estatus').value = '';
-  document.getElementById('f-etapa').value = '';
-  document.getElementById('f-avance').value = 0;
+  document.getElementById("f-search").value = "";
+  document.getElementById("f-entidad").value = "";
+  document.getElementById("f-categoria").value = "";
+  document.getElementById("f-tipologia").value = "";
+  document.getElementById("f-estatus").value = "";
+  document.getElementById("f-etapa").value = "";
+  document.getElementById("f-avance").value = 0;
+  document.getElementById("avance-value").innerText = "0%";
+
   aplicarFiltros();
 }
 
-function render(data) {
-  renderKPIs(data);
-  renderMapa(data);
-  renderStageSummary(data);
-  renderTipoChart(data);
-  renderEntidades(data);
-  renderTabla(data);
+function aplicarFiltros() {
+  const busqueda = texto(document.getElementById("f-search").value).toLowerCase();
+  const entidad = document.getElementById("f-entidad").value;
+  const categoria = document.getElementById("f-categoria").value;
+  const tipologia = document.getElementById("f-tipologia").value;
+  const estatus = document.getElementById("f-estatus").value;
+  const etapa = document.getElementById("f-etapa").value;
+  const avanceMinimo = Number(document.getElementById("f-avance").value);
+
+  document.getElementById("avance-value").innerText = `${avanceMinimo}%`;
+
+  let filtrado = [...datosGlobales];
+
+  if (busqueda) {
+    filtrado = filtrado.filter((d) =>
+      d.clues.toLowerCase().includes(busqueda) ||
+      d.nombre_unidad.toLowerCase().includes(busqueda) ||
+      d.municipio.toLowerCase().includes(busqueda)
+    );
+  }
+
+  if (entidad) {
+    filtrado = filtrado.filter((d) => d.entidad === entidad);
+  }
+
+  if (categoria) {
+    filtrado = filtrado.filter((d) => d.categoria_gerencial === categoria);
+  }
+
+  if (tipologia) {
+    filtrado = filtrado.filter((d) => d.tipologia === tipologia);
+  }
+
+  if (estatus) {
+    filtrado = filtrado.filter((d) => d.estatus_operacion === estatus);
+  }
+
+  if (etapa) {
+    filtrado = filtrado.filter((d) => obtenerEtapa(d) === etapa);
+  }
+
+  filtrado = filtrado.filter((d) => d.avance >= avanceMinimo);
+
+  actualizarDashboard(filtrado);
 }
 
-function renderKPIs(data) {
+function actualizarDashboard(data) {
+  cargarIndicadores(data);
+  cargarMapa(data);
+  cargarDistribucionEtapas(data);
+  cargarGraficaTipologia(data);
+  cargarEntidades(data);
+  cargarTabla(data);
+
+  document.getElementById("results-count").innerText = `${data.length} unidades`;
+  document.getElementById("map-count").innerText = `${data.length} unidades`;
+  document.getElementById("table-count").innerText = `${data.length} resultados`;
+  document.getElementById("footer-total").innerText = data.length;
+}
+
+function cargarIndicadores(data) {
   const total = data.length;
-  const promedio = total ? data.reduce((a,d) => a + d.avance, 0) / total : 0;
-  document.getElementById('kpi-total').textContent = fmt(total);
-  document.getElementById('kpi-alto').textContent = fmt(data.filter(d => d.avance >= 75).length);
-  document.getElementById('kpi-medio').textContent = fmt(data.filter(d => d.avance >= 25 && d.avance < 75).length);
-  document.getElementById('kpi-sin').textContent = fmt(data.filter(d => d.avance === 0).length);
-  document.getElementById('kpi-prom').textContent = fmt(promedio, 1);
-  document.getElementById('results-count').textContent = `${fmt(total)} unidades`;
-  document.getElementById('map-count').textContent = `${fmt(total)} unidades`;
-  document.getElementById('table-count').textContent = `${fmt(total)} resultados`;
-  document.getElementById('footer-total').textContent = fmt(datosGlobales.length);
+  const alto = data.filter((d) => d.avance >= 75).length;
+  const medio = data.filter((d) => d.avance >= 25 && d.avance < 75).length;
+  const sinInicio = data.filter((d) => d.avance === 0).length;
+
+  const promedio = total
+    ? data.reduce((acc, d) => acc + d.avance, 0) / total
+    : 0;
+
+  document.getElementById("kpi-total").innerText = total;
+  document.getElementById("kpi-alto").innerText = alto;
+  document.getElementById("kpi-medio").innerText = medio;
+  document.getElementById("kpi-sin").innerText = sinInicio;
+  document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
 }
 
-function renderMapa(data) {
-  markers.forEach(m => mapa.removeLayer(m));
-  markers = [];
+function cargarMapa(data) {
+  limpiarMarkers();
+
   const bounds = [];
 
-  data.forEach(d => {
-    if (d.lat === null || d.lon === null) return;
-    const etapa = etapaDeAvance(d.avance);
-    const marker = L.circleMarker([d.lat, d.lon], {
-      radius:7,
-      color:'#fff',
-      weight:1.5,
-      fillColor:etapa.color,
-      fillOpacity:.9
+  data.forEach((item) => {
+    if (item.latitud === null || item.longitud === null) return;
+
+    const etapa = obtenerEtapa(item);
+    const color = etapaColores[etapa] || "#235B4E";
+
+    const marker = L.circleMarker([item.latitud, item.longitud], {
+      radius: 7,
+      color: "#ffffff",
+      weight: 1,
+      fillColor: color,
+      fillOpacity: 0.9,
     }).addTo(mapa);
 
-    marker.bindPopup(`
-      <div class="popup-top" style="background:${etapa.color}">
-        <div class="popup-title">${escapeHtml(d.nombre)}</div>
-        <div class="popup-clues">${escapeHtml(d.clues)}</div>
-      </div>
-      <div class="popup-inner">
-        <div class="popup-detail"><strong>Entidad:</strong> ${escapeHtml(d.entidad)}</div>
-        <div class="popup-detail"><strong>Municipio:</strong> ${escapeHtml(d.municipio)}</div>
-        <div class="popup-detail"><strong>Tipología:</strong> ${escapeHtml(d.tipologia)}</div>
-        <div class="popup-etapa" style="background:${etapa.bg}; color:${etapa.color}">${etapa.label} · ${fmt(d.avance,1)}%</div>
-      </div>
-    `);
-    marker.on('click', () => mostrarDetalle(d));
+    marker.bindPopup(crearPopup(item, etapa, color));
+    marker.on("click", () => mostrarDetalle(item));
+
     markers.push(marker);
-    bounds.push([d.lat, d.lon]);
+    bounds.push([item.latitud, item.longitud]);
   });
 
-  if (bounds.length) mapa.fitBounds(bounds, { padding:[25,25], maxZoom:10 });
+  if (bounds.length > 0) {
+    mapa.fitBounds(bounds, {
+      padding: [30, 30],
+      maxZoom: 8,
+    });
+  } else {
+    mapa.fitBounds(mexicoBounds);
+  }
 }
 
-function mostrarDetalle(d) {
-  const etapa = etapaDeAvance(d.avance);
-  document.getElementById('detalle-unidad').innerHTML = `
-    <div class="detail-title">${escapeHtml(d.nombre)}</div>
-    <div class="detail-clues">${escapeHtml(d.clues)}</div>
-    <div class="detail-grid">
-      <div class="detail-item"><div class="detail-label">Entidad</div><div class="detail-value">${escapeHtml(d.entidad)}</div></div>
-      <div class="detail-item"><div class="detail-label">Municipio</div><div class="detail-value">${escapeHtml(d.municipio)}</div></div>
-      <div class="detail-item full"><div class="detail-label">Tipología</div><div class="detail-value">${escapeHtml(d.tipologia)}</div></div>
-      <div class="detail-item"><div class="detail-label">Estatus</div><div class="detail-value">${escapeHtml(d.estatus)}</div></div>
-      <div class="detail-item"><div class="detail-label">Etapa</div><div class="detail-value" style="color:${etapa.color}">${etapa.label}</div></div>
-      <div class="detail-item"><div class="detail-label">Consultorios</div><div class="detail-value">${fmt(d.consultorios)}</div></div>
-      <div class="detail-item"><div class="detail-label">Quirófanos</div><div class="detail-value">${fmt(d.quirofanos)}</div></div>
-      <div class="detail-item"><div class="detail-label">Camas</div><div class="detail-value">${fmt(d.camas)}</div></div>
-      <div class="detail-item"><div class="detail-label">Avance</div><div class="detail-value">${fmt(d.avance,1)}%</div></div>
-      <div class="detail-item full"><div class="detail-label">Observaciones</div><div class="detail-value">${escapeHtml(d.observaciones || 'Sin observaciones')}</div></div>
+function limpiarMarkers() {
+  markers.forEach((marker) => mapa.removeLayer(marker));
+  markers = [];
+}
+
+function crearPopup(item, etapa, color) {
+  return `
+    <div class="popup-top" style="background:${color}">
+      <div class="popup-title">${item.nombre_unidad}</div>
+      <div class="popup-clues">${item.clues}</div>
+    </div>
+    <div class="popup-inner">
+      <div class="popup-detail"><b>Entidad:</b> ${item.entidad}</div>
+      <div class="popup-detail"><b>Municipio:</b> ${item.municipio}</div>
+      <div class="popup-detail"><b>Tipología:</b> ${item.tipologia}</div>
+      <div class="popup-detail"><b>Avance:</b> ${item.avance.toFixed(1)}%</div>
+      <div class="popup-etapa" style="background:${color}22;color:${color}">
+        ${etapa}
+      </div>
     </div>
   `;
 }
 
-function renderStageSummary(data) {
-  const max = Math.max(1, data.length);
-  document.getElementById('stage-summary').innerHTML = ETAPAS.map(e => {
-    const count = data.filter(d => etapaDeAvance(d.avance).id === e.id).length;
-    const width = (count / max) * 100;
-    return `
-      <div class="stage-bar-row">
-        <div class="stage-bar-label">${e.label}</div>
-        <div class="stage-bar-track"><div class="stage-bar-fill" style="width:${width}%; background:${e.color}"></div></div>
-        <div class="stage-bar-count">${fmt(count)}</div>
+function mostrarDetalle(item) {
+  const etapa = obtenerEtapa(item);
+  const color = etapaColores[etapa] || "#235B4E";
+
+  document.getElementById("detalle-unidad").innerHTML = `
+    <div class="detail-title">${item.nombre_unidad}</div>
+    <div class="detail-clues">${item.clues}</div>
+
+    <div class="detail-grid">
+      <div class="detail-item">
+        <div class="detail-label">Entidad</div>
+        <div class="detail-value">${item.entidad}</div>
       </div>
-    `;
-  }).join('');
+
+      <div class="detail-item">
+        <div class="detail-label">Municipio</div>
+        <div class="detail-value">${item.municipio}</div>
+      </div>
+
+      <div class="detail-item full">
+        <div class="detail-label">Categoría gerencial</div>
+        <div class="detail-value">${item.categoria_gerencial || "Sin dato"}</div>
+      </div>
+
+      <div class="detail-item full">
+        <div class="detail-label">Tipología</div>
+        <div class="detail-value">${item.tipologia || "Sin dato"}</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-label">Avance</div>
+        <div class="detail-value">${item.avance.toFixed(1)}%</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-label">Etapa</div>
+        <div class="detail-value" style="color:${color}">${etapa}</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-label">Consultorios</div>
+        <div class="detail-value">${item.total_consultorios}</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-label">Quirófanos</div>
+        <div class="detail-value">${item.total_quirofanos}</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-label">Camas</div>
+        <div class="detail-value">${item.total_camas}</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-label">Estatus</div>
+        <div class="detail-value">${item.estatus_operacion || "Sin dato"}</div>
+      </div>
+
+      <div class="detail-item full">
+        <div class="detail-label">Observaciones</div>
+        <div class="detail-value">${item.observaciones || "Sin observaciones"}</div>
+      </div>
+    </div>
+  `;
 }
 
-function renderTipoChart(data) {
-  const resumen = agrupar(data, 'tipologia');
-  const labels = Object.keys(resumen).slice(0,8);
-  const values = labels.map(k => resumen[k].count);
-  const ctx = document.getElementById('tipoChart');
-  if (tipoChart) tipoChart.destroy();
-  tipoChart = new Chart(ctx, {
-    type:'doughnut',
-    data:{ labels, datasets:[{ data:values, borderWidth:0 }] },
-    options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{ position:'bottom', labels:{ boxWidth:10, font:{ size:10 } } } } }
+function cargarLeyenda() {
+  const contenedor = document.getElementById("legend-grid");
+
+  contenedor.innerHTML = etapasOrden
+    .map((etapa) => {
+      const color = etapaColores[etapa];
+
+      return `
+        <div class="legend-item">
+          <span class="legend-dot" style="background:${color}"></span>
+          <span>${etapa}</span>
+        </div>
+      `;
+    })
+    .join("");
+}
+
+function cargarDistribucionEtapas(data) {
+  const conteo = {};
+  etapasOrden.forEach((etapa) => (conteo[etapa] = 0));
+
+  data.forEach((item) => {
+    const etapa = obtenerEtapa(item);
+    conteo[etapa] = (conteo[etapa] || 0) + 1;
+  });
+
+  const total = data.length || 1;
+
+  document.getElementById("stage-summary").innerHTML = etapasOrden
+    .map((etapa) => {
+      const valor = conteo[etapa] || 0;
+      const porcentaje = (valor / total) * 100;
+      const color = etapaColores[etapa];
+
+      return `
+        <div class="stage-bar-row">
+          <span class="etapa-dot" style="background:${color}"></span>
+          <div class="stage-bar-label">${etapa}</div>
+          <div class="stage-bar-track">
+            <div class="stage-bar-fill" style="width:${porcentaje}%; background:${color}"></div>
+          </div>
+          <div class="stage-bar-count">${valor}</div>
+        </div>
+      `;
+    })
+    .join("");
+}
+
+function cargarGraficaTipologia(data) {
+  const resumen = {};
+
+  data.forEach((item) => {
+    const tipologia = item.tipologia || "Sin tipología";
+    if (!resumen[tipologia]) {
+      resumen[tipologia] = {
+        total: 0,
+        avance: 0,
+      };
+    }
+
+    resumen[tipologia].total += 1;
+    resumen[tipologia].avance += item.avance;
+  });
+
+  const labels = Object.keys(resumen);
+  const values = labels.map((label) =>
+    resumen[label].total
+      ? resumen[label].avance / resumen[label].total
+      : 0
+  );
+
+  const canvas = document.getElementById("tipoChart");
+
+  if (tipoChart) {
+    tipoChart.destroy();
+  }
+
+  tipoChart = new Chart(canvas, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Avance promedio",
+          data: values,
+          backgroundColor: "#235B4E",
+          borderRadius: 4,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: "y",
+      scales: {
+        x: {
+          min: 0,
+          max: 100,
+          ticks: {
+            callback: (value) => `${value}%`,
+          },
+        },
+      },
+      plugins: {
+        legend: {
+          display: false,
+        },
+        tooltip: {
+          callbacks: {
+            label: (context) => `${context.raw.toFixed(1)}%`,
+          },
+        },
+      },
+    },
   });
 }
 
-function renderEntidades(data) {
-  const resumen = agrupar(data, 'entidad');
-  const rows = Object.entries(resumen)
-    .map(([entidad, r]) => ({ entidad, count:r.count, prom:r.sumaAvance/r.count, alto:r.items.filter(x => x.avance >= 75).length }))
-    .sort((a,b) => b.prom - a.prom);
-  document.getElementById('entidades-count').textContent = `${fmt(rows.length)} estados`;
-  document.getElementById('entidades-body').innerHTML = rows.map(r => `
-    <div class="entidad-row" onclick="filtrarEntidad('${escapeAttr(r.entidad)}')">
-      <div><div class="entidad-name">${escapeHtml(r.entidad)}</div><div class="bar-mini"><div class="bar-mini-fill" style="width:${Math.min(100,r.prom)}%; background:${colorAvance(r.prom)}"></div></div></div>
-      <div class="entidad-count">${fmt(r.count)}</div>
-      <div class="avance-badge" style="background:${etapaDeAvance(r.prom).bg}; color:${colorAvance(r.prom)}">${fmt(r.prom,1)}%</div>
-      <div class="entidad-count">${fmt(r.alto)}</div>
-    </div>
-  `).join('') || '<div class="no-data">Sin datos</div>';
+function cargarEntidades(data) {
+  const resumen = {};
+
+  data.forEach((item) => {
+    const entidad = item.entidad || "Sin entidad";
+
+    if (!resumen[entidad]) {
+      resumen[entidad] = {
+        total: 0,
+        avance: 0,
+        alto: 0,
+      };
+    }
+
+    resumen[entidad].total += 1;
+    resumen[entidad].avance += item.avance;
+
+    if (item.avance >= 75) {
+      resumen[entidad].alto += 1;
+    }
+  });
+
+  const entidades = Object.entries(resumen)
+    .map(([entidad, valores]) => ({
+      entidad,
+      total: valores.total,
+      avancePromedio: valores.total ? valores.avance / valores.total : 0,
+      alto: valores.alto,
+    }))
+    .sort((a, b) => b.avancePromedio - a.avancePromedio);
+
+  document.getElementById("entidades-count").innerText = `${entidades.length} estados`;
+
+  document.getElementById("entidades-body").innerHTML = entidades
+    .map((item) => {
+      const color = colorPorAvance(item.avancePromedio);
+
+      return `
+        <div class="entidad-row" onclick="filtrarEntidad('${escapeJS(item.entidad)}')">
+          <div>
+            <div class="entidad-name">${item.entidad}</div>
+            <div class="bar-mini">
+              <div class="bar-mini-fill" style="width:${item.avancePromedio}%;background:${color}"></div>
+            </div>
+          </div>
+          <div class="entidad-count">${item.total}</div>
+          <div class="avance-badge" style="background:${color}22;color:${color}">
+            ${item.avancePromedio.toFixed(1)}%
+          </div>
+          <div class="entidad-count">${item.alto}</div>
+        </div>
+      `;
+    })
+    .join("");
 }
 
 function filtrarEntidad(entidad) {
-  document.getElementById('f-entidad').value = entidad;
+  document.getElementById("f-entidad").value = entidad;
   aplicarFiltros();
 }
 
-function renderTabla(data) {
-  const tbody = document.getElementById('hospitals-tbody');
-  tbody.innerHTML = data.slice(0,500).map((d, i) => {
-    const etapa = etapaDeAvance(d.avance);
-    return `
-      <tr onclick="seleccionarFila(${i})">
-        <td><div class="td-nombre">${escapeHtml(d.nombre)}</div><div class="td-clues">${escapeHtml(d.clues)}</div></td>
-        <td>${escapeHtml(d.entidad)}</td>
-        <td><span class="avance-badge" style="background:${etapa.bg}; color:${etapa.color}">${fmt(d.avance,1)}%</span></td>
-        <td><span class="etapa-chip" style="background:${etapa.bg}; color:${etapa.color}"><span class="etapa-dot" style="background:${etapa.color}"></span>${etapa.label}</span></td>
-      </tr>
-    `;
-  }).join('') || '<tr><td colspan="4"><div class="no-data">Sin resultados</div></td></tr>';
+function cargarTabla(data) {
+  const tbody = document.getElementById("hospitals-tbody");
+
+  const ordenado = [...data].sort((a, b) => b.avance - a.avance);
+
+  tbody.innerHTML = ordenado
+    .map((item, index) => {
+      const etapa = obtenerEtapa(item);
+      const color = etapaColores[etapa] || "#235B4E";
+
+      return `
+        <tr onclick="seleccionarDesdeTabla(${index})">
+          <td>
+            <div class="td-nombre">${item.nombre_unidad}</div>
+            <div class="td-clues">${item.clues}</div>
+          </td>
+          <td>${item.entidad}</td>
+          <td>
+            <span class="avance-badge" style="background:${color}22;color:${color}">
+              ${item.avance.toFixed(1)}%
+            </span>
+          </td>
+          <td>
+            <span class="etapa-chip" style="background:${color}22;color:${color}">
+              <span class="etapa-dot" style="background:${color}"></span>
+              ${etapa}
+            </span>
+          </td>
+        </tr>
+      `;
+    })
+    .join("");
+
+  window.tablaActual = ordenado;
 }
 
-function seleccionarFila(index) {
-  const d = datosFiltrados[index];
-  if (!d) return;
-  mostrarDetalle(d);
-  if (d.lat !== null && d.lon !== null) mapa.setView([d.lat, d.lon], 12);
+function seleccionarDesdeTabla(index) {
+  const item = window.tablaActual[index];
+  if (!item) return;
+
+  mostrarDetalle(item);
+
+  if (item.latitud !== null && item.longitud !== null) {
+    mapa.setView([item.latitud, item.longitud], 9);
+  }
 }
 
-function agrupar(data, campo) {
-  return data.reduce((acc,d) => {
-    const key = d[campo] || 'Sin dato';
-    if (!acc[key]) acc[key] = { count:0, sumaAvance:0, items:[] };
-    acc[key].count++;
-    acc[key].sumaAvance += d.avance;
-    acc[key].items.push(d);
-    return acc;
-  }, {});
+function colorPorAvance(avance) {
+  if (avance >= 87.5) return "#3070C0";
+  if (avance >= 75) return "#4AA090";
+  if (avance >= 50) return "#67B74B";
+  if (avance >= 25) return "#F2B52E";
+  if (avance > 0) return "#F47C20";
+  return "#7A1E1E";
 }
 
-function escapeHtml(s) {
-  return String(s ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+function escapeJS(valor) {
+  return String(valor).replace(/'/g, "\\'");
 }
-function escapeAttr(s) { return escapeHtml(s).replace(/`/g, '&#96;'); }
-
-cargarDatos();

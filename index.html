@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard — Expediente Digital IMSS-Bienestar</title>
+    <title>Avance — Expediente Digital IMSS-Bienestar</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,8 +16,10 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <header>
       <div class="header-inner">
@@ -25,13 +27,15 @@
           <img src="assets/logoimssbienestar.png" alt="IMSS-Bienestar" />
         </div>
         <div class="header-divider"></div>
+
         <div class="header-titles">
-          <h1>Dashboard — Implementación del Expediente Digital</h1>
+          <h1>Avance — Implementación del Expediente Digital</h1>
           <p>
             Coordinación de Planeación Estratégica · División de Sistemas de
             Información en Salud
           </p>
         </div>
+
         <div class="header-badge">Hospitales · Nacional</div>
       </div>
     </header>
@@ -51,6 +55,10 @@
           <option value="">Todas las entidades</option>
         </select>
 
+        <select id="f-categoria">
+          <option value="">Todas las categorías</option>
+        </select>
+
         <select id="f-tipologia">
           <option value="">Todas las tipologías</option>
         </select>
@@ -64,9 +72,9 @@
         </select>
 
         <div class="range-filter">
-          <label for="f-avance"
-            >Avance mínimo <strong id="avance-value">0%</strong></label
-          >
+          <label for="f-avance">
+            Avance mínimo <strong id="avance-value">0%</strong>
+          </label>
           <input
             id="f-avance"
             type="range"
@@ -78,6 +86,7 @@
         </div>
 
         <span class="results-count" id="results-count">0 unidades</span>
+
         <button class="filter-reset" id="btn-reset">↺ Restablecer</button>
       </section>
 
@@ -121,7 +130,9 @@
             <h2>Mapa de unidades hospitalarias</h2>
             <span class="section-badge" id="map-count">0 unidades</span>
           </div>
+
           <div id="map"></div>
+
           <div class="map-legend">
             <div class="legend-title">Etapas de avance</div>
             <div class="legend-grid" id="legend-grid"></div>
@@ -130,7 +141,9 @@
 
         <aside class="side-panel">
           <article class="chart-card detail-card">
-            <div class="section-header"><h2>Ficha de unidad</h2></div>
+            <div class="section-header">
+              <h2>Ficha de unidad</h2>
+            </div>
             <div class="detail-body" id="detalle-unidad">
               <div class="no-data">
                 Selecciona una unidad en el mapa o en la tabla.
@@ -139,12 +152,16 @@
           </article>
 
           <article class="chart-card">
-            <div class="section-header"><h2>Distribución por etapa</h2></div>
+            <div class="section-header">
+              <h2>Distribución por etapa</h2>
+            </div>
             <div class="chart-body" id="stage-summary"></div>
           </article>
 
           <article class="chart-card">
-            <div class="section-header"><h2>Avance por tipología</h2></div>
+            <div class="section-header">
+              <h2>Avance por tipología</h2>
+            </div>
             <div class="chart-body chart-fixed">
               <canvas id="tipoChart"></canvas>
             </div>
@@ -158,6 +175,7 @@
             <h2>Avance por entidad federativa</h2>
             <span class="section-badge" id="entidades-count">0 estados</span>
           </div>
+
           <div class="entidades-list">
             <div class="entidad-row header-row">
               <span>Estado</span>
@@ -174,6 +192,7 @@
             <h2>Detalle de unidades</h2>
             <span class="section-badge" id="table-count">0 resultados</span>
           </div>
+
           <div class="table-container">
             <table>
               <thead>
@@ -192,11 +211,24 @@
     </main>
 
     <footer>
-      <div class="footer-left">
+      <div class="footer-center">
         <strong>Coordinación de Planeación Estratégica</strong> · División de
-        Sistemas de Información en Salud<br />
-        IMSS-Bienestar · Dashboard de Implementación del Expediente Digital ·
-        <strong id="footer-total">0</strong> unidades hospitalarias
+        Sistemas de Información en Salud
+        <br />
+        IMSS-Bienestar · Avance Nacional de Implementación del Expediente
+        Digital
+        <br />
+        Créditos:
+        <a href="https://github.com/UnicornCodes" target="_blank">
+          UnicornCodes
+        </a>
+        ·
+        <a href="https://github.com/DanielJimenezA" target="_blank">
+          DanielJimenezA
+        </a>
+
+        <br />
+        <!-- <strong id="footer-total">0</strong> unidades hospitalarias -->
       </div>
     </footer>
 

@@ -46,6 +46,7 @@ header {
   max-width:1700px;
   margin:0 auto;
 }
+
 .header-logo-wrap {
   background:#fff;
   border-radius:8px;
@@ -66,6 +67,27 @@ header {
   letter-spacing:0.2px;
   line-height:1.2;
 }
+
+/* .header-logo-wrap {
+  background:#fff;
+  border-radius:8px;
+  padding:5px 12px;
+  display:flex;
+  align-items:center;
+  flex-shrink:0;
+  height:48px;
+  min-width:96px;
+}
+.header-logo-wrap img { height:38px; width:auto; display:block; }
+.header-divider { width:1px; height:40px; background:rgba(255,255,255,0.2); flex-shrink:0; }
+.header-titles { flex:1; }
+.header-titles h1 {
+  font-size:17px;
+  font-weight:800;
+  color:var(--almendra);
+  letter-spacing:0.2px;
+  line-height:1.2;
+} */
 .header-titles p {
   font-size:10.5px;
   color:var(--balmoral);
@@ -220,6 +242,38 @@ header {
   color:var(--beige-osc);
   border:1px solid var(--beige-claro);
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  text-align: center;
+
+  background: var(--verde-osc);
+  color: #ffffff;
+}
+
+footer {
+  background: var(--verde-osc);
+  border-top: 3px solid var(--beige-osc);
+  padding: 18px 28px;
+}
+
+.footer-left {
+  font-size: 12px;
+  color: #FFFFFF;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.footer-left strong {
+  color: #F8E6C4;
+  font-weight: 700;
+}
+
 #map { height:560px; width:100%; }
 .map-legend { padding:10px 16px 12px; border-top:1px solid var(--border); background:var(--almendra); }
 .legend-title { font-size:10px; font-weight:800; color:var(--verde-osc); text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; }
@@ -266,9 +320,6 @@ tbody td { padding:8px 14px; color:var(--text); vertical-align:middle; }
 .stage-bar-track { flex:1; height:8px; background:var(--border); border-radius:4px; overflow:hidden; }
 .stage-bar-fill { height:100%; border-radius:4px; }
 .stage-bar-count { width:36px; text-align:right; font-weight:800; font-size:11px; color:var(--text); }
-footer { background:var(--verde-osc); border-top:3px solid var(--beige-osc); padding:14px 28px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
-.footer-left { font-size:11px; color:var(--balmoral); line-height:1.6; }
-.footer-left strong { color:var(--beige-claro); }
 .no-data { text-align:center; padding:34px 20px; color:var(--text-light); font-size:13px; }
 ::-webkit-scrollbar { width:5px; height:5px; }
 ::-webkit-scrollbar-track { background:var(--almendra); }
