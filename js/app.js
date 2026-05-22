@@ -12,8 +12,9 @@ const etapasOrden = [
   "No ha iniciado",
   "Diagnóstico de infraestructura concluido",
   "Entrega de equipos y config. de red concluida",
-  "Formato PHEDS concluido",
-  "Formato MoCE concluido",
+  "En uso de PHEDS y MoCE",
+  // "Formato PHEDS concluido",
+  // "Formato MoCE concluido",
   "Configuraciones iniciales concluidas",
   "Capacitaciones concluidas",
   "En uso del PHEDS",
@@ -21,6 +22,7 @@ const etapasOrden = [
 ];
 
 const etapaColores = {
+  "En uso de PHEDS y MoCE": "#3070C0",
   "No ha iniciado": "#7A1E1E",
   "Diagnóstico de infraestructura concluido": "#E04525",
   "Entrega de equipos y config. de red concluida": "#F47C20",
@@ -28,8 +30,8 @@ const etapaColores = {
   "Formato MoCE concluido": "#B7D44A",
   "Configuraciones iniciales concluidas": "#A6CF55",
   "Capacitaciones concluidas": "#67B74B",
-  "En uso del PHEDS": "#4AA090",
-  "En uso del MoCE": "#3070C0",
+  // "En uso del PHEDS": "#4AA090",
+  // "En uso del MoCE": "#3070C0",
 };
 
 document.addEventListener("DOMContentLoaded", cargarDatos);
@@ -143,7 +145,12 @@ function contieneSi(valor) {
   return v === "SI" || v === "SÍ" || v.includes("SI");
 }
 
+// 
 function obtenerEtapa(item) {
+  if (item.avance >= 100) {
+    return "En uso de PHEDS y MoCE";
+  }
+
   if (contieneSi(item.uso_moce) || item.avance >= 87.5) {
     return "En uso del MoCE";
   }
@@ -186,7 +193,7 @@ function cargarFiltros(data) {
   llenarSelect("f-entidad", data, "entidad");
   llenarSelect("f-categoria", data, "categoria_gerencial");
   llenarSelect("f-tipologia", data, "tipologia");
-  llenarSelect("f-estatus", data, "estatus_operacion");
+  // llenarSelect("f-estatus", data, "estatus_operacion");
 
   const etapaSelect = document.getElementById("f-etapa");
   etapaSelect.innerHTML = `<option value="">Todas las etapas</option>`;
@@ -201,7 +208,7 @@ function cargarFiltros(data) {
   document.getElementById("f-entidad").addEventListener("change", aplicarFiltros);
   document.getElementById("f-categoria").addEventListener("change", aplicarFiltros);
   document.getElementById("f-tipologia").addEventListener("change", aplicarFiltros);
-  document.getElementById("f-estatus").addEventListener("change", aplicarFiltros);
+  // document.getElementById("f-estatus").addEventListener("change", aplicarFiltros);
   document.getElementById("f-etapa").addEventListener("change", aplicarFiltros);
   document.getElementById("f-avance").addEventListener("input", aplicarFiltros);
   document.getElementById("btn-reset").addEventListener("click", resetFilters);
@@ -228,7 +235,7 @@ function resetFilters() {
   document.getElementById("f-entidad").value = "";
   document.getElementById("f-categoria").value = "";
   document.getElementById("f-tipologia").value = "";
-  document.getElementById("f-estatus").value = "";
+  // document.getElementById("f-estatus").value = "";
   document.getElementById("f-etapa").value = "";
   document.getElementById("f-avance").value = 0;
   document.getElementById("avance-value").innerText = "0%";
@@ -241,7 +248,7 @@ function aplicarFiltros() {
   const entidad = document.getElementById("f-entidad").value;
   const categoria = document.getElementById("f-categoria").value;
   const tipologia = document.getElementById("f-tipologia").value;
-  const estatus = document.getElementById("f-estatus").value;
+  // const estatus = document.getElementById("f-estatus").value;
   const etapa = document.getElementById("f-etapa").value;
   const avanceMinimo = Number(document.getElementById("f-avance").value);
 
@@ -269,9 +276,9 @@ function aplicarFiltros() {
     filtrado = filtrado.filter((d) => d.tipologia === tipologia);
   }
 
-  if (estatus) {
-    filtrado = filtrado.filter((d) => d.estatus_operacion === estatus);
-  }
+  // if (estatus) {
+  //   filtrado = filtrado.filter((d) => d.estatus_operacion === estatus);
+  // }
 
   if (etapa) {
     filtrado = filtrado.filter((d) => obtenerEtapa(d) === etapa);
@@ -402,16 +409,6 @@ function mostrarDetalle(item) {
       </div>
 
       <div class="detail-item">
-        <div class="detail-label">Avance</div>
-        <div class="detail-value">${item.avance.toFixed(1)}%</div>
-      </div>
-
-      <div class="detail-item">
-        <div class="detail-label">Etapa</div>
-        <div class="detail-value" style="color:${color}">${etapa}</div>
-      </div>
-
-      <div class="detail-item">
         <div class="detail-label">Consultorios</div>
         <div class="detail-value">${item.total_consultorios}</div>
       </div>
@@ -427,15 +424,25 @@ function mostrarDetalle(item) {
       </div>
 
       <div class="detail-item">
-        <div class="detail-label">Estatus</div>
-        <div class="detail-value">${item.estatus_operacion || "Sin dato"}</div>
+        <div class="detail-label">Categoría Gerencial</div>
+        <div class="detail-value">${item.categoria_gerencial || "Sin dato"}</div>
+      </div>
+        
+      <div class="detail-item">
+        <div class="detail-label">Avance</div>
+        <div class="detail-value">${item.avance.toFixed(1)}%</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-label">Etapa</div>
+        <div class="detail-value" style="color:${color}">${etapa}</div>
       </div>
 
       <div class="detail-item full">
-        <div class="detail-label">Observaciones</div>
-        <div class="detail-value">${item.observaciones || "Sin observaciones"}</div>
+          <div class="detail-label">Observaciones</div>
+          <div class="detail-value">${item.observaciones || "Sin observaciones"}</div>
+        </div>
       </div>
-    </div>
   `;
 }
 

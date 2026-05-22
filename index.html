@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -11,12 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -26,6 +24,7 @@
         <div class="header-logo-wrap">
           <img src="assets/logoimssbienestar.png" alt="IMSS-Bienestar" />
         </div>
+
         <div class="header-divider"></div>
 
         <div class="header-titles">
@@ -41,9 +40,9 @@
     </header>
 
     <main class="container">
-      <section class="filters-bar">
-        <span class="filter-label">Filtrar por</span>
+      <div class="filter-title">Filtrar por</div>
 
+      <section class="filters-bar">
         <input
           id="f-search"
           class="filter-input"
@@ -51,30 +50,26 @@
           placeholder="Buscar CLUES o unidad"
         />
 
-        <select id="f-entidad">
-          <option value="">Todas las entidades</option>
-        </select>
-
         <select id="f-categoria">
           <option value="">Todas las categorías</option>
-        </select>
-
-        <select id="f-tipologia">
-          <option value="">Todas las tipologías</option>
-        </select>
-
-        <select id="f-estatus">
-          <option value="">Todos los estatus</option>
         </select>
 
         <select id="f-etapa">
           <option value="">Todas las etapas</option>
         </select>
 
+        <span class="results-count" id="results-count">0 unidades</span>
+
+        <select id="f-entidad">
+          <option value="">Todas las entidades</option>
+        </select>
+
+        <select id="f-tipologia">
+          <option value="">Todas las tipologías</option>
+        </select>
+
         <div class="range-filter">
-          <label for="f-avance">
-            Avance mínimo <strong id="avance-value">0%</strong>
-          </label>
+          <label>Avance mínimo <strong id="avance-value">0%</strong></label>
           <input
             id="f-avance"
             type="range"
@@ -84,8 +79,6 @@
             step="1"
           />
         </div>
-
-        <span class="results-count" id="results-count">0 unidades</span>
 
         <button class="filter-reset" id="btn-reset">↺ Restablecer</button>
       </section>
@@ -125,7 +118,7 @@
       </section>
 
       <section class="main-grid">
-        <article class="section-card">
+        <article class="section-card map-card">
           <div class="section-header">
             <h2>Mapa de unidades hospitalarias</h2>
             <span class="section-badge" id="map-count">0 unidades</span>
@@ -141,29 +134,24 @@
 
         <aside class="side-panel">
           <article class="chart-card detail-card">
-            <div class="section-header">
-              <h2>Ficha de unidad</h2>
-            </div>
+            <div class="section-header"><h2>Ficha de unidad</h2></div>
             <div class="detail-body" id="detalle-unidad">
               <div class="no-data">
                 Selecciona una unidad en el mapa o en la tabla.
               </div>
             </div>
           </article>
+        </aside>
       </section>
 
       <section class="analytics-grid">
         <article class="chart-card">
-          <div class="section-header">
-            <h2>Distribución por etapa</h2>
-          </div>
+          <div class="section-header"><h2>Distribución por etapa</h2></div>
           <div class="chart-body" id="stage-summary"></div>
         </article>
-      
+
         <article class="chart-card">
-          <div class="section-header">
-            <h2>Avance por tipología</h2>
-          </div>
+          <div class="section-header"><h2>Avance por tipología</h2></div>
           <div class="chart-body chart-fixed">
             <canvas id="tipoChart"></canvas>
           </div>
@@ -214,22 +202,17 @@
     <footer>
       <div class="footer-center">
         <strong>Coordinación de Planeación Estratégica</strong> · División de
-        Sistemas de Información en Salud
-        <br />
+        Sistemas de Información en Salud<br />
         IMSS-Bienestar · Avance Nacional de Implementación del Expediente
-        Digital
-        <br />
+        Digital<br />
         Créditos:
-        <a href="https://github.com/UnicornCodes" target="_blank">
-          UnicornCodes
-        </a>
+        <a href="https://github.com/UnicornCodes" target="_blank"
+          >UnicornCodes</a
+        >
         ·
-        <a href="https://github.com/DanielJimenezA" target="_blank">
-          DanielJimenezA
-        </a>
-
-        <br />
-        <!-- <strong id="footer-total">0</strong> unidades hospitalarias -->
+        <a href="https://github.com/DanielJimenezA" target="_blank"
+          >DanielJimenezA</a
+        >
       </div>
     </footer>
 
