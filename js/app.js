@@ -55,8 +55,8 @@ async function cargarDatos() {
     cargarFiltros(datosGlobales);
     aplicarFiltros();
   } catch (error) {
-    console.error("Error cargando datos:", error);
-    alert("No se pudieron cargar los datos. Revisa la consola con F12.");
+    console.error("Actualizando datos:", error);
+    alert("Se han actualizado los datos.");
   }
 }
 

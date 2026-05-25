@@ -1,5 +1,32 @@
 [
     {
+        "clues": "CSIMB005891",
+        "inst": "IMB",
+        "entidad": "CHIAPAS",
+        "municipio": "OSTUACAN",
+        "nombre_unidad": "HOSPITAL BÁSICO COMUNITARIO OSTUACAN, CHIAPAS",
+        "categoria_gerencial": "Basico comunitario",
+        "tipologia": "HOSPITAL INTEGRAL (COMUNITARIO)",
+        "subtipologia": "NO ESPECIFICADO",
+        "estatus_operacion": "EN OPERACION",
+        "estrato_unidad": "URBANO",
+        "total_consultorios": 9,
+        "total_quirofanos": 2,
+        "total_camas": 8,
+        "latitud": 17.407516,
+        "longitud": -93.335205,
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
+        "configuraciones_iniciales": "CONCLUIDO",
+        "capacitaciones": "CONCLUIDAS",
+        "uso_pheds": "NO",
+        "uso_moce": "SI",
+        "observaciones": "",
+        "avance": 1.0
+    },
+    {
         "clues": "CSIMB000023",
         "inst": "IMB",
         "entidad": "CHIAPAS",
@@ -321,7 +348,7 @@
         "uso_pheds": "SI",
         "uso_moce": "SI",
         "observaciones": "",
-        "avance": 1.0
+        "avance": 0.875
     },
     {
         "clues": "CSIMB004631",
@@ -348,7 +375,7 @@
         "uso_pheds": "SI",
         "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.875
+        "avance": 1.0
     },
     {
         "clues": "CSIMB004643",
@@ -535,33 +562,6 @@
         "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "SI",
-        "uso_moce": "SI",
-        "observaciones": "",
-        "avance": 1.0
-    },
-    {
-        "clues": "CSIMB005891",
-        "inst": "IMB",
-        "entidad": "CHIAPAS",
-        "municipio": "OSTUACAN",
-        "nombre_unidad": "HOSPITAL BÁSICO COMUNITARIO OSTUACAN, CHIAPAS",
-        "categoria_gerencial": "Basico comunitario",
-        "tipologia": "HOSPITAL INTEGRAL (COMUNITARIO)",
-        "subtipologia": "NO ESPECIFICADO",
-        "estatus_operacion": "EN OPERACION",
-        "estrato_unidad": "URBANO",
-        "total_consultorios": 9,
-        "total_quirofanos": 2,
-        "total_camas": 8,
-        "latitud": 17.407516,
-        "longitud": -93.335205,
-        "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "CONCLUIDO",
-        "formato_pheds": "CONCLUIDO",
-        "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "CONCLUIDO",
-        "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
         "uso_moce": "SI",
         "observaciones": "",
         "avance": 0.875
@@ -1188,6 +1188,33 @@
         "avance": 1.0
     },
     {
+        "clues": "DFIMB002353",
+        "inst": "IMB",
+        "entidad": "CIUDAD DE MEXICO",
+        "municipio": "GUSTAVO A. MADERO",
+        "nombre_unidad": "HOSPITAL ONCOLÓGICO PARA LA MUJER DE LA CIUDAD DE MÉXICO",
+        "categoria_gerencial": "Generales",
+        "tipologia": "HOSPITAL GENERAL",
+        "subtipologia": "NO ESPECIFICADO",
+        "estatus_operacion": "EN OPERACION",
+        "estrato_unidad": "URBANO",
+        "total_consultorios": 6,
+        "total_quirofanos": 0,
+        "total_camas": 15,
+        "latitud": 19.5243476,
+        "longitud": -99.1401384,
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
+        "configuraciones_iniciales": "CONCLUIDO",
+        "capacitaciones": "CONCLUIDAS",
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
+        "observaciones": "",
+        "avance": 0.208
+    },
+    {
         "clues": "BCIMB000623",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA",
@@ -1239,7 +1266,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.083
     },
     {
         "clues": "BCIMB000010",
@@ -1266,7 +1293,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.083
     },
     {
         "clues": "CCIMB000266",
@@ -1428,7 +1455,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.292
     },
     {
         "clues": "CCIMB001362",
@@ -1455,7 +1482,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.292
     },
     {
         "clues": "YNSSA013464",
@@ -1482,7 +1509,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.042
     },
     {
         "clues": "YNSSA013481",
@@ -1509,7 +1536,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.042
     },
     {
         "clues": "VZIMB008980",
@@ -2238,7 +2265,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.583
     },
     {
         "clues": "GRIMB010512",
@@ -2265,7 +2292,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.583
     },
     {
         "clues": "HGIMB001481",
@@ -2427,7 +2454,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.583
+        "avance": 0.083
     },
     {
         "clues": "HGIMB004561",
@@ -2454,7 +2481,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.583
+        "avance": 0.083
     },
     {
         "clues": "MCIMB000890",
@@ -3237,7 +3264,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MCIMB012196",
@@ -3264,7 +3291,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MNIMB000230",
@@ -3426,7 +3453,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "MNIMB004751",
@@ -3453,7 +3480,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "MSIMB001820",
@@ -3507,7 +3534,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MSIMB002112",
@@ -3534,7 +3561,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "NTIMB000020",
@@ -3750,7 +3777,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "NTIMB002745",
@@ -3777,7 +3804,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB000135",
@@ -3804,7 +3831,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "OCIMB000350",
@@ -3858,7 +3885,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB003500",
@@ -4128,7 +4155,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "OCIMB009100",
@@ -4155,7 +4182,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "OCIMB009416",
@@ -4182,7 +4209,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB009445",
@@ -4209,7 +4236,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB009462",
@@ -4263,7 +4290,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "OCIMB009643",
@@ -4290,7 +4317,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "PLIMB000100",
@@ -5802,7 +5829,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.208
     },
     {
         "clues": "SLIMB002476",
@@ -5829,7 +5856,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.292
     },
     {
         "clues": "CMIMB000103",
@@ -5849,14 +5876,14 @@
         "longitud": -103.6898378,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.292
     },
     {
         "clues": "CMIMB000470",
@@ -5964,7 +5991,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.0
     },
     {
         "clues": "CMIMB001153",
@@ -5991,7 +6018,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.0
     },
     {
         "clues": "TCIMB002273",
@@ -6153,7 +6180,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.042
     },
     {
         "clues": "TCIMB005505",
@@ -6180,7 +6207,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.083
     },
     {
         "clues": "TSIMB000012",
@@ -6207,7 +6234,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "TSIMB000082",
@@ -6234,7 +6261,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TSIMB003483",
@@ -6261,7 +6288,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TLIMB000181",
@@ -6279,7 +6306,7 @@
         "total_camas": 18,
         "latitud": 19.3265101,
         "longitud": -97.6474589,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6306,7 +6333,7 @@
         "total_camas": 21,
         "latitud": 19.3337028,
         "longitud": -98.1694806,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6333,7 +6360,7 @@
         "total_camas": 28,
         "latitud": 19.2029556,
         "longitud": -98.2491111,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6360,7 +6387,7 @@
         "total_camas": 27,
         "latitud": 19.6195083,
         "longitud": -98.1279306,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6963,7 +6990,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "VZIMB007860",
@@ -6990,7 +7017,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "ZSIMB000492",
@@ -7260,7 +7287,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.208
     },
     {
         "clues": "ZSIMB002015",
@@ -7287,7 +7314,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.208
     },
     {
         "clues": "BCIMB000355",
@@ -7557,7 +7584,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.083
     },
     {
         "clues": "BSIMB000672",
@@ -7584,7 +7611,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.083
     },
     {
         "clues": "CCIMB000073",
@@ -7665,7 +7692,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "CCIMB001531",
@@ -7692,7 +7719,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "DFIMB002114",
@@ -7908,7 +7935,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.292
     },
     {
         "clues": "DFIMB001706",
@@ -7962,7 +7989,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.042
     },
     {
         "clues": "DFIMB002341",
@@ -8151,7 +8178,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.292
     },
     {
         "clues": "DFIMB002102",
@@ -8178,7 +8205,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.292
     },
     {
         "clues": "SRIMB000016",
@@ -8286,7 +8313,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.042
     },
     {
         "clues": "SRIMB000453",
@@ -8313,7 +8340,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.042
     },
     {
         "clues": "GRIMB000024",
@@ -8664,7 +8691,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.583
     },
     {
         "clues": "GRIMB010536",
@@ -8691,7 +8718,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.583
     },
     {
         "clues": "HGIMB004795",
@@ -8907,7 +8934,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.583
+        "avance": 0.083
     },
     {
         "clues": "HGIMB001394",
@@ -8934,7 +8961,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.583
+        "avance": 0.083
     },
     {
         "clues": "MCIMB000226",
@@ -9690,7 +9717,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.292
     },
     {
         "clues": "MCIMB012271",
@@ -9744,7 +9771,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.042
     },
     {
         "clues": "MCIMB012476",
@@ -9771,7 +9798,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MNIMB000650",
@@ -10203,7 +10230,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "MNIMB004734",
@@ -10230,7 +10257,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "MSIMB000292",
@@ -10365,7 +10392,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MSIMB002351",
@@ -10392,7 +10419,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "NTIMB000551",
@@ -10473,7 +10500,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "NTIMB001724",
@@ -10500,7 +10527,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB000490",
@@ -10851,7 +10878,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "OCIMB009660",
@@ -10878,7 +10905,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "PLIMB000626",
@@ -11823,7 +11850,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.292
     },
     {
         "clues": "SLIMB003065",
@@ -11850,7 +11877,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.292
     },
     {
         "clues": "SRIMB001404",
@@ -11904,7 +11931,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.25
     },
     {
         "clues": "SRIMB002186",
@@ -11985,7 +12012,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.208
     },
     {
         "clues": "SRIMB002191",
@@ -12012,7 +12039,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.25
+        "avance": 0.208
     },
     {
         "clues": "SRIMB002355",
@@ -12093,7 +12120,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.0
     },
     {
         "clues": "SRIMB001766",
@@ -12120,7 +12147,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.0
     },
     {
         "clues": "TCIMB000016",
@@ -12444,7 +12471,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.042
     },
     {
         "clues": "TCIMB005266",
@@ -12471,7 +12498,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.083
     },
     {
         "clues": "TSIMB000316",
@@ -12498,7 +12525,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "TSIMB001091",
@@ -12606,7 +12633,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TSIMB001943",
@@ -12714,7 +12741,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "TSIMB002643",
@@ -12768,7 +12795,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TSIMB003466",
@@ -12795,7 +12822,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TLIMB000975",
@@ -12813,7 +12840,7 @@
         "total_camas": 107,
         "latitud": 19.408775,
         "longitud": -98.1179722,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12840,7 +12867,7 @@
         "total_camas": 61,
         "latitud": 19.1268755,
         "longitud": -98.2006896,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12894,7 +12921,7 @@
         "total_camas": 67,
         "latitud": 19.5825618,
         "longitud": -98.5367416,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12921,7 +12948,7 @@
         "total_camas": 50,
         "latitud": 19.2242266,
         "longitud": -98.3174848,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12948,7 +12975,7 @@
         "total_camas": 81,
         "latitud": 19.3063,
         "longitud": -97.9407917,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13740,7 +13767,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "VZIMB008053",
@@ -13767,7 +13794,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "ZSIMB000113",
@@ -13875,7 +13902,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MCIMB012295",
@@ -13929,7 +13956,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB009071",
@@ -13956,7 +13983,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MCIMB012464",
@@ -13983,7 +14010,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "GRIMB008902",
@@ -14037,7 +14064,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "MNIMB001403",
@@ -14091,7 +14118,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "NTIMB000015",
@@ -14172,7 +14199,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "TLIMB002095",
@@ -14190,7 +14217,7 @@
         "total_camas": 65,
         "latitud": 19.3687028,
         "longitud": -98.2125199,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -14226,7 +14253,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "PLIMB004720",
@@ -14253,7 +14280,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "SPIMB002965",
@@ -14280,7 +14307,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB009631",
@@ -14307,7 +14334,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TSIMB002713",
@@ -14334,7 +14361,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MNIMB003660",
@@ -14388,7 +14415,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.208
     },
     {
         "clues": "TLIMB001890",
@@ -14415,7 +14442,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "SRIMB002174",
@@ -14469,7 +14496,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.292
     },
     {
         "clues": "BSIMB000754",
@@ -14496,7 +14523,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.583
     },
     {
         "clues": "SRIMB000914",
@@ -14523,7 +14550,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.083
     },
     {
         "clues": "HGIMB004824",
@@ -14550,7 +14577,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.583
+        "avance": 0.208
     },
     {
         "clues": "MCIMB011986",
@@ -14577,7 +14604,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "SRIMB002360",
@@ -14604,7 +14631,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.292
     },
     {
         "clues": "DFIMB000183",
@@ -14658,7 +14685,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.208
     },
     {
         "clues": "VZIMB008946",
@@ -14712,7 +14739,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.083
     },
     {
         "clues": "DFIMB002015",
@@ -14874,7 +14901,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "QRIMB000346",
@@ -14901,7 +14928,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "DFIMB001933",
@@ -14982,7 +15009,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.0
     },
     {
         "clues": "MCIMB006951",
@@ -15009,7 +15036,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TCIMB000803",
@@ -15036,7 +15063,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.042
     },
     {
         "clues": "OCIMB001313",
@@ -15063,7 +15090,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "PLIMB005205",
@@ -15090,7 +15117,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "MSIMB002235",
@@ -15117,7 +15144,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MCIMB012440",
@@ -15144,7 +15171,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "DFIMB000434",
@@ -15360,7 +15387,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.917
     },
     {
         "clues": "DFIMB002085",
@@ -15390,33 +15417,6 @@
         "avance": 0.042
     },
     {
-        "clues": "DFIMB002353",
-        "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
-        "municipio": "GUSTAVO A. MADERO",
-        "nombre_unidad": "HOSPITAL ONCOLÓGICO PARA LA MUJER DE LA CIUDAD DE MÉXICO",
-        "categoria_gerencial": "Generales",
-        "tipologia": "HOSPITAL GENERAL",
-        "subtipologia": "NO ESPECIFICADO",
-        "estatus_operacion": "EN OPERACION",
-        "estrato_unidad": "URBANO",
-        "total_consultorios": 6,
-        "total_quirofanos": 0,
-        "total_camas": 15,
-        "latitud": 19.5243476,
-        "longitud": -99.1401384,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "CONCLUIDO",
-        "formato_pheds": "CONCLUIDO",
-        "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "CONCLUIDO",
-        "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "SI",
-        "uso_moce": "SI",
-        "observaciones": "",
-        "avance": 0.917
-    },
-    {
         "clues": "DFIMB001694",
         "inst": "IMB",
         "entidad": "CIUDAD DE MEXICO",
@@ -15441,7 +15441,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.0
     },
     {
         "clues": "TCIMB000774",
@@ -15468,7 +15468,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.208
     },
     {
         "clues": "BSIMB000783",
@@ -15495,7 +15495,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.083
     },
     {
         "clues": "CCIMB000143",
@@ -15522,7 +15522,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "VZIMB008963",
@@ -15549,7 +15549,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.583
     },
     {
         "clues": "HGIMB004952",
@@ -15576,7 +15576,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.583
+        "avance": 0.083
     },
     {
         "clues": "MCIMB000231",
@@ -15657,7 +15657,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "MNIMB001420",
@@ -15684,7 +15684,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "OCIMB001330",
@@ -15711,7 +15711,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "PLIMB001792",
@@ -15792,7 +15792,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.208
     },
     {
         "clues": "SRIMB000926",
@@ -15846,7 +15846,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.0
     },
     {
         "clues": "TCIMB000815",
@@ -15873,7 +15873,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.083
     },
     {
         "clues": "TSIMB002532",
@@ -15900,7 +15900,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "VZIMB002354",
@@ -15927,7 +15927,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.292
     },
     {
         "clues": "YNSSA000570",
@@ -15954,7 +15954,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.292
+        "avance": 0.083
     },
     {
         "clues": "ZSIMB002213",
@@ -15981,7 +15981,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.0
     },
     {
         "clues": "GTIMB000015",
@@ -16008,7 +16008,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.083
     },
     {
         "clues": "CCIMB001432",
@@ -16062,7 +16062,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "PLIMB004172",
@@ -16089,7 +16089,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.208
     },
     {
         "clues": "BSIMB000766",
@@ -16116,7 +16116,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.042
     },
     {
         "clues": "NTIMB001765",
@@ -16170,7 +16170,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.208
     },
     {
         "clues": "SRIMB000902",
@@ -16197,7 +16197,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.208
+        "avance": 0.083
     },
     {
         "clues": "TSIMB001926",
@@ -16251,7 +16251,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.042
     },
     {
         "clues": "TLIMB002165",
@@ -16269,7 +16269,7 @@
         "total_camas": 0,
         "latitud": 19.3680915,
         "longitud": -98.2104569,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -16305,7 +16305,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.042
+        "avance": 0.083
     },
     {
         "clues": "TSIMB003594",
@@ -16332,7 +16332,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.083
+        "avance": 0.0
     },
     {
         "clues": "YNSSA001941",
@@ -16359,6 +16359,6 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.5
     }
 ]
