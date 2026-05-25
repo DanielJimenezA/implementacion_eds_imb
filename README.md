@@ -15,23 +15,3 @@ Abrir:
 ```text
 http://localhost:8000
 ```
-
-## Actualizar datos
-
-Coloca tu Excel en:
-
-```text
-excel/unidades.xlsx
-```
-
-Ejecuta:
-
-```bash
-python scripts/build_data.py
-```
-
-Después sube cambios a GitHub.
-
-## GitHub Pages
-
-Settings → Pages → Deploy from branch → main → /root
