@@ -9,12 +9,12 @@ const mexicoBounds = [
 ];
 
 const etapasOrden = [
-  "No ha iniciado",
+  "Realizando diagnóstico de infraestructura",
   "Diagnóstico de infraestructura concluido",
   "Entrega de equipos y config. de red concluida",
   "En uso de PHEDS y MoCE",
-  // "Formato PHEDS concluido",
-  // "Formato MoCE concluido",
+  "Formato PHEDS concluido",
+  "Formato MoCE concluido",
   "Configuraciones iniciales concluidas",
   "Capacitaciones concluidas",
   "En uso del PHEDS",
@@ -23,15 +23,15 @@ const etapasOrden = [
 
 const etapaColores = {
   "En uso de PHEDS y MoCE": "#3070C0",
-  "No ha iniciado": "#7A1E1E",
+  "Realizando diagnóstico de infraestructura": "#7A1E1E",
   "Diagnóstico de infraestructura concluido": "#E04525",
   "Entrega de equipos y config. de red concluida": "#F47C20",
   "Formato PHEDS concluido": "#F2B52E",
   "Formato MoCE concluido": "#B7D44A",
   "Configuraciones iniciales concluidas": "#A6CF55",
   "Capacitaciones concluidas": "#67B74B",
-  // "En uso del PHEDS": "#4AA090",
-  // "En uso del MoCE": "#3070C0",
+  "En uso del PHEDS": "#4AA090",
+  "En uso del MoCE": "#3070C0",
 };
 
 document.addEventListener("DOMContentLoaded", cargarDatos);
@@ -186,7 +186,7 @@ function obtenerEtapa(item) {
     return "Diagnóstico de infraestructura concluido";
   }
 
-  return "No ha iniciado";
+  return "Realizando diagnóstico de infraestructura";
 }
 
 function cargarFiltros(data) {
@@ -521,7 +521,7 @@ function cargarDistribucionEtapas(data) {
         item.avance >= 100,
     },
     {
-      nombre: "No ha iniciado",
+      nombre: "Realizando diagnóstico de infraestructura",
       color: "#7A1E1E",
       cumple: (item) => item.avance === 0,
     },
