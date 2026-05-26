@@ -3613,7 +3613,7 @@
         "total_camas": 20,
         "latitud": 18.35702,
         "longitud": -102.289435,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3622,7 +3622,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB000353",
@@ -3642,7 +3642,7 @@
         "total_camas": 18,
         "latitud": 18.703586,
         "longitud": -103.663438,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3651,7 +3651,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB001601",
@@ -3671,7 +3671,7 @@
         "total_camas": 31,
         "latitud": 19.0292562,
         "longitud": -102.088395,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3680,7 +3680,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003940",
@@ -3700,7 +3700,7 @@
         "total_camas": 37,
         "latitud": 19.234168,
         "longitud": -100.551917,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3709,7 +3709,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003952",
@@ -3729,7 +3729,7 @@
         "total_camas": 28,
         "latitud": 19.0373,
         "longitud": -101.139718,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3738,7 +3738,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003981",
@@ -3758,7 +3758,7 @@
         "total_camas": 28,
         "latitud": 18.950931,
         "longitud": -101.819063,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3767,7 +3767,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB004751",
@@ -3787,7 +3787,7 @@
         "total_camas": 45,
         "latitud": 18.2738165,
         "longitud": -103.341942,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3796,7 +3796,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MSIMB001820",
@@ -3932,7 +3932,7 @@
         "total_camas": 21,
         "latitud": 22.4898682,
         "longitud": -105.3677335,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3941,7 +3941,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB000353",
@@ -3961,7 +3961,7 @@
         "total_camas": 38,
         "latitud": 21.0370861,
         "longitud": -104.3780574,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3970,7 +3970,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB000510",
@@ -3990,7 +3990,7 @@
         "total_camas": 39,
         "latitud": 22.256482,
         "longitud": -104.5171004,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -3999,7 +3999,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB002202",
@@ -4019,7 +4019,7 @@
         "total_camas": 17,
         "latitud": 21.697759,
         "longitud": -104.08296,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4028,7 +4028,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB002523",
@@ -4048,7 +4048,7 @@
         "total_camas": 23,
         "latitud": 20.7461011,
         "longitud": -105.2986692,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4057,7 +4057,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB002622",
@@ -4077,7 +4077,7 @@
         "total_camas": 20,
         "latitud": 21.2409052,
         "longitud": -104.8913778,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4086,7 +4086,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB002634",
@@ -4106,7 +4106,7 @@
         "total_camas": 28,
         "latitud": 22.409665,
         "longitud": -105.450584,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4115,7 +4115,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB002646",
@@ -4135,7 +4135,7 @@
         "total_camas": 19,
         "latitud": 21.189,
         "longitud": -105.134699,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4144,7 +4144,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB002745",
@@ -4164,7 +4164,7 @@
         "total_camas": 25,
         "latitud": 21.9470953,
         "longitud": -105.3119832,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4173,7 +4173,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "OCIMB000135",
@@ -4744,7 +4744,7 @@
         "total_camas": 28,
         "latitud": 20.0071107,
         "longitud": -97.8550735,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4753,7 +4753,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB000351",
@@ -4773,7 +4773,7 @@
         "total_camas": 14,
         "latitud": 20.0941645,
         "longitud": -97.4098384,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4782,7 +4782,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB000433",
@@ -4802,7 +4802,7 @@
         "total_camas": 23,
         "latitud": 18.2680968,
         "longitud": -97.1570819,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4811,7 +4811,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB000602",
@@ -4831,7 +4831,7 @@
         "total_camas": 16,
         "latitud": 19.5999521,
         "longitud": -97.6151535,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4840,7 +4840,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB001121",
@@ -4860,7 +4860,7 @@
         "total_camas": 26,
         "latitud": 20.0959121,
         "longitud": -97.6243352,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4869,7 +4869,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB001285",
@@ -4889,7 +4889,7 @@
         "total_camas": 22,
         "latitud": 19.6228517,
         "longitud": -97.8182623,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4898,7 +4898,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB001710",
@@ -4918,7 +4918,7 @@
         "total_camas": 22,
         "latitud": 18.824774,
         "longitud": -97.509792,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4927,7 +4927,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB002154",
@@ -4947,7 +4947,7 @@
         "total_camas": 46,
         "latitud": 19.2681702,
         "longitud": -98.43454,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4956,7 +4956,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB002492",
@@ -4976,7 +4976,7 @@
         "total_camas": 38,
         "latitud": 18.1173863,
         "longitud": -98.3135009,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -4985,7 +4985,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB003093",
@@ -5005,7 +5005,7 @@
         "total_camas": 23,
         "latitud": 18.0352215,
         "longitud": -98.4459989,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5014,7 +5014,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB003571",
@@ -5034,7 +5034,7 @@
         "total_camas": 17,
         "latitud": 20.0055208,
         "longitud": -97.7212531,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5043,7 +5043,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB003706",
@@ -5063,7 +5063,7 @@
         "total_camas": 24,
         "latitud": 18.3380671,
         "longitud": -97.0348081,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5072,7 +5072,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004020",
@@ -5092,7 +5092,7 @@
         "total_camas": 13,
         "latitud": 20.1374007,
         "longitud": -97.9288001,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5101,7 +5101,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004056",
@@ -5121,7 +5121,7 @@
         "total_camas": 33,
         "latitud": 18.9781869,
         "longitud": -97.7993229,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5130,7 +5130,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004073",
@@ -5150,7 +5150,7 @@
         "total_camas": 24,
         "latitud": 18.379176,
         "longitud": -97.2745992,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5159,7 +5159,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004085",
@@ -5179,7 +5179,7 @@
         "total_camas": 30,
         "latitud": 18.655071,
         "longitud": -97.6316441,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5188,7 +5188,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004102",
@@ -5208,7 +5208,7 @@
         "total_camas": 20,
         "latitud": 20.5314796,
         "longitud": -97.8516763,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5217,7 +5217,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004131",
@@ -5237,7 +5237,7 @@
         "total_camas": 22,
         "latitud": 18.5302936,
         "longitud": -97.2062243,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5246,7 +5246,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004143",
@@ -5266,7 +5266,7 @@
         "total_camas": 28,
         "latitud": 18.4747572,
         "longitud": -96.8641611,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5275,7 +5275,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004242",
@@ -5295,7 +5295,7 @@
         "total_camas": 22,
         "latitud": 19.2875574,
         "longitud": -97.3324242,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5304,7 +5304,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004732",
@@ -5324,7 +5324,7 @@
         "total_camas": 27,
         "latitud": 19.8998131,
         "longitud": -97.5891252,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5333,7 +5333,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004954",
@@ -5353,7 +5353,7 @@
         "total_camas": 30,
         "latitud": 19.2480984,
         "longitud": -97.7565864,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5362,7 +5362,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005263",
@@ -5382,7 +5382,7 @@
         "total_camas": 23,
         "latitud": 19.1155883,
         "longitud": -97.9475172,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5391,7 +5391,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005555",
@@ -5411,7 +5411,7 @@
         "total_camas": 26,
         "latitud": 18.8269626,
         "longitud": -97.5376842,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5420,7 +5420,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005601",
@@ -5440,7 +5440,7 @@
         "total_camas": 43,
         "latitud": 20.2566169,
         "longitud": -97.9651804,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5449,7 +5449,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005794",
@@ -5469,7 +5469,7 @@
         "total_camas": 19,
         "latitud": 19.2565865,
         "longitud": -97.1398923,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5478,7 +5478,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB006004",
@@ -5498,7 +5498,7 @@
         "total_camas": 19,
         "latitud": 18.4510558,
         "longitud": -97.8328769,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5507,7 +5507,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB007095",
@@ -5527,7 +5527,7 @@
         "total_camas": 19,
         "latitud": 18.5983453,
         "longitud": -98.0651325,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5536,7 +5536,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB007136",
@@ -5556,7 +5556,7 @@
         "total_camas": 32,
         "latitud": 19.818607,
         "longitud": -97.813686,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5565,7 +5565,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB007305",
@@ -5585,7 +5585,7 @@
         "total_camas": 27,
         "latitud": 20.2778678,
         "longitud": -98.1575433,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5594,7 +5594,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB007416",
@@ -5614,7 +5614,7 @@
         "total_camas": 24,
         "latitud": 20.477244,
         "longitud": -97.68538,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5623,7 +5623,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "QRIMB000421",
@@ -5817,7 +5817,7 @@
         "total_camas": 28,
         "latitud": 21.625724,
         "longitud": -99.016046,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5826,7 +5826,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB000170",
@@ -5846,7 +5846,7 @@
         "total_camas": 16,
         "latitud": 22.39957,
         "longitud": -99.606882,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5855,7 +5855,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB000643",
@@ -5875,7 +5875,7 @@
         "total_camas": 22,
         "latitud": 22.61885,
         "longitud": -101.72012,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5884,7 +5884,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB001063",
@@ -5904,7 +5904,7 @@
         "total_camas": 20,
         "latitud": 21.27728,
         "longitud": -98.75067,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5913,7 +5913,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB001804",
@@ -5933,7 +5933,7 @@
         "total_camas": 17,
         "latitud": 22.63949,
         "longitud": -100.83897,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5942,7 +5942,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB001920",
@@ -5962,7 +5962,7 @@
         "total_camas": 38,
         "latitud": 22.2149444,
         "longitud": -98.379061,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -5971,7 +5971,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB002801",
@@ -5991,7 +5991,7 @@
         "total_camas": 20,
         "latitud": 22.0141944,
         "longitud": -98.7888333,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6000,7 +6000,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB002813",
@@ -6020,7 +6020,7 @@
         "total_camas": 14,
         "latitud": 21.37253,
         "longitud": -99.00603,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6029,7 +6029,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000195",
@@ -6049,7 +6049,7 @@
         "total_camas": 33,
         "latitud": 25.3680267,
         "longitud": -108.1564539,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6058,7 +6058,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000241",
@@ -6078,7 +6078,7 @@
         "total_camas": 15,
         "latitud": 25.3510847,
         "longitud": -107.5551293,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6087,7 +6087,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000446",
@@ -6107,7 +6107,7 @@
         "total_camas": 20,
         "latitud": 23.2853976,
         "longitud": -106.066862,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6116,7 +6116,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000545",
@@ -6136,7 +6136,7 @@
         "total_camas": 16,
         "latitud": 24.4101324,
         "longitud": -106.6910791,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6145,7 +6145,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000895",
@@ -6165,7 +6165,7 @@
         "total_camas": 23,
         "latitud": 26.7128866,
         "longitud": -108.3234903,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6174,7 +6174,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB001554",
@@ -6194,7 +6194,7 @@
         "total_camas": 24,
         "latitud": 25.4819851,
         "longitud": -107.9231373,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6203,7 +6203,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB001711",
@@ -6223,7 +6223,7 @@
         "total_camas": 21,
         "latitud": 22.9949308,
         "longitud": -105.8566385,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6232,7 +6232,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB001950",
@@ -6252,7 +6252,7 @@
         "total_camas": 19,
         "latitud": 25.8167987,
         "longitud": -108.2297748,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6261,7 +6261,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002184",
@@ -6281,7 +6281,7 @@
         "total_camas": 18,
         "latitud": 24.7605446,
         "longitud": -107.6826079,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6290,7 +6290,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002242",
@@ -6310,7 +6310,7 @@
         "total_camas": 29,
         "latitud": 26.2662908,
         "longitud": -109.034642,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6319,7 +6319,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002464",
@@ -6339,7 +6339,7 @@
         "total_camas": 19,
         "latitud": 23.9446252,
         "longitud": -106.4231693,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6348,7 +6348,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002476",
@@ -6368,7 +6368,7 @@
         "total_camas": 18,
         "latitud": 24.2915204,
         "longitud": -107.1508884,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6377,7 +6377,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "CMIMB000103",
@@ -6571,7 +6571,7 @@
         "total_camas": 20,
         "latitud": 17.7232288,
         "longitud": -92.8130051,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6580,7 +6580,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB002396",
@@ -6600,7 +6600,7 @@
         "total_camas": 17,
         "latitud": 18.1798199,
         "longitud": -93.0588698,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6609,7 +6609,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB002961",
@@ -6629,7 +6629,7 @@
         "total_camas": 22,
         "latitud": 18.1662513,
         "longitud": -93.0166572,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6638,7 +6638,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB003265",
@@ -6658,7 +6658,7 @@
         "total_camas": 26,
         "latitud": 17.5932163,
         "longitud": -92.8305476,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6667,7 +6667,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB005020",
@@ -6687,7 +6687,7 @@
         "total_camas": 28,
         "latitud": 18.088884,
         "longitud": -94.040238,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6696,7 +6696,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB005271",
@@ -6716,7 +6716,7 @@
         "total_camas": 20,
         "latitud": 18.1012,
         "longitud": -92.1283,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6725,7 +6725,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB005505",
@@ -6745,7 +6745,7 @@
         "total_camas": 29,
         "latitud": 18.54206,
         "longitud": -92.644353,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -6754,7 +6754,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TSIMB000012",
@@ -6861,8 +6861,8 @@
         "total_camas": 18,
         "latitud": 19.3265101,
         "longitud": -97.6474589,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -6870,7 +6870,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "TLIMB000555",
@@ -6890,8 +6890,8 @@
         "total_camas": 21,
         "latitud": 19.3337028,
         "longitud": -98.1694806,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -6899,7 +6899,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "TLIMB001050",
@@ -6919,8 +6919,8 @@
         "total_camas": 28,
         "latitud": 19.2029556,
         "longitud": -98.2491111,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -6928,7 +6928,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "TLIMB001412",
@@ -6948,8 +6948,8 @@
         "total_camas": 27,
         "latitud": 19.6195083,
         "longitud": -98.1279306,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -6957,7 +6957,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "VZIMB000254",
@@ -10631,7 +10631,7 @@
         "total_camas": 43,
         "latitud": 19.67704,
         "longitud": -101.95326,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10640,7 +10640,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB001292",
@@ -10660,7 +10660,7 @@
         "total_camas": 82,
         "latitud": 17.96696,
         "longitud": -102.20205,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10669,7 +10669,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB001415",
@@ -10689,7 +10689,7 @@
         "total_camas": 26,
         "latitud": 19.6999058,
         "longitud": -101.1825135,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10698,7 +10698,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB002091",
@@ -10718,7 +10718,7 @@
         "total_camas": 47,
         "latitud": 20.039827,
         "longitud": -102.718266,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10727,7 +10727,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB002190",
@@ -10747,7 +10747,7 @@
         "total_camas": 44,
         "latitud": 19.237169,
         "longitud": -101.455314,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10756,7 +10756,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB002774",
@@ -10776,7 +10776,7 @@
         "total_camas": 138,
         "latitud": 19.390541,
         "longitud": -102.024055,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10785,7 +10785,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB002931",
@@ -10805,7 +10805,7 @@
         "total_camas": 92,
         "latitud": 19.989744,
         "longitud": -102.279183,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10814,7 +10814,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003013",
@@ -10834,7 +10834,7 @@
         "total_camas": 101,
         "latitud": 19.432554,
         "longitud": -100.3694427,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10843,7 +10843,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003532",
@@ -10863,7 +10863,7 @@
         "total_camas": 55,
         "latitud": 19.7711757,
         "longitud": -101.752934,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10872,7 +10872,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003544",
@@ -10892,7 +10892,7 @@
         "total_camas": 52,
         "latitud": 19.530025,
         "longitud": -101.577988,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10901,7 +10901,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003590",
@@ -10921,7 +10921,7 @@
         "total_camas": 386,
         "latitud": 19.731491,
         "longitud": -101.105271,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10930,7 +10930,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003911",
@@ -10950,7 +10950,7 @@
         "total_camas": 52,
         "latitud": 19.908398,
         "longitud": -100.4513,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10959,7 +10959,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003923",
@@ -10979,7 +10979,7 @@
         "total_camas": 47,
         "latitud": 20.127882,
         "longitud": -101.523548,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -10988,7 +10988,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003935",
@@ -11008,7 +11008,7 @@
         "total_camas": 53,
         "latitud": 19.677021,
         "longitud": -100.517276,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11017,7 +11017,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003964",
@@ -11037,7 +11037,7 @@
         "total_camas": 47,
         "latitud": 19.603589,
         "longitud": -102.475351,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11046,7 +11046,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB003976",
@@ -11066,7 +11066,7 @@
         "total_camas": 85,
         "latitud": 20.319359,
         "longitud": -102.018441,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11075,7 +11075,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MNIMB004734",
@@ -11095,7 +11095,7 @@
         "total_camas": 93,
         "latitud": 19.064998,
         "longitud": -102.325361,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11104,7 +11104,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MSIMB000292",
@@ -11298,7 +11298,7 @@
         "total_camas": 55,
         "latitud": 22.1150969,
         "longitud": -105.2094934,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11307,7 +11307,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB001246",
@@ -11327,7 +11327,7 @@
         "total_camas": 213,
         "latitud": 21.5010461,
         "longitud": -104.897629,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11336,7 +11336,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB001654",
@@ -11356,7 +11356,7 @@
         "total_camas": 42,
         "latitud": 20.9007233,
         "longitud": -105.4103064,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11365,7 +11365,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "NTIMB001724",
@@ -11385,7 +11385,7 @@
         "total_camas": 47,
         "latitud": 21.8123286,
         "longitud": -105.2089011,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11394,7 +11394,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "OCIMB000490",
@@ -11820,7 +11820,7 @@
         "total_camas": 44,
         "latitud": 18.9890106,
         "longitud": -97.4496219,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11829,7 +11829,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB001536",
@@ -11849,7 +11849,7 @@
         "total_camas": 66,
         "latitud": 19.4576439,
         "longitud": -97.6802648,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11858,7 +11858,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB001780",
@@ -11878,7 +11878,7 @@
         "total_camas": 192,
         "latitud": 18.9862587,
         "longitud": -98.2421342,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11887,7 +11887,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB002516",
@@ -11907,7 +11907,7 @@
         "total_camas": 162,
         "latitud": 18.4480425,
         "longitud": -97.419533,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11916,7 +11916,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004860",
@@ -11936,7 +11936,7 @@
         "total_camas": 192,
         "latitud": 19.0168621,
         "longitud": -98.2659138,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11945,7 +11945,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004925",
@@ -11965,7 +11965,7 @@
         "total_camas": 148,
         "latitud": 19.8219503,
         "longitud": -97.3769416,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -11974,7 +11974,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005012",
@@ -11994,7 +11994,7 @@
         "total_camas": 58,
         "latitud": 18.185898,
         "longitud": -98.0564089,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12003,7 +12003,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005070",
@@ -12023,7 +12023,7 @@
         "total_camas": 56,
         "latitud": 19.8410029,
         "longitud": -97.4984892,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12032,7 +12032,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005321",
@@ -12052,7 +12052,7 @@
         "total_camas": 55,
         "latitud": 19.1392168,
         "longitud": -98.3804294,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12061,7 +12061,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005613",
@@ -12081,7 +12081,7 @@
         "total_camas": 69,
         "latitud": 18.9029045,
         "longitud": -98.415798,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12090,7 +12090,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005700",
@@ -12110,7 +12110,7 @@
         "total_camas": 104,
         "latitud": 19.0866662,
         "longitud": -98.1987049,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12119,7 +12119,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB005910",
@@ -12139,7 +12139,7 @@
         "total_camas": 206,
         "latitud": 19.079308,
         "longitud": -98.1852166,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12148,7 +12148,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB006016",
@@ -12168,7 +12168,7 @@
         "total_camas": 57,
         "latitud": 18.9933433,
         "longitud": -97.9043529,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12177,7 +12177,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB006103",
@@ -12197,7 +12197,7 @@
         "total_camas": 95,
         "latitud": 19.919967,
         "longitud": -97.9625844,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12206,7 +12206,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB006885",
@@ -12226,7 +12226,7 @@
         "total_camas": 55,
         "latitud": 20.1863111,
         "longitud": -98.0691812,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12235,7 +12235,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB007083",
@@ -12255,7 +12255,7 @@
         "total_camas": 96,
         "latitud": 18.5907244,
         "longitud": -98.4512447,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12264,7 +12264,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB007112",
@@ -12284,7 +12284,7 @@
         "total_camas": 59,
         "latitud": 20.0098227,
         "longitud": -97.531135,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12293,7 +12293,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB007170",
@@ -12313,7 +12313,7 @@
         "total_camas": 50,
         "latitud": 18.8793149,
         "longitud": -97.7141117,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12322,7 +12322,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "QRIMB000013",
@@ -12516,7 +12516,7 @@
         "total_camas": 206,
         "latitud": 21.948257,
         "longitud": -98.993798,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12525,7 +12525,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB000585",
@@ -12545,7 +12545,7 @@
         "total_camas": 130,
         "latitud": 21.9196964,
         "longitud": -99.9918851,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12554,7 +12554,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB002125",
@@ -12574,7 +12574,7 @@
         "total_camas": 109,
         "latitud": 23.66909,
         "longitud": -100.653531,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12583,7 +12583,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB002574",
@@ -12603,7 +12603,7 @@
         "total_camas": 366,
         "latitud": 22.147998,
         "longitud": -101.014679,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12612,7 +12612,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB002970",
@@ -12632,7 +12632,7 @@
         "total_camas": 148,
         "latitud": 22.164571,
         "longitud": -100.938266,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12641,7 +12641,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000014",
@@ -12661,7 +12661,7 @@
         "total_camas": 242,
         "latitud": 24.8325414,
         "longitud": -107.3660201,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12670,7 +12670,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000031",
@@ -12690,7 +12690,7 @@
         "total_camas": 192,
         "latitud": 25.7710931,
         "longitud": -108.988561,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12699,7 +12699,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB001134",
@@ -12719,7 +12719,7 @@
         "total_camas": 92,
         "latitud": 25.5530893,
         "longitud": -108.4751021,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12728,7 +12728,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002254",
@@ -12748,7 +12748,7 @@
         "total_camas": 148,
         "latitud": 23.2919,
         "longitud": -106.4527,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12757,7 +12757,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002481",
@@ -12777,7 +12777,7 @@
         "total_camas": 51,
         "latitud": 23.9334366,
         "longitud": -106.8759673,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12786,7 +12786,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB003053",
@@ -12806,7 +12806,7 @@
         "total_camas": 79,
         "latitud": 22.8314778,
         "longitud": -105.7773345,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12815,7 +12815,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB003065",
@@ -12835,7 +12835,7 @@
         "total_camas": 48,
         "latitud": 24.3118742,
         "longitud": -107.3649591,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -12844,7 +12844,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SRIMB001404",
@@ -13154,7 +13154,7 @@
         "total_camas": 40,
         "latitud": 17.8119,
         "longitud": -91.5335,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13163,7 +13163,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB000190",
@@ -13183,7 +13183,7 @@
         "total_camas": 51,
         "latitud": 17.9905424,
         "longitud": -93.3827863,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13192,7 +13192,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB000786",
@@ -13212,7 +13212,7 @@
         "total_camas": 201,
         "latitud": 18.0124021,
         "longitud": -92.9242407,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13221,7 +13221,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB000791",
@@ -13241,7 +13241,7 @@
         "total_camas": 346,
         "latitud": 17.9788909,
         "longitud": -92.9862357,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13250,7 +13250,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB001561",
@@ -13270,7 +13270,7 @@
         "total_camas": 57,
         "latitud": 18.0685953,
         "longitud": -93.1726956,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13279,7 +13279,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB001841",
@@ -13299,7 +13299,7 @@
         "total_camas": 43,
         "latitud": 17.741221,
         "longitud": -91.782673,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13308,7 +13308,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB001870",
@@ -13328,7 +13328,7 @@
         "total_camas": 43,
         "latitud": 17.826924,
         "longitud": -93.395583,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13337,7 +13337,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB002611",
@@ -13357,7 +13357,7 @@
         "total_camas": 42,
         "latitud": 17.7594599,
         "longitud": -92.5929806,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13366,7 +13366,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB002920",
@@ -13386,7 +13386,7 @@
         "total_camas": 53,
         "latitud": 17.8447,
         "longitud": -92.5293,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13395,7 +13395,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB003253",
@@ -13415,7 +13415,7 @@
         "total_camas": 45,
         "latitud": 18.3882,
         "longitud": -93.2123,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13424,7 +13424,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB003446",
@@ -13444,7 +13444,7 @@
         "total_camas": 35,
         "latitud": 17.5591667,
         "longitud": -92.9502222,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13453,7 +13453,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB003586",
@@ -13473,7 +13473,7 @@
         "total_camas": 47,
         "latitud": 17.4692,
         "longitud": -91.4114,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13482,7 +13482,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TCIMB005266",
@@ -13502,7 +13502,7 @@
         "total_camas": 99,
         "latitud": 18.2662319,
         "longitud": -93.2319501,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -13511,7 +13511,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TSIMB000316",
@@ -13879,8 +13879,8 @@
         "total_camas": 107,
         "latitud": 19.408775,
         "longitud": -98.1179722,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -13888,7 +13888,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "TLIMB001395",
@@ -13908,8 +13908,8 @@
         "total_camas": 61,
         "latitud": 19.1268755,
         "longitud": -98.2006896,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -13917,7 +13917,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "TLIMB001820",
@@ -13937,8 +13937,8 @@
         "total_camas": 140,
         "latitud": 19.3698807,
         "longitud": -98.2164354,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -13946,7 +13946,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.125
     },
     {
         "clues": "TLIMB002025",
@@ -13966,8 +13966,8 @@
         "total_camas": 67,
         "latitud": 19.5825618,
         "longitud": -98.5367416,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -13975,7 +13975,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "TLIMB002100",
@@ -13995,8 +13995,8 @@
         "total_camas": 50,
         "latitud": 19.2242266,
         "longitud": -98.3174848,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14004,7 +14004,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "TLIMB002136",
@@ -14024,8 +14024,8 @@
         "total_camas": 81,
         "latitud": 19.3063,
         "longitud": -97.9407917,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14033,7 +14033,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "VZIMB000230",
@@ -15039,7 +15039,7 @@
         "total_camas": 446,
         "latitud": 19.3186644,
         "longitud": -98.855389,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "formato_tics_servicios": "",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15048,7 +15048,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.0
     },
     {
         "clues": "OCIMB006826",
@@ -15213,7 +15213,7 @@
         "total_camas": 174,
         "latitud": 19.692886,
         "longitud": -101.154067,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15222,7 +15222,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MSIMB001844",
@@ -15271,7 +15271,7 @@
         "total_camas": 77,
         "latitud": 21.4807495,
         "longitud": -104.8459279,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15280,7 +15280,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "PLIMB004126",
@@ -15300,7 +15300,7 @@
         "total_camas": 98,
         "latitud": 18.9860572,
         "longitud": -98.2408335,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15309,7 +15309,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002493",
@@ -15329,7 +15329,7 @@
         "total_camas": 173,
         "latitud": 24.795667,
         "longitud": -107.450432,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15338,7 +15338,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "TLIMB002095",
@@ -15358,8 +15358,8 @@
         "total_camas": 65,
         "latitud": 19.3687028,
         "longitud": -98.2125199,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15367,7 +15367,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "ZSIMB002126",
@@ -15416,7 +15416,7 @@
         "total_camas": 90,
         "latitud": 18.4769823,
         "longitud": -97.4396876,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15425,7 +15425,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB002965",
@@ -15445,7 +15445,7 @@
         "total_camas": 178,
         "latitud": 22.116164,
         "longitud": -100.98585,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15454,7 +15454,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "OCIMB009631",
@@ -15532,7 +15532,7 @@
         "total_camas": 201,
         "latitud": 19.732402,
         "longitud": -101.102766,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -15541,7 +15541,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "TSIMB001931",
@@ -15590,8 +15590,8 @@
         "total_camas": 77,
         "latitud": 19.3683333,
         "longitud": -98.2113333,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15599,7 +15599,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.125
     },
     {
         "clues": "SRIMB002174",
@@ -16257,7 +16257,7 @@
         "total_camas": 118,
         "latitud": 17.976466,
         "longitud": -92.95339,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -16266,7 +16266,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "OCIMB001313",
@@ -16315,7 +16315,7 @@
         "total_camas": 246,
         "latitud": 19.0350132,
         "longitud": -98.2443939,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -16324,7 +16324,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "MSIMB002235",
@@ -16460,7 +16460,7 @@
         "total_camas": 138,
         "latitud": 24.798775,
         "longitud": -107.3994245,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -16469,7 +16469,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "DFIMB001385",
@@ -16692,7 +16692,7 @@
         "total_camas": 152,
         "latitud": 17.977151,
         "longitud": -92.952873,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -16701,7 +16701,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "BSIMB000783",
@@ -16924,7 +16924,7 @@
         "total_camas": 87,
         "latitud": 19.6930439,
         "longitud": -101.1554807,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -16933,7 +16933,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "OCIMB001330",
@@ -16982,7 +16982,7 @@
         "total_camas": 256,
         "latitud": 18.9881491,
         "longitud": -98.1825848,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -16991,7 +16991,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SPIMB000976",
@@ -17011,7 +17011,7 @@
         "total_camas": 92,
         "latitud": 22.2094949,
         "longitud": -100.9015162,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -17020,7 +17020,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB000615",
@@ -17040,7 +17040,7 @@
         "total_camas": 58,
         "latitud": 24.8168142,
         "longitud": -107.4280536,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -17049,7 +17049,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SRIMB000926",
@@ -17127,7 +17127,7 @@
         "total_camas": 83,
         "latitud": 18.0141707,
         "longitud": -92.920879,
-        "formato_tics_servicios": "",
+        "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -17136,7 +17136,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.0
+        "avance": 0.041666666666666664
     },
     {
         "clues": "TSIMB002532",
@@ -17359,7 +17359,7 @@
         "total_camas": 3,
         "latitud": 18.9853523,
         "longitud": -98.241914,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -17368,7 +17368,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "BSIMB000766",
@@ -17417,7 +17417,7 @@
         "total_camas": 1,
         "latitud": 21.5013648,
         "longitud": -104.8973839,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -17426,7 +17426,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SLIMB002971",
@@ -17446,7 +17446,7 @@
         "total_camas": 4,
         "latitud": 24.8204,
         "longitud": -107.405,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
@@ -17455,7 +17455,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.08333333333333333
     },
     {
         "clues": "SRIMB000902",
@@ -17562,8 +17562,8 @@
         "total_camas": 0,
         "latitud": 19.3680915,
         "longitud": -98.2104569,
-        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -17571,7 +17571,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.125
     },
     {
         "clues": "ZSIMB002225",
