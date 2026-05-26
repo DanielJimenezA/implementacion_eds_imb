@@ -103,6 +103,27 @@ header {
   letter-spacing: 1px;
   white-space: nowrap;
 }
+.update-banner {
+  max-width: 1700px;
+  margin: 12px auto 0 auto;
+  padding: 0 28px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--beige-pale);
+}
+
+#ultima-actualizacion {
+  margin-left: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--beige-pale);
+  border: 1px solid var(--beige-claro);
+  color: var(--verde-osc);
+  font-weight: 800;
+}
 
 .container {
   max-width: 1700px;
@@ -254,9 +275,7 @@ header {
   padding: 18px 18px 14px;
   position: relative;
   overflow: hidden;
-  transition:
-    transform 0.15s,
-    box-shadow 0.15s;
+  transition: transform 0.15s, box-shadow 0.15s;
   box-shadow: 0 1px 4px rgba(35, 91, 78, 0.06);
 }
 .kpi-card:hover {

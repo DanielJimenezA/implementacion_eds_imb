@@ -469,9 +469,7 @@ function cargarDistribucionEtapas(data) {
       nombre: "Diagnóstico de infraestructura concluido",
       color: "#E04525",
       cumple: (item) =>
-        contieneConcluido(item.formato_tics_servicios) ||
-        valorUpper(item.formato_tics_servicios).includes("ENVIADO") ||
-        item.avance >= 12.5,
+        valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS",
     },
     {
       nombre: "Entrega de equipos y config. de red concluida",
