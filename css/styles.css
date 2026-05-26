@@ -783,3 +783,136 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+header {
+  z-index: 5000;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 400;
+}
+
+@media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 14px;
+  }
+
+  .header-inner {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 14px;
+  }
+
+  .header-logo-wrap {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  .header-titles {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-titles h1 {
+    font-size: 15px;
+  }
+
+  .header-titles p {
+    font-size: 9px;
+    line-height: 1.3;
+  }
+
+  .header-badge {
+    margin: 0 auto;
+  }
+
+  .update-banner {
+    justify-content: center;
+    padding: 0 14px;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .filters-bar {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: none !important;
+  }
+
+  #f-search,
+  #f-categoria,
+  #f-etapa,
+  #results-count,
+  #f-entidad,
+  #f-tipologia,
+  .range-filter,
+  #btn-reset {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+
+  .kpi-grid,
+  .main-grid,
+  .analytics-grid,
+  .bottom-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  #map {
+    height: 460px;
+  }
+
+  .legend-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-card {
+    min-height: auto;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 620px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo-wrap img {
+    max-width: 260px;
+    height: auto;
+  }
+
+  .header-titles h1 {
+    font-size: 14px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #map {
+    height: 390px;
+  }
+
+  .kpi-value {
+    font-size: 30px;
+  }
+}
