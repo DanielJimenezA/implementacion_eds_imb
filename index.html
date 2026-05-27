@@ -88,7 +88,7 @@
         <button class="filter-reset" id="btn-reset">↺ Restablecer</button>
       </section>
 
-      <section class="kpi-grid">
+      <!-- <section class="kpi-grid">
         <article class="kpi-card" style="--kpi-color: var(--verde)">
           <div class="kpi-label">Total en seguimiento</div>
           <div class="kpi-value" id="kpi-total">0</div>
@@ -114,6 +114,51 @@
         </article>
 
         <article class="kpi-card" style="--kpi-color: var(--sabila)">
+          <div class="kpi-label">Avance promedio</div>
+          <div class="kpi-value">
+            <span id="kpi-prom">0.0</span><span>%</span>
+          </div>
+          <div class="kpi-sub">Resultado filtrado</div>
+        </article>
+      </section> -->
+      <section class="kpi-grid">
+        <article class="kpi-card" style="--kpi-color: var(--verde)">
+          <div class="kpi-label">Total en seguimiento</div>
+          <div class="kpi-value" id="kpi-total">0</div>
+          <div class="kpi-sub">Unidades hospitalarias</div>
+        </article>
+
+        <article class="kpi-card" style="--kpi-color: #722222">
+          <div class="kpi-label">Sin inicio</div>
+          <div class="kpi-value" id="kpi-sin">0</div>
+          <div class="kpi-sub">0% de avance</div>
+        </article>
+
+        <article class="kpi-card" style="--kpi-color: #f47c20">
+          <div class="kpi-label">Avance bajo</div>
+          <div class="kpi-value" id="kpi-bajo">0</div>
+          <div class="kpi-sub">&gt; 0% a 24.9%</div>
+        </article>
+
+        <article class="kpi-card" style="--kpi-color: #4aa090">
+          <div class="kpi-label">Avance medio</div>
+          <div class="kpi-value" id="kpi-medio">0</div>
+          <div class="kpi-sub">25% a 74.9%</div>
+        </article>
+
+        <article class="kpi-card" style="--kpi-color: #3070c0">
+          <div class="kpi-label">Avance alto</div>
+          <div class="kpi-value" id="kpi-alto">0</div>
+          <div class="kpi-sub">75% a 99.9%</div>
+        </article>
+
+        <article class="kpi-card" style="--kpi-color: var(--sabila)">
+          <div class="kpi-label">Completado</div>
+          <div class="kpi-value" id="kpi-completo">0</div>
+          <div class="kpi-sub">100% de avance</div>
+        </article>
+
+        <article class="kpi-card" style="--kpi-color: var(--beige-osc)">
           <div class="kpi-label">Avance promedio</div>
           <div class="kpi-value">
             <span id="kpi-prom">0.0</span><span>%</span>
@@ -161,6 +206,15 @@
             <canvas id="tipoChart"></canvas>
           </div>
         </article>
+      </section>
+
+      <section class="section-card progress-matrix-card">
+        <div class="section-header">
+          <h2>Matriz de avance por entidad y etapa</h2>
+          <span class="section-badge">Porcentaje de avance</span>
+        </div>
+
+        <div class="matrix-container" id="progress-matrix"></div>
       </section>
 
       <section class="bottom-grid">
