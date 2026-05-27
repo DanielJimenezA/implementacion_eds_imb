@@ -21,8 +21,78 @@ const etapasOrden = [
   "En uso del MoCE",
 ];
 
+const etapasDistribucion = [
+  {
+    nombre: "Kick-Off",
+    corto: "Kick-Off",
+    color: "#235B4E",
+    cumple: (item) => item.entidad !== "GUANAJUATO",
+  },
+  {
+    nombre: "Diagnóstico de infraestructura concluido",
+    corto: "Diagnóstico",
+    color: "#E04525",
+    cumple: (item) =>
+      valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS",
+  },
+  {
+    nombre: "Entrega de equipos y config. de red concluida",
+    corto: "Entrega equipos",
+    color: "#F47C20",
+    cumple: (item) =>
+      contieneConcluido(item.entrega_equipos_red) || item.avance >= 25,
+  },
+  {
+    nombre: "Formato PHEDS concluido",
+    corto: "Formato PHEDS",
+    color: "#F2B52E",
+    cumple: (item) =>
+      contieneConcluido(item.formato_pheds) || item.avance >= 37.5,
+  },
+  {
+    nombre: "Formato MoCE concluido",
+    corto: "Formato MoCE",
+    color: "#B7D44A",
+    cumple: (item) => contieneConcluido(item.formato_moce) || item.avance >= 50,
+  },
+  {
+    nombre: "Configuraciones iniciales concluidas",
+    corto: "Configuración",
+    color: "#A6CF55",
+    cumple: (item) =>
+      contieneConcluido(item.configuraciones_iniciales) || item.avance >= 62.5,
+  },
+  {
+    nombre: "Capacitaciones concluidas",
+    corto: "Capacitación",
+    color: "#67B74B",
+    cumple: (item) =>
+      contieneConcluido(item.capacitaciones) || item.avance >= 75,
+  },
+  {
+    nombre: "En uso del PHEDS",
+    corto: "Uso PHEDS",
+    color: "#4AA090",
+    cumple: (item) => contieneSi(item.uso_pheds) || item.avance >= 87.5,
+  },
+  {
+    nombre: "En uso del MoCE",
+    corto: "Uso MoCE",
+    color: "#3070C0",
+    cumple: (item) => contieneSi(item.uso_moce) || item.avance >= 100,
+  },
+  {
+    nombre: "En uso de PHEDS y MoCE",
+    corto: "PHEDS y MoCE",
+    color: "#235B4E",
+    cumple: (item) =>
+      item.avance >= 100 ||
+      (contieneSi(item.uso_pheds) && contieneSi(item.uso_moce)),
+  },
+];
+
 const etapaColores = {
-  "En uso de PHEDS y MoCE": "#3070C0",
+  "En uso de PHEDS y MoCE": "#00037A",
   "Realizando diagnóstico de infraestructura": "#7A1E1E",
   "Diagnóstico de infraestructura concluido": "#E04525",
   "Entrega de equipos y config. de red concluida": "#F47C20",
@@ -48,7 +118,9 @@ async function cargarDatos() {
 
     datosGlobales = data
       .map(normalizarRegistro)
-      .filter((d) => d.latitud !== null && d.longitud !== null && d.clues !== "");
+      .filter(
+        (d) => d.latitud !== null && d.longitud !== null && d.clues !== ""
+      );
 
     inicializarMapa();
     cargarLeyenda();
@@ -65,6 +137,7 @@ function normalizarRegistro(item) {
     ...item,
     clues: texto(item.clues),
     entidad: texto(item.entidad),
+    tipo_entidad: texto(item.tipo_entidad),
     municipio: texto(item.municipio),
     nombre_unidad: texto(item.nombre_unidad),
     categoria_gerencial: texto(item.categoria_gerencial),
@@ -145,7 +218,7 @@ function contieneSi(valor) {
   return v === "SI" || v === "SÍ" || v.includes("SI");
 }
 
-// 
+//
 function obtenerEtapa(item) {
   if (item.avance >= 100) {
     return "En uso de PHEDS y MoCE";
@@ -205,9 +278,15 @@ function cargarFiltros(data) {
   });
 
   document.getElementById("f-search").addEventListener("input", aplicarFiltros);
-  document.getElementById("f-entidad").addEventListener("change", aplicarFiltros);
-  document.getElementById("f-categoria").addEventListener("change", aplicarFiltros);
-  document.getElementById("f-tipologia").addEventListener("change", aplicarFiltros);
+  document
+    .getElementById("f-entidad")
+    .addEventListener("change", aplicarFiltros);
+  document
+    .getElementById("f-categoria")
+    .addEventListener("change", aplicarFiltros);
+  document
+    .getElementById("f-tipologia")
+    .addEventListener("change", aplicarFiltros);
   // document.getElementById("f-estatus").addEventListener("change", aplicarFiltros);
   document.getElementById("f-etapa").addEventListener("change", aplicarFiltros);
   document.getElementById("f-avance").addEventListener("input", aplicarFiltros);
@@ -220,7 +299,9 @@ function llenarSelect(id, data, campo) {
 
   select.innerHTML = `<option value="">${valorInicial}</option>`;
 
-  const valores = [...new Set(data.map((d) => texto(d[campo])).filter(Boolean))].sort();
+  const valores = [
+    ...new Set(data.map((d) => texto(d[campo])).filter(Boolean)),
+  ].sort();
 
   valores.forEach((valor) => {
     const option = document.createElement("option");
@@ -244,7 +325,9 @@ function resetFilters() {
 }
 
 function aplicarFiltros() {
-  const busqueda = texto(document.getElementById("f-search").value).toLowerCase();
+  const busqueda = texto(
+    document.getElementById("f-search").value
+  ).toLowerCase();
   const entidad = document.getElementById("f-entidad").value;
   const categoria = document.getElementById("f-categoria").value;
   const tipologia = document.getElementById("f-tipologia").value;
@@ -257,10 +340,11 @@ function aplicarFiltros() {
   let filtrado = [...datosGlobales];
 
   if (busqueda) {
-    filtrado = filtrado.filter((d) =>
-      d.clues.toLowerCase().includes(busqueda) ||
-      d.nombre_unidad.toLowerCase().includes(busqueda) ||
-      d.municipio.toLowerCase().includes(busqueda)
+    filtrado = filtrado.filter(
+      (d) =>
+        d.clues.toLowerCase().includes(busqueda) ||
+        d.nombre_unidad.toLowerCase().includes(busqueda) ||
+        d.municipio.toLowerCase().includes(busqueda)
     );
   }
 
@@ -296,27 +380,58 @@ function actualizarDashboard(data) {
   cargarGraficaTipologia(data);
   cargarEntidades(data);
   cargarTabla(data);
+  cargarMatrizAvance(data);
 
-  document.getElementById("results-count").innerText = `${data.length} unidades`;
+  document.getElementById(
+    "results-count"
+  ).innerText = `${data.length} unidades`;
   document.getElementById("map-count").innerText = `${data.length} unidades`;
-  document.getElementById("table-count").innerText = `${data.length} resultados`;
+  document.getElementById(
+    "table-count"
+  ).innerText = `${data.length} resultados`;
   document.getElementById("footer-total").innerText = data.length;
 }
 
+// function cargarIndicadores(data) {
+//   const total = data.length;
+//   const alto = data.filter((d) => d.avance >= 75).length;
+//   const medio = data.filter((d) => d.avance >= 25 && d.avance < 75).length;
+//   const sinInicio = data.filter((d) => d.avance === 0).length;
+
+//   const promedio = total
+//     ? data.reduce((acc, d) => acc + d.avance, 0) / total
+//     : 0;
+
+//   document.getElementById("kpi-total").innerText = total;
+//   document.getElementById("kpi-alto").innerText = alto;
+//   document.getElementById("kpi-medio").innerText = medio;
+//   document.getElementById("kpi-sin").innerText = sinInicio;
+//   document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
+// }
+
 function cargarIndicadores(data) {
   const total = data.length;
-  const alto = data.filter((d) => d.avance >= 75).length;
-  const medio = data.filter((d) => d.avance >= 25 && d.avance < 75).length;
+
   const sinInicio = data.filter((d) => d.avance === 0).length;
+
+  const bajo = data.filter((d) => d.avance > 0 && d.avance < 25).length;
+
+  const medio = data.filter((d) => d.avance >= 25 && d.avance < 75).length;
+
+  const alto = data.filter((d) => d.avance >= 75 && d.avance < 100).length;
+
+  const completo = data.filter((d) => d.avance >= 100).length;
 
   const promedio = total
     ? data.reduce((acc, d) => acc + d.avance, 0) / total
     : 0;
 
   document.getElementById("kpi-total").innerText = total;
-  document.getElementById("kpi-alto").innerText = alto;
-  document.getElementById("kpi-medio").innerText = medio;
   document.getElementById("kpi-sin").innerText = sinInicio;
+  document.getElementById("kpi-bajo").innerText = bajo;
+  document.getElementById("kpi-medio").innerText = medio;
+  document.getElementById("kpi-alto").innerText = alto;
+  document.getElementById("kpi-completo").innerText = completo;
   document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
 }
 
@@ -400,7 +515,9 @@ function mostrarDetalle(item) {
 
       <div class="detail-item full">
         <div class="detail-label">Categoría gerencial</div>
-        <div class="detail-value">${item.categoria_gerencial || "Sin dato"}</div>
+        <div class="detail-value">${
+          item.categoria_gerencial || "Sin dato"
+        }</div>
       </div>
 
       <div class="detail-item full">
@@ -425,7 +542,9 @@ function mostrarDetalle(item) {
 
       <div class="detail-item">
         <div class="detail-label">Categoría Gerencial</div>
-        <div class="detail-value">${item.categoria_gerencial || "Sin dato"}</div>
+        <div class="detail-value">${
+          item.categoria_gerencial || "Sin dato"
+        }</div>
       </div>
         
       <div class="detail-item">
@@ -440,7 +559,9 @@ function mostrarDetalle(item) {
 
       <div class="detail-item full">
           <div class="detail-label">Observaciones</div>
-          <div class="detail-value">${item.observaciones || "Sin observaciones"}</div>
+          <div class="detail-value">${
+            item.observaciones || "Sin observaciones"
+          }</div>
         </div>
       </div>
   `;
@@ -462,76 +583,13 @@ function cargarLeyenda() {
     })
     .join("");
 }
-
 function cargarDistribucionEtapas(data) {
-  const etapas = [
-    {
-      nombre: "Diagnóstico de infraestructura concluido",
-      color: "#E04525",
-      cumple: (item) =>
-        valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS",
-    },
-    {
-      nombre: "Entrega de equipos y config. de red concluida",
-      color: "#F47C20",
-      cumple: (item) =>
-        contieneConcluido(item.entrega_equipos_red) ||
-        item.avance >= 25,
-    },
-    {
-      nombre: "Formato PHEDS concluido",
-      color: "#F2B52E",
-      cumple: (item) =>
-        contieneConcluido(item.formato_pheds) ||
-        item.avance >= 37.5,
-    },
-    {
-      nombre: "Formato MOCE concluido",
-      color: "#B7D44A",
-      cumple: (item) =>
-        contieneConcluido(item.formato_moce) ||
-        item.avance >= 50,
-    },
-    {
-      nombre: "Configuraciones iniciales concluidas",
-      color: "#A6CF55",
-      cumple: (item) =>
-        contieneConcluido(item.configuraciones_iniciales) ||
-        item.avance >= 62.5,
-    },
-    {
-      nombre: "Capacitaciones concluidas",
-      color: "#67B74B",
-      cumple: (item) =>
-        contieneConcluido(item.capacitaciones) ||
-        item.avance >= 75,
-    },
-    {
-      nombre: "En uso del PHEDS",
-      color: "#4AA090",
-      cumple: (item) =>
-        contieneSi(item.uso_pheds) ||
-        item.avance >= 87.5,
-    },
-    {
-      nombre: "En uso del MOCE",
-      color: "#3070C0",
-      cumple: (item) =>
-        contieneSi(item.uso_moce) ||
-        item.avance >= 100,
-    },
-    {
-      nombre: "Realizando diagnóstico de infraestructura",
-      color: "#7A1E1E",
-      cumple: (item) => item.avance === 0,
-    },
-  ];
-
   const total = data.length || 1;
 
-  document.getElementById("stage-summary").innerHTML = etapas
-    .map((etapa) => {
-      const valor = data.filter(etapa.cumple).length;
+  document.getElementById("stage-summary").innerHTML = etapasDistribucion
+    .map((etapa, index) => {
+      const unidades = data.filter(etapa.cumple);
+      const valor = unidades.length;
       const porcentaje = (valor / total) * 100;
 
       return `
@@ -547,43 +605,165 @@ function cargarDistribucionEtapas(data) {
             ></div>
           </div>
 
-          <div class="stage-bar-count">${valor}</div>
+          <button
+            class="stage-bar-count"
+            onclick="mostrarUnidadesPorEtapa(${index})"
+            title="Ver unidades"
+          >
+            ${valor}
+          </button>
         </div>
       `;
     })
     .join("");
 }
 
-// function cargarDistribucionEtapas(data) {
-//   const conteo = {};
-//   etapasOrden.forEach((etapa) => (conteo[etapa] = 0));
+function cargarMatrizAvance(data) {
+  const contenedor = document.getElementById("progress-matrix");
 
-//   data.forEach((item) => {
-//     const etapa = obtenerEtapa(item);
-//     conteo[etapa] = (conteo[etapa] || 0) + 1;
-//   });
+  if (!contenedor) return;
 
-//   const total = data.length || 1;
+  const entidades = [
+    ...new Set(
+      data
+        .map((d) =>
+          valorUpper(d.tipo_entidad) === "HRAE" ? "HRAE" : d.entidad
+        )
+        .filter(Boolean)
+    ),
+  ]
+    .map((entidad) => {
+      const unidadesEntidad = data.filter((d) => {
+        const grupo =
+          valorUpper(d.tipo_entidad) === "HRAE" ? "HRAE" : d.entidad;
 
-//   document.getElementById("stage-summary").innerHTML = etapasOrden
-//     .map((etapa) => {
-//       const valor = conteo[etapa] || 0;
-//       const porcentaje = (valor / total) * 100;
-//       const color = etapaColores[etapa];
+        return grupo === entidad;
+      });
 
-//       return `
-//         <div class="stage-bar-row">
-//           <span class="etapa-dot" style="background:${color}"></span>
-//           <div class="stage-bar-label">${etapa}</div>
-//           <div class="stage-bar-track">
-//             <div class="stage-bar-fill" style="width:${porcentaje}%; background:${color}"></div>
-//           </div>
-//           <div class="stage-bar-count">${valor}</div>
-//         </div>
-//       `;
-//     })
-//     .join("");
-// }
+      const totalEntidad = unidadesEntidad.length || 1;
+
+      const porcentajes = etapasDistribucion.map((etapa) => {
+        const cantidad = unidadesEntidad.filter(etapa.cumple).length;
+        return (cantidad / totalEntidad) * 100;
+      });
+
+      const celdasConAvance = porcentajes.filter((p) => p > 0).length;
+
+      const avanceTotal = porcentajes.reduce((acc, p) => acc + p, 0);
+
+      return {
+        entidad,
+        celdasConAvance,
+        avanceTotal,
+      };
+    })
+    .sort((a, b) => {
+      if (b.celdasConAvance !== a.celdasConAvance) {
+        return b.celdasConAvance - a.celdasConAvance;
+      }
+
+      return b.avanceTotal - a.avanceTotal;
+    })
+    .map((item) => item.entidad);
+
+  const columnas = ["Entidad", ...etapasDistribucion.map((e) => e.corto)];
+
+  contenedor.innerHTML = `
+    <div
+      class="progress-matrix"
+      style="grid-template-columns: minmax(120px, 1.15fr) repeat(${
+        etapasDistribucion.length
+      }, minmax(70px, 1fr));"
+    >
+      ${columnas
+        .map((col) => `<div class="matrix-cell matrix-header">${col}</div>`)
+        .join("")}
+
+      ${entidades
+        .map((entidad) => {
+          const unidadesEntidad = data.filter((d) => {
+            const grupo =
+              valorUpper(d.tipo_entidad) === "HRAE" ? "HRAE" : d.entidad;
+
+            return grupo === entidad;
+          });
+
+          const totalEntidad = unidadesEntidad.length || 1;
+
+          const valores = etapasDistribucion
+            .map((etapa) => {
+              const cantidad = unidadesEntidad.filter(etapa.cumple).length;
+              const porcentaje = (cantidad / totalEntidad) * 100;
+
+              const clase = porcentaje > 0 ? "active" : "low";
+
+              return `
+                <div
+                  class="matrix-cell matrix-value ${clase}"
+                  title="${cantidad} de ${totalEntidad} unidades"
+                >
+                  ${porcentaje.toFixed(0)}%
+                </div>
+              `;
+            })
+            .join("");
+
+          return `
+            <div class="matrix-cell matrix-entity">${entidad}</div>
+            ${valores}
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
+function mostrarUnidadesPorEtapa(index) {
+  const etapa = etapasDistribucion[index];
+
+  if (!etapa) return;
+
+  const unidades = datosGlobales.filter(etapa.cumple);
+
+  cargarTabla(unidades);
+  cargarMapa(unidades);
+  cargarIndicadores(unidades);
+  cargarGraficaTipologia(unidades);
+  cargarEntidades(unidades);
+  cargarMatrizAvance(unidades);
+
+  document.getElementById(
+    "results-count"
+  ).innerText = `${unidades.length} unidades`;
+
+  document.getElementById(
+    "map-count"
+  ).innerText = `${unidades.length} unidades`;
+
+  document.getElementById(
+    "table-count"
+  ).innerText = `${unidades.length} resultados · ${etapa.nombre}`;
+
+  const detalle = document.getElementById("detalle-unidad");
+
+  if (detalle) {
+    detalle.innerHTML = `
+      <div class="no-data">
+        Mostrando ${unidades.length} unidades para:<br>
+        <strong>${etapa.nombre}</strong>
+      </div>
+    `;
+  }
+
+  const tabla = document.querySelector(".bottom-grid");
+
+  if (tabla) {
+    tabla.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+}
 
 function cargarGraficaTipologia(data) {
   const resumen = {};
@@ -603,9 +783,7 @@ function cargarGraficaTipologia(data) {
 
   const labels = Object.keys(resumen);
   const values = labels.map((label) =>
-    resumen[label].total
-      ? resumen[label].avance / resumen[label].total
-      : 0
+    resumen[label].total ? resumen[label].avance / resumen[label].total : 0
   );
 
   const canvas = document.getElementById("tipoChart");
@@ -685,18 +863,24 @@ function cargarEntidades(data) {
     }))
     .sort((a, b) => b.avancePromedio - a.avancePromedio);
 
-  document.getElementById("entidades-count").innerText = `${entidades.length} estados`;
+  document.getElementById(
+    "entidades-count"
+  ).innerText = `${entidades.length} estados`;
 
   document.getElementById("entidades-body").innerHTML = entidades
     .map((item) => {
       const color = colorPorAvance(item.avancePromedio);
 
       return `
-        <div class="entidad-row" onclick="filtrarEntidad('${escapeJS(item.entidad)}')">
+        <div class="entidad-row" onclick="filtrarEntidad('${escapeJS(
+          item.entidad
+        )}')">
           <div>
             <div class="entidad-name">${item.entidad}</div>
             <div class="bar-mini">
-              <div class="bar-mini-fill" style="width:${item.avancePromedio}%;background:${color}"></div>
+              <div class="bar-mini-fill" style="width:${
+                item.avancePromedio
+              }%;background:${color}"></div>
             </div>
           </div>
           <div class="entidad-count">${item.total}</div>
