@@ -1112,7 +1112,7 @@
     {
         "clues": "YNIMB000024",
         "inst": "IMB",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEKAX",
         "nombre_unidad": "HOSPITAL GENERAL DE TEKAX, YUCATÁN",
@@ -1142,7 +1142,7 @@
     {
         "clues": "CSIMB003506",
         "inst": "IMB",
-        "entidad": "CHIAPAS",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "TAPACHULA",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD CIUDAD SALUD",
@@ -1172,7 +1172,7 @@
     {
         "clues": "CSIMB003511",
         "inst": "IMB",
-        "entidad": "CHIAPAS",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "TUXTLA GUTIERREZ",
         "nombre_unidad": "HOSPITAL DE ESPECIALIDADES PEDIÁTRICAS",
@@ -1202,7 +1202,7 @@
     {
         "clues": "TSIMB002865",
         "inst": "IMB",
-        "entidad": "TAMAULIPAS",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "VICTORIA",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD EN CD VICTORIA BICENTENARIO 2010",
@@ -1322,7 +1322,7 @@
     {
         "clues": "DFIMB002353",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "GUSTAVO A. MADERO",
         "nombre_unidad": "HOSPITAL ONCOLÓGICO PARA LA MUJER DE LA CIUDAD DE MÉXICO",
@@ -1352,7 +1352,7 @@
     {
         "clues": "YNIMB000036",
         "inst": "IMB",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MERIDA",
         "nombre_unidad": "HOSPITAL GENERAL DR AGUSTÍN O´HORÁN",
@@ -1366,8 +1366,8 @@
         "total_consultorios": 0,
         "total_quirofanos": 0,
         "total_camas": 0,
-        "latitud": 20.9018891,
-        "longitud": -89.6419666,
+        "latitud": 209018891.0,
+        "longitud": -896419666.0,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
@@ -1382,7 +1382,7 @@
     {
         "clues": "YNIMB000012",
         "inst": "IMB",
-        "entidad": "YUCATÁN",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "MERIDA",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE LA PENÍNSULA DE YUCATÁN",
@@ -1396,8 +1396,8 @@
         "total_consultorios": 0,
         "total_quirofanos": 0,
         "total_camas": 0,
-        "latitud": 21.0193421,
-        "longitud": -89.5819034,
+        "latitud": 210193421.0,
+        "longitud": -895819034.0,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
@@ -1490,14 +1490,14 @@
         "longitud": -116.600282,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000266",
@@ -1519,15 +1519,15 @@
         "latitud": 19.341048,
         "longitud": -90.733363,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000674",
@@ -1549,15 +1549,15 @@
         "latitud": 18.18522,
         "longitud": -91.037132,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000831",
@@ -1579,15 +1579,15 @@
         "latitud": 19.754539,
         "longitud": -89.847586,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000942",
@@ -1609,15 +1609,15 @@
         "latitud": 18.255417,
         "longitud": -92.100193,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000966",
@@ -1639,15 +1639,15 @@
         "latitud": 18.968286,
         "longitud": -91.175034,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB001164",
@@ -1669,15 +1669,15 @@
         "latitud": 18.516774,
         "longitud": -89.395938,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB001362",
@@ -1699,20 +1699,20 @@
         "latitud": 20.380403,
         "longitud": -90.064245,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "YNSSA013464",
         "inst": "SSA",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "PETO",
         "nombre_unidad": "HOSPITAL COMUNITARIO DE PETO, YUCATÁN",
@@ -1742,7 +1742,7 @@
     {
         "clues": "YNSSA013481",
         "inst": "SSA",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "TICUL",
         "nombre_unidad": "HOSPITAL COMUNITARIO DE TICUL, YUCATÁN",
@@ -1772,7 +1772,7 @@
     {
         "clues": "VZIMB008980",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "NAUTLA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE NAUTLA",
@@ -1788,8 +1788,8 @@
         "total_camas": 35,
         "latitud": 18.8332721,
         "longitud": -97.0807717,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -1797,12 +1797,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB008975",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "NARANJOS AMATLAN",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD NARANJOS AMATLÁN, VERACRUZ",
@@ -1818,8 +1818,8 @@
         "total_camas": 41,
         "latitud": 21.3301468,
         "longitud": -97.6924797,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -1827,12 +1827,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "DFIMB001822",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "BENITO JUAREZ",
         "nombre_unidad": "HOSPITAL GENERAL XOCO",
@@ -2822,7 +2822,7 @@
     {
         "clues": "MCIMB000890",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ATIZAPAN",
         "nombre_unidad": "HOSPITAL MUNICIPAL SANTA CRUZ ATIZAPÁN BICENTENARIO",
@@ -2852,7 +2852,7 @@
     {
         "clues": "MCIMB001351",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "COATEPEC HARINAS",
         "nombre_unidad": "HOSPITAL  RAMÓN LÓPEZ RAYÓN BICENTENARIO COATEPEC HARINAS",
@@ -2882,7 +2882,7 @@
     {
         "clues": "MCIMB002244",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "HUEHUETOCA",
         "nombre_unidad": "HOSPITAL MUNICIPAL HUEHUETOCA",
@@ -2912,7 +2912,7 @@
     {
         "clues": "MCIMB002331",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "HUIXQUILUCAN",
         "nombre_unidad": "HOSPITAL SANTOS DEGOLLADO BICENTENARIO",
@@ -2942,7 +2942,7 @@
     {
         "clues": "MCIMB002874",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "XALATLACO",
         "nombre_unidad": "HOSPITAL MUNICIPAL XALATLACO MARIANO MATAMOROS",
@@ -2972,7 +2972,7 @@
     {
         "clues": "MCIMB004344",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "EL ORO",
         "nombre_unidad": "HOSPITAL IGNACIO LÓPEZ RAYÓN BICENTENARIO",
@@ -3002,7 +3002,7 @@
     {
         "clues": "MCIMB004443",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "OTUMBA",
         "nombre_unidad": "HOSPITAL MUNICIPAL OTUMBA BICENTENARIO",
@@ -3032,7 +3032,7 @@
     {
         "clues": "MCIMB005102",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "SULTEPEC",
         "nombre_unidad": "HOSPITAL JOSÉ MARÍA COSS BICENTENARIO",
@@ -3062,7 +3062,7 @@
     {
         "clues": "MCIMB005942",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TENANGO DEL VALLE",
         "nombre_unidad": "HOSPITAL MUNICIPAL MARIANO MATAMOROS BICENTENARIO TENANGO DEL VALLE",
@@ -3092,7 +3092,7 @@
     {
         "clues": "MCIMB006181",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEPETLIXPA",
         "nombre_unidad": "HM TEPETLIXPA HERMENEGILDO GALEANA, BICENTENARIO",
@@ -3122,7 +3122,7 @@
     {
         "clues": "MCIMB006275",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEXCALTITLAN",
         "nombre_unidad": "HOSPITAL JUAN ALDAMA BICENTENARIO",
@@ -3152,7 +3152,7 @@
     {
         "clues": "MCIMB006893",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLATLAYA",
         "nombre_unidad": "HOSPITAL MUNICIPAL SAN PEDRO LIMÓN",
@@ -3182,7 +3182,7 @@
     {
         "clues": "MCIMB007465",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VILLA GUERRERO",
         "nombre_unidad": "HOSPITAL MUNICIPAL BICENTENARIO HERMENEGILDO GALEANA VILLA GUERRERO",
@@ -3212,7 +3212,7 @@
     {
         "clues": "MCIMB007540",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VILLA VICTORIA",
         "nombre_unidad": "HOSPITAL GUADALUPE VICTORIA BICENTENARIO",
@@ -3242,7 +3242,7 @@
     {
         "clues": "MCIMB007960",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ZUMPANGO",
         "nombre_unidad": "HOSPITAL MUNICIPAL SAN JUAN ZITLALTEPEC",
@@ -3272,7 +3272,7 @@
     {
         "clues": "MCIMB008556",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "LUVIANOS",
         "nombre_unidad": "HOSPITAL VALERIO TRUJANO BICENTENARIO",
@@ -3302,7 +3302,7 @@
     {
         "clues": "MCIMB008824",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TECAMAC",
         "nombre_unidad": "HOSPITAL MUNICIPAL TECAMAC LIC. CÉSAR CAMACHO QUIROZ",
@@ -3332,7 +3332,7 @@
     {
         "clues": "MCIMB009051",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ACAMBAY DE RUIZ CASTAÑEDA",
         "nombre_unidad": "HOSPITAL MUNICIPAL ACAMBAY IGNACIO ALLENDE  BICENTENARIO",
@@ -3362,7 +3362,7 @@
     {
         "clues": "MCIMB009162",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEMOAYA",
         "nombre_unidad": "HOSPITAL MUNICIPAL TEMOAYA",
@@ -3392,7 +3392,7 @@
     {
         "clues": "MCIMB009186",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ZACUALPAN",
         "nombre_unidad": "HOSPITAL MUNICIPAL ZACUALPAN",
@@ -3422,7 +3422,7 @@
     {
         "clues": "MCIMB009425",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "LERMA",
         "nombre_unidad": "HOSPITAL MUNICIPAL LERMA",
@@ -3452,7 +3452,7 @@
     {
         "clues": "MCIMB009734",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VILLA DEL CARBON",
         "nombre_unidad": "HOSPITAL MUNICIPAL VILLA DEL CARBON",
@@ -3482,7 +3482,7 @@
     {
         "clues": "MCIMB010224",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CHICONCUAC",
         "nombre_unidad": "HOSPITAL MUNICIPAL DE CHICONCUAC",
@@ -3512,7 +3512,7 @@
     {
         "clues": "MCIMB010294",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "MALINALCO",
         "nombre_unidad": "HOSPITAL MUNICIPAL MALINALCO PEDRO ASCENCIO DE ALQUISIRAS",
@@ -3542,7 +3542,7 @@
     {
         "clues": "MCIMB010825",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTAPALUCA",
         "nombre_unidad": "HOSPITAL MUNICIPAL IXTAPALUCA LEONA VICARIO BICENTENARIO",
@@ -3572,7 +3572,7 @@
     {
         "clues": "MCIMB010842",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "OTZOLOTEPEC",
         "nombre_unidad": "SANTA MARÍA TETITLA",
@@ -3602,7 +3602,7 @@
     {
         "clues": "MCIMB011694",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "XONACATLAN",
         "nombre_unidad": "HOSPITAL MUNICIPAL XONACATLÁN VICENTE GUERRERO BICENTENARIO",
@@ -3632,7 +3632,7 @@
     {
         "clues": "MCIMB012114",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEMASCALTEPEC",
         "nombre_unidad": "HOSPITAL MUNICIPAL TEMASCALTEPEC",
@@ -3662,7 +3662,7 @@
     {
         "clues": "MCIMB012131",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "JIQUIPILCO",
         "nombre_unidad": "HOSPITAL MUNICIPAL HERMENEGILDO GALEANA JIQUIPILCO",
@@ -3692,7 +3692,7 @@
     {
         "clues": "MCIMB012196",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "NICOLAS ROMERO",
         "nombre_unidad": "HOSPITAL MUNICIPAL JUAN ALDAMA VILLA NICOLÁS ROMERO",
@@ -3722,7 +3722,7 @@
     {
         "clues": "MNIMB000230",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "ARTEAGA",
         "nombre_unidad": "HOSPITAL INTEGRAL ARTEAGA",
@@ -3752,7 +3752,7 @@
     {
         "clues": "MNIMB000353",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "COAHUAYANA",
         "nombre_unidad": "HOSPITAL INTEGRAL COAHUAYANA",
@@ -3782,7 +3782,7 @@
     {
         "clues": "MNIMB001601",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MUGICA",
         "nombre_unidad": "HOSPITAL INTEGRAL NUEVA ITALIA",
@@ -3812,7 +3812,7 @@
     {
         "clues": "MNIMB003940",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "TUZANTLA",
         "nombre_unidad": "HOSPITAL COMUNITARIO TUZANTLA",
@@ -3842,7 +3842,7 @@
     {
         "clues": "MNIMB003952",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "NOCUPETARO",
         "nombre_unidad": "HOSPITAL COMUNITARIO CARACUARO-NOCUPETARO",
@@ -3872,7 +3872,7 @@
     {
         "clues": "MNIMB003981",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "LA HUACANA",
         "nombre_unidad": "HOSPITAL COMUNITARIO LA HUACANA",
@@ -3902,7 +3902,7 @@
     {
         "clues": "MNIMB004751",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "AQUILA",
         "nombre_unidad": "HOSPITAL COMUNITARIO MARUATA",
@@ -3976,8 +3976,8 @@
         "total_consultorios": 0,
         "total_quirofanos": 0,
         "total_camas": 0,
-        "latitud": 18.8759753,
-        "longitud": -99.1693427,
+        "latitud": 188759753.0,
+        "longitud": -991693427.0,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
@@ -6002,7 +6002,7 @@
     {
         "clues": "SPIMB000042",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "AQUISMON",
         "nombre_unidad": "HOSPITAL COMUNITARIO AQUISMON",
@@ -6032,7 +6032,7 @@
     {
         "clues": "SPIMB000170",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "CIUDAD DEL MAIZ",
         "nombre_unidad": "HOSPITAL COMUNITARIO CIUDAD DEL MAÍZ",
@@ -6062,7 +6062,7 @@
     {
         "clues": "SPIMB000643",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "SALINAS",
         "nombre_unidad": "HOSPITAL COMUNITARIO SALINAS DE HIDALGO",
@@ -6092,7 +6092,7 @@
     {
         "clues": "SPIMB001063",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TAMAZUNCHALE",
         "nombre_unidad": "HOSPITAL COMUNITARIO TAMAZUNCHALE",
@@ -6122,7 +6122,7 @@
     {
         "clues": "SPIMB001804",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "VILLA DE ARISTA",
         "nombre_unidad": "HOSPITAL COMUNITARIO VILLA DE ARISTA",
@@ -6152,7 +6152,7 @@
     {
         "clues": "SPIMB001920",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "EBANO",
         "nombre_unidad": "HOSPITAL COMUNITARIO EBANO",
@@ -6182,7 +6182,7 @@
     {
         "clues": "SPIMB002801",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TAMUIN",
         "nombre_unidad": "HOSPITAL COMUNITARIO DE TAMUIN",
@@ -6212,7 +6212,7 @@
     {
         "clues": "SPIMB002813",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "XILITLA",
         "nombre_unidad": "HOSPITAL BASICO COMUNITARIO DE XILITLA",
@@ -7099,15 +7099,15 @@
         "latitud": 19.3265101,
         "longitud": -97.6474589,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB000555",
@@ -7129,15 +7129,15 @@
         "latitud": 19.3337028,
         "longitud": -98.1694806,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB001050",
@@ -7159,15 +7159,15 @@
         "latitud": 19.2029556,
         "longitud": -98.2491111,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB001412",
@@ -7189,20 +7189,20 @@
         "latitud": 19.6195083,
         "longitud": -98.1279306,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "VZIMB000254",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "ALVARADO",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE ALVARADO",
@@ -7218,8 +7218,8 @@
         "total_camas": 19,
         "latitud": 18.77045,
         "longitud": -95.7618,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7227,12 +7227,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB000691",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "CATEMACO",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD CATEMACO",
@@ -7248,8 +7248,8 @@
         "total_camas": 25,
         "latitud": 18.42124,
         "longitud": -95.1014,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7257,12 +7257,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB000790",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "COATEPEC",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD COATEPEC",
@@ -7278,8 +7278,8 @@
         "total_camas": 36,
         "latitud": 19.449101,
         "longitud": -96.959187,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7287,12 +7287,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB001794",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "GUTIERREZ ZAMORA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE GUTIÉRREZ ZAMORA",
@@ -7308,8 +7308,8 @@
         "total_camas": 24,
         "latitud": 20.45738,
         "longitud": -97.0872,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7317,12 +7317,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB001922",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "HUAYACOCOTLA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE  HUAYACOCOTLA",
@@ -7338,8 +7338,8 @@
         "total_camas": 18,
         "latitud": 20.53659,
         "longitud": -98.4834,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7347,12 +7347,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002120",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXHUATLAN DEL SURESTE",
         "nombre_unidad": "HOSPITAL COMUNITARIO DE IXHUATLAN DEL SURESTE",
@@ -7368,8 +7368,8 @@
         "total_camas": 36,
         "latitud": 18.02811,
         "longitud": -94.39458,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7377,12 +7377,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002511",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "JESUS CARRANZA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD SUCHILAPAN DEL RÍO. CARMEN BOUZAS DE LÓPEZ ARIAS",
@@ -7398,8 +7398,8 @@
         "total_camas": 30,
         "latitud": 17.39063,
         "longitud": -94.9881,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7407,12 +7407,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB003276",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "OZULUAMA DE MASCAREÑAS",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD OZULUAMA DE MASCAREÑAS",
@@ -7428,8 +7428,8 @@
         "total_camas": 36,
         "latitud": 21.65119,
         "longitud": -97.8548,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7437,12 +7437,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB003701",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "PLAYA VICENTE",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD PLAYA VICENTE",
@@ -7458,8 +7458,8 @@
         "total_camas": 22,
         "latitud": 17.8307198,
         "longitud": -95.8073,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7467,12 +7467,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB004710",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEMPOAL",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD  DE TEMPOAL",
@@ -7488,8 +7488,8 @@
         "total_camas": 30,
         "latitud": 21.51899,
         "longitud": -98.3955,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7497,12 +7497,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB004775",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEOCELO",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE TEOCELO",
@@ -7518,8 +7518,8 @@
         "total_camas": 16,
         "latitud": 19.38645,
         "longitud": -96.9732,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7527,12 +7527,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB005171",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLACOTALPAN",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD TLACOTALPAN",
@@ -7548,8 +7548,8 @@
         "total_camas": 22,
         "latitud": 18.61155,
         "longitud": -95.65668,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7557,12 +7557,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB005306",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLAPACOYAN",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD TLAPACOYAN",
@@ -7578,8 +7578,8 @@
         "total_camas": 25,
         "latitud": 19.96385,
         "longitud": -97.2189,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7587,12 +7587,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006023",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "UXPANAPA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD LA LAGUNA  POBLADO 6",
@@ -7608,8 +7608,8 @@
         "total_camas": 28,
         "latitud": 17.27778,
         "longitud": -94.5034,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7617,12 +7617,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006122",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "MECAYAPAN",
         "nombre_unidad": "HOSPITAL COMUNITARIO DE TONALAPAN",
@@ -7638,8 +7638,8 @@
         "total_camas": 23,
         "latitud": 18.14835,
         "longitud": -94.79163,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7647,12 +7647,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006134",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLAQUILPA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE TLAQUILPAN VISTA HERMOSA",
@@ -7668,8 +7668,8 @@
         "total_camas": 29,
         "latitud": 18.59207,
         "longitud": -97.1287,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7677,12 +7677,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006146",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEZONAPA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE TEZONAPA",
@@ -7698,8 +7698,8 @@
         "total_camas": 25,
         "latitud": 18.61581,
         "longitud": -96.69601,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7707,12 +7707,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006151",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXHUATLAN DE MADERO",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE LLANO DE EN MEDIO",
@@ -7728,8 +7728,8 @@
         "total_camas": 20,
         "latitud": 20.78488,
         "longitud": -98.0078,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7737,12 +7737,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006163",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "ESPINAL",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE ENTABLADERO",
@@ -7758,8 +7758,8 @@
         "total_camas": 30,
         "latitud": 20.27715,
         "longitud": -97.5482,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7767,12 +7767,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006180",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "CERRO AZUL",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE CERRO AZUL",
@@ -7788,8 +7788,8 @@
         "total_camas": 21,
         "latitud": 21.18905,
         "longitud": -97.73672,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7797,12 +7797,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB007592",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "LAS CHOAPAS",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DR. PEDRO CORONEL PÉREZ",
@@ -7818,8 +7818,8 @@
         "total_camas": 33,
         "latitud": 17.90343,
         "longitud": -94.11201,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7827,12 +7827,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB007732",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "NAOLINCO",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE NAOLINCO",
@@ -7848,8 +7848,8 @@
         "total_camas": 27,
         "latitud": 19.66252,
         "longitud": -96.8684,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7857,12 +7857,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB007860",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "JOSE AZUETA",
         "nombre_unidad": "HOSPITAL DE LA COMUNIDAD DE JOSÉ AZUETA",
@@ -7878,8 +7878,8 @@
         "total_camas": 25,
         "latitud": 18.08058,
         "longitud": -95.714206,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -7887,7 +7887,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "ZSIMB000492",
@@ -7910,14 +7910,14 @@
         "longitud": -102.971898,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB000615",
@@ -7940,14 +7940,14 @@
         "longitud": -103.402573,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB000620",
@@ -7970,14 +7970,14 @@
         "longitud": -103.122441,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB000813",
@@ -8000,14 +8000,14 @@
         "longitud": -102.823375,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB000900",
@@ -8030,14 +8030,14 @@
         "longitud": -102.239395,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB001233",
@@ -8060,14 +8060,14 @@
         "longitud": -102.911353,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB001320",
@@ -8090,14 +8090,14 @@
         "longitud": -103.582405,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB001653",
@@ -8120,14 +8120,14 @@
         "longitud": -102.364675,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB001834",
@@ -8150,14 +8150,14 @@
         "longitud": -102.695306,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB001846",
@@ -8180,14 +8180,14 @@
         "longitud": -102.341605,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB002015",
@@ -8210,14 +8210,14 @@
         "longitud": -103.65657,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "BCIMB000355",
@@ -8300,14 +8300,14 @@
         "longitud": -117.0094107,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "BCIMB001422",
@@ -8360,14 +8360,14 @@
         "longitud": -116.84889,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "BCIMB001702",
@@ -8510,14 +8510,14 @@
         "longitud": -109.9248226,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "BSIMB000672",
@@ -8540,14 +8540,14 @@
         "longitud": -110.318457,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000073",
@@ -8569,15 +8569,15 @@
         "latitud": 19.844724,
         "longitud": -90.532584,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000172",
@@ -8599,15 +8599,15 @@
         "latitud": 18.646634,
         "longitud": -91.820543,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB001526",
@@ -8629,15 +8629,15 @@
         "latitud": 19.815162,
         "longitud": -90.523917,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB001531",
@@ -8659,20 +8659,20 @@
         "latitud": 18.618552,
         "longitud": -90.744511,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "DFIMB002114",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VENUSTIANO CARRANZA",
         "nombre_unidad": "HOSPITAL GENERAL BALBUENA",
@@ -8702,7 +8702,7 @@
     {
         "clues": "DFIMB002674",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLALPAN",
         "nombre_unidad": "HOSPITAL GENERAL AJUSCO MEDIO",
@@ -8732,7 +8732,7 @@
     {
         "clues": "DFIMB000842",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IZTAPALAPA",
         "nombre_unidad": "HOSPITAL GENERAL IZTAPALAPA",
@@ -8762,7 +8762,7 @@
     {
         "clues": "DFIMB002662",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLAHUAC",
         "nombre_unidad": "HOSPITAL GENERAL TLÁHUAC",
@@ -8792,7 +8792,7 @@
     {
         "clues": "DFIMB002575",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ALVARO OBREGON",
         "nombre_unidad": "HOSPITAL GENERAL DR. ENRIQUE CABRERA",
@@ -8822,7 +8822,7 @@
     {
         "clues": "DFIMB000451",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "GUSTAVO A. MADERO",
         "nombre_unidad": "HOSPITAL GENERAL VILLA",
@@ -8852,7 +8852,7 @@
     {
         "clues": "DFIMB002266",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IZTAPALAPA",
         "nombre_unidad": "HOSPITAL DE ESPECIALIDADES DE LA CIUDAD DE MEXICO DR. BELISARIO DOMÍNGUEZ",
@@ -8882,7 +8882,7 @@
     {
         "clues": "DFIMB002020",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "MIGUEL HIDALGO",
         "nombre_unidad": "HOSPITAL GENERAL DR. RUBÉN LEÑERO",
@@ -8912,7 +8912,7 @@
     {
         "clues": "DFIMB001706",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "XOCHIMILCO",
         "nombre_unidad": "HOSPITAL MATERNO PEDIÁTRICO XOCHIMILCO",
@@ -8942,7 +8942,7 @@
     {
         "clues": "YNSSA013440",
         "inst": "SSA",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "VALLADOLID",
         "nombre_unidad": "HOSPITAL GENERAL DE VALLADOLID",
@@ -8972,7 +8972,7 @@
     {
         "clues": "DFIMB002341",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLALPAN",
         "nombre_unidad": "HOSPITAL GENERAL TOPILEJO",
@@ -9002,7 +9002,7 @@
     {
         "clues": "DFIMB000446",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "GUSTAVO A. MADERO",
         "nombre_unidad": "HOSPITAL GENERAL DE TICOMÁN",
@@ -9032,7 +9032,7 @@
     {
         "clues": "DFIMB001921",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CUAUHTEMOC",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO PERALVILLO",
@@ -9062,7 +9062,7 @@
     {
         "clues": "DFIMB002090",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VENUSTIANO CARRANZA",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL INGUARÁN",
@@ -9092,7 +9092,7 @@
     {
         "clues": "DFIMB002003",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "MIGUEL HIDALGO",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO TACUBAYA",
@@ -9122,7 +9122,7 @@
     {
         "clues": "DFIMB000830",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IZTAPALAPA",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO IZTAPALAPA",
@@ -9152,7 +9152,7 @@
     {
         "clues": "DFIMB002435",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CUAJIMALPA DE MORELOS",
         "nombre_unidad": "HOSPITAL GENERAL DE CUAJIMALPA",
@@ -9182,7 +9182,7 @@
     {
         "clues": "DFIMB002102",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VENUSTIANO CARRANZA",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO MOCTEZUMA",
@@ -10052,7 +10052,7 @@
     {
         "clues": "MCIMB000226",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ACOLMAN",
         "nombre_unidad": "TEPEXPAN DR. GUSTAVO BAZ PRADA",
@@ -10082,7 +10082,7 @@
     {
         "clues": "MCIMB000914",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ATIZAPAN DE ZARAGOZA",
         "nombre_unidad": "H.G. DR.SALVADOR GONZÁLEZ HERREJON",
@@ -10112,7 +10112,7 @@
     {
         "clues": "MCIMB001486",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CUAUTITLAN",
         "nombre_unidad": "H.G. JOSÉ VICENTE VILLADA",
@@ -10142,7 +10142,7 @@
     {
         "clues": "MCIMB001515",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CHALCO",
         "nombre_unidad": "HOSPITAL GENERAL DE CHALCO",
@@ -10172,7 +10172,7 @@
     {
         "clues": "MCIMB001841",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CHIMALHUACAN",
         "nombre_unidad": "H.G. CHIMALHUACÁN",
@@ -10202,7 +10202,7 @@
     {
         "clues": "MCIMB002005",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ECATEPEC DE MORELOS",
         "nombre_unidad": "H.G. DR. JOSÉ MARÍA RODRÍGUEZ",
@@ -10232,7 +10232,7 @@
     {
         "clues": "MCIMB002565",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTAPALUCA",
         "nombre_unidad": "ZOQUIAPAN DR. PEDRO LÓPEZ",
@@ -10262,7 +10262,7 @@
     {
         "clues": "MCIMB002640",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTLAHUACA",
         "nombre_unidad": "HOSPITAL GENERAL IXTLAHUACA VALENTIN GÓMEZ FARÍAS",
@@ -10292,7 +10292,7 @@
     {
         "clues": "MCIMB003743",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "NAUCALPAN DE JUAREZ",
         "nombre_unidad": "H.G. DR. MAXIMILIANO RUÍZ CASTAÑEDA",
@@ -10322,7 +10322,7 @@
     {
         "clues": "MCIMB003895",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "NEZAHUALCOYOTL",
         "nombre_unidad": "H.G. DR. GUSTAVO BAZ PRADA",
@@ -10352,7 +10352,7 @@
     {
         "clues": "MCIMB004694",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "SAN FELIPE DEL PROGRESO",
         "nombre_unidad": "HOSPITAL GENERAL SAN FELIPE DEL PROGRESO",
@@ -10382,7 +10382,7 @@
     {
         "clues": "MCIMB005225",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEJUPILCO",
         "nombre_unidad": "HOSPITAL GENERAL MIGUEL HIDALGO Y COSTILLA BICENTENARIO",
@@ -10412,7 +10412,7 @@
     {
         "clues": "MCIMB005860",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TENANCINGO",
         "nombre_unidad": "H.G. TENANCINGO",
@@ -10442,7 +10442,7 @@
     {
         "clues": "MCIMB006946",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TOLUCA",
         "nombre_unidad": "H.G. DR. NICOLÁS SAN JUAN",
@@ -10472,7 +10472,7 @@
     {
         "clues": "MCIMB007231",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VALLE DE BRAVO",
         "nombre_unidad": "HOSPITAL GENERAL VALLE DE BRAVO",
@@ -10502,7 +10502,7 @@
     {
         "clues": "MCIMB008042",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VALLE DE CHALCO SOLIDARIDAD",
         "nombre_unidad": "H.G. DR. FERNANDO QUIROZ GUTIÉRREZ",
@@ -10532,7 +10532,7 @@
     {
         "clues": "MCIMB009022",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "JILOTEPEC",
         "nombre_unidad": "H.G. JILOTEPEC",
@@ -10562,7 +10562,7 @@
     {
         "clues": "MCIMB009063",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ATLACOMULCO",
         "nombre_unidad": "HOSPITAL GENERAL ATLACOMULCO",
@@ -10592,7 +10592,7 @@
     {
         "clues": "MCIMB009145",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TOLUCA",
         "nombre_unidad": "CENTRO MÉDICO LIC. ADOLFO LÓPEZ MATEOS",
@@ -10622,7 +10622,7 @@
     {
         "clues": "MCIMB009174",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTAPAN DE LA SAL",
         "nombre_unidad": "HOSPITAL GENERAL IXTAPAN DE LA SAL",
@@ -10652,7 +10652,7 @@
     {
         "clues": "MCIMB009203",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ECATEPEC DE MORELOS",
         "nombre_unidad": "HOSPITAL GENERAL LAS AMÉRICAS",
@@ -10682,7 +10682,7 @@
     {
         "clues": "MCIMB009215",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "NEZAHUALCOYOTL",
         "nombre_unidad": "HOSPITAL GENERAL LA PERLA NEZAHUALCOYOTL",
@@ -10712,7 +10712,7 @@
     {
         "clues": "MCIMB009261",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TULTITLAN",
         "nombre_unidad": "HOSPITAL GENERAL TULTITLAN SAN PABLO DE LAS SALINAS",
@@ -10742,7 +10742,7 @@
     {
         "clues": "MCIMB009536",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CHIMALHUACAN",
         "nombre_unidad": "HOSPITAL GENERAL CHIMALHUACÁN SAN AGUSTÍN",
@@ -10772,7 +10772,7 @@
     {
         "clues": "MCIMB009775",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "AXAPUSCO",
         "nombre_unidad": "HOSPITAL GENERAL DE AXAPUSCO",
@@ -10802,7 +10802,7 @@
     {
         "clues": "MCIMB010236",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "NAUCALPAN DE JUAREZ",
         "nombre_unidad": "CENTRO ESPECIALIZADO DE ATENCIÓN A PERSONAS CON DISCAPACIDAD VISUAL",
@@ -10832,7 +10832,7 @@
     {
         "clues": "MCIMB011945",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEXCOCO",
         "nombre_unidad": "H.G. TEXCOCO GUADALUPE VICTORIA BICENTENARIO",
@@ -10862,7 +10862,7 @@
     {
         "clues": "MCIMB012073",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "HUEYPOXTLA",
         "nombre_unidad": "HOSPITAL GENERAL HUEYPOXTLA HERMENEGILDO GALEANA BICENTENARIO",
@@ -10892,7 +10892,7 @@
     {
         "clues": "MCIMB012271",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "AMECAMECA",
         "nombre_unidad": "H.G. VALENTÍN GÓMEZ FARÍAS (SAN FRANCISCO ZENTLALPAN)",
@@ -10922,7 +10922,7 @@
     {
         "clues": "YNSSA001224",
         "inst": "SSA",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "TIZIMIN",
         "nombre_unidad": "HOSPITAL GENERAL SAN CARLOS",
@@ -10952,7 +10952,7 @@
     {
         "clues": "MCIMB012476",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ATENCO",
         "nombre_unidad": "HOSPITAL GENERAL ATENCO “FRANCISCO ALTAMIRANO NÚÑEZ”",
@@ -10982,7 +10982,7 @@
     {
         "clues": "MNIMB000650",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "CHERAN",
         "nombre_unidad": "HOSPITAL GENERAL DE CHERÁN",
@@ -11012,7 +11012,7 @@
     {
         "clues": "MNIMB001292",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "LAZARO CARDENAS",
         "nombre_unidad": "HOSPITAL GENERAL DE LÁZARO CÁRDENAS \"DRA. ELENA AVILÉS\"",
@@ -11042,7 +11042,7 @@
     {
         "clues": "MNIMB001415",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MORELIA",
         "nombre_unidad": "CENTRO ESTATAL DE ATENCION ONCOLOGICA",
@@ -11072,7 +11072,7 @@
     {
         "clues": "MNIMB002091",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "SAHUAYO",
         "nombre_unidad": "HOSPITAL GENERAL SAHUAYO",
@@ -11102,7 +11102,7 @@
     {
         "clues": "MNIMB002190",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "TACAMBARO",
         "nombre_unidad": "HOSPITAL GENERAL DE TACAMBARO MARIA ZENDEJAS",
@@ -11132,7 +11132,7 @@
     {
         "clues": "MNIMB002774",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "URUAPAN",
         "nombre_unidad": "HOSPITAL GENERAL DR. PEDRO DANIEL MARTÍNEZ",
@@ -11162,7 +11162,7 @@
     {
         "clues": "MNIMB002931",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "ZAMORA",
         "nombre_unidad": "HOSPITAL GENERAL ZAMORA",
@@ -11192,7 +11192,7 @@
     {
         "clues": "MNIMB003013",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "ZITACUARO",
         "nombre_unidad": "HOSPITAL GENERAL ZITACUARO",
@@ -11222,7 +11222,7 @@
     {
         "clues": "MNIMB003532",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "ZACAPU",
         "nombre_unidad": "HOSPITAL GENERAL ZACAPU",
@@ -11252,7 +11252,7 @@
     {
         "clues": "MNIMB003544",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "PATZCUARO",
         "nombre_unidad": "HOSPITAL GENERAL PATZCUARO",
@@ -11282,7 +11282,7 @@
     {
         "clues": "MNIMB003590",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MORELIA",
         "nombre_unidad": "HOSPITAL GENERAL \"DR MIGUEL SILVA\"",
@@ -11312,7 +11312,7 @@
     {
         "clues": "MNIMB003911",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MARAVATIO",
         "nombre_unidad": "HOSPITAL GENERAL MARAVATIO",
@@ -11342,7 +11342,7 @@
     {
         "clues": "MNIMB003923",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "PURUANDIRO",
         "nombre_unidad": "HOSPITAL GENERAL PURUANDIRO",
@@ -11372,7 +11372,7 @@
     {
         "clues": "MNIMB003935",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "HIDALGO",
         "nombre_unidad": "HOSPITAL GENERAL CIUDAD HIDALGO",
@@ -11402,7 +11402,7 @@
     {
         "clues": "MNIMB003964",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "LOS REYES",
         "nombre_unidad": "HOSPITAL GENERAL LOS REYES",
@@ -11432,7 +11432,7 @@
     {
         "clues": "MNIMB003976",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "LA PIEDAD",
         "nombre_unidad": "HOSPITAL GENERAL LA PIEDAD",
@@ -11462,7 +11462,7 @@
     {
         "clues": "MNIMB004734",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "APATZINGAN",
         "nombre_unidad": "HOSPITAL GENERAL APATZINGAN",
@@ -12932,7 +12932,7 @@
     {
         "clues": "SPIMB000240",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "CIUDAD VALLES",
         "nombre_unidad": "HOSPITAL GENERAL CD. VALLES",
@@ -12962,7 +12962,7 @@
     {
         "clues": "SPIMB000585",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "RIOVERDE",
         "nombre_unidad": "HOSPITAL GENERAL DE RÍOVERDE",
@@ -12992,7 +12992,7 @@
     {
         "clues": "SPIMB002125",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "MATEHUALA",
         "nombre_unidad": "HOSPITAL GENERAL DE MATEHUALA",
@@ -13022,7 +13022,7 @@
     {
         "clues": "SPIMB002574",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "SAN LUIS POTOSI",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DR.IGNACIO MORONES PRIETO",
@@ -13052,7 +13052,7 @@
     {
         "clues": "SPIMB002970",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "SOLEDAD DE GRACIANO SANCHEZ",
         "nombre_unidad": "HOSPITAL GENERAL DE SOLEDAD DE GRACIANO SÁNCHEZ",
@@ -14359,15 +14359,15 @@
         "latitud": 19.408775,
         "longitud": -98.1179722,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB001395",
@@ -14389,15 +14389,15 @@
         "latitud": 19.1268755,
         "longitud": -98.2006896,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB001820",
@@ -14419,15 +14419,15 @@
         "latitud": 19.3698807,
         "longitud": -98.2164354,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB002025",
@@ -14449,15 +14449,15 @@
         "latitud": 19.5825618,
         "longitud": -98.5367416,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB002100",
@@ -14479,15 +14479,15 @@
         "latitud": 19.2242266,
         "longitud": -98.3174848,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "TLIMB002136",
@@ -14509,20 +14509,20 @@
         "latitud": 19.3063,
         "longitud": -97.9407917,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "VZIMB000230",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "ALTOTONGA",
         "nombre_unidad": "HOSPITAL GENERAL ALTOTONGA EUFROSINA CAMACHO",
@@ -14538,8 +14538,8 @@
         "total_camas": 50,
         "latitud": 19.76972,
         "longitud": -97.24809,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14547,12 +14547,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB000826",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "COATZACOALCOS",
         "nombre_unidad": "HOSPITAL REGIONAL DE COATZACOALCOS DR.VALENTIN GÓMEZ FARIAS",
@@ -14568,8 +14568,8 @@
         "total_camas": 158,
         "latitud": 18.144901,
         "longitud": -94.4244,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14577,12 +14577,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB000983",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "CORDOBA",
         "nombre_unidad": "HOSPITAL GENERAL CORDOBA YANGA",
@@ -14598,8 +14598,8 @@
         "total_camas": 101,
         "latitud": 18.87951,
         "longitud": -96.9201,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14607,12 +14607,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB001000",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "COSAMALOAPAN DE CARPIO",
         "nombre_unidad": "HOSPITAL GENERAL COSAMALOAPAN  DR. VÍCTOR MANUEL PITALUA GONZÁLEZ",
@@ -14628,8 +14628,8 @@
         "total_camas": 48,
         "latitud": 18.3657752,
         "longitud": -95.7966594,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14637,12 +14637,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB001881",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "HUATUSCO",
         "nombre_unidad": "HOSPITAL GENERAL HUATUSCO DR. DARÍO MENDEZ LIMA",
@@ -14658,8 +14658,8 @@
         "total_camas": 42,
         "latitud": 19.15187,
         "longitud": -96.9689,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14667,12 +14667,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002325",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "XALAPA",
         "nombre_unidad": "CENTRO ESTATAL DE CANCEROLOGÍA DR. MIGUEL DORANTES MESA",
@@ -14688,8 +14688,8 @@
         "total_camas": 110,
         "latitud": 19.544702,
         "longitud": -96.923411,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14697,12 +14697,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002330",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "XALAPA",
         "nombre_unidad": "CENTRO DE ALTA ESPECIALIDAD  DR. RAFAEL LUCIO",
@@ -14718,8 +14718,8 @@
         "total_camas": 292,
         "latitud": 19.551728,
         "longitud": -96.935888,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14727,12 +14727,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002342",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "XALAPA",
         "nombre_unidad": "HOSPITAL REGIONAL DE  XALAPA  DR. LUIS F.  NACHÓN",
@@ -14748,8 +14748,8 @@
         "total_camas": 188,
         "latitud": 19.525544,
         "longitud": -96.921021,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14757,12 +14757,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002675",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "MARTINEZ DE LA TORRE",
         "nombre_unidad": "HOSPITAL GENERAL MARTÍNEZ DE LA TORRE",
@@ -14778,8 +14778,8 @@
         "total_camas": 69,
         "latitud": 20.08089,
         "longitud": -97.0481,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14787,12 +14787,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002844",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "MINATITLAN",
         "nombre_unidad": "HOSPITAL GENERAL DE MINATITLAN",
@@ -14808,8 +14808,8 @@
         "total_camas": 71,
         "latitud": 17.99026,
         "longitud": -94.5596,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14817,12 +14817,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB002972",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "MISANTLA",
         "nombre_unidad": "HOSPITAL GENERAL DE MISANTLA",
@@ -14838,8 +14838,8 @@
         "total_camas": 45,
         "latitud": 19.92293,
         "longitud": -96.8515,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14847,12 +14847,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB003322",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "PANUCO",
         "nombre_unidad": "HOSPITAL GENERAL PANUCO DR. MANUEL I ÁVILA",
@@ -14868,8 +14868,8 @@
         "total_camas": 45,
         "latitud": 22.04958,
         "longitud": -98.18101,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14877,12 +14877,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB003491",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "PAPANTLA",
         "nombre_unidad": "HOSPITAL GENERAL PAPANTLA  DR. JOSÉ BUILL BELENGUER",
@@ -14898,8 +14898,8 @@
         "total_camas": 60,
         "latitud": 20.45033,
         "longitud": -97.3290431,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14907,12 +14907,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB003766",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "POZA RICA DE HIDALGO",
         "nombre_unidad": "HOSPITAL REGIONAL  POZA RICA DE HIDALGO",
@@ -14928,8 +14928,8 @@
         "total_camas": 164,
         "latitud": 20.55418,
         "longitud": -97.43901,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14937,12 +14937,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB003870",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "RIO BLANCO",
         "nombre_unidad": "HOSPITAL REGIONAL RÍO BLANCO",
@@ -14958,8 +14958,8 @@
         "total_camas": 234,
         "latitud": 18.83506,
         "longitud": -97.12501,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14967,12 +14967,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB003911",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "SAN ANDRES TUXTLA",
         "nombre_unidad": "HOSPITAL GENERAL SAN ANDRÉS TUXTLA. DR. BERNARDO PEÑA",
@@ -14988,8 +14988,8 @@
         "total_camas": 68,
         "latitud": 18.44325,
         "longitud": -95.2089,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -14997,12 +14997,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB004046",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "SANTIAGO TUXTLA",
         "nombre_unidad": "HOSPITAL GENERAL DE SANTIAGO TUXTLA",
@@ -15018,8 +15018,8 @@
         "total_camas": 37,
         "latitud": 18.45825,
         "longitud": -95.3078,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15027,12 +15027,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB004384",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TANTOYUCA",
         "nombre_unidad": "HOSPITAL GENERAL TANTOYUCA",
@@ -15048,8 +15048,8 @@
         "total_camas": 44,
         "latitud": 21.33229,
         "longitud": -98.2191,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15057,12 +15057,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB004944",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TIERRA BLANCA",
         "nombre_unidad": "HOSPITAL GENERAL DE  TIERRA BLANCA JESÚS GARCÍA CORONA",
@@ -15078,8 +15078,8 @@
         "total_camas": 42,
         "latitud": 18.44178,
         "longitud": -96.34721,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15087,12 +15087,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB005393",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TUXPAN",
         "nombre_unidad": "HOSPITAL GENERAL TUXPAN DR. EMILIO ALCAZAR",
@@ -15108,8 +15108,8 @@
         "total_camas": 113,
         "latitud": 20.95092,
         "longitud": -97.4003,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15117,12 +15117,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB005533",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "VERACRUZ",
         "nombre_unidad": "HOSPITAL DE ALTA ESPECIALIDAD DE VERACRUZ",
@@ -15138,8 +15138,8 @@
         "total_camas": 493,
         "latitud": 19.18562,
         "longitud": -96.1321,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15147,12 +15147,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006105",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "LA ANTIGUA",
         "nombre_unidad": "HOSPITAL GENERAL DE CARDEL",
@@ -15168,8 +15168,8 @@
         "total_camas": 42,
         "latitud": 19.3669236,
         "longitud": -96.3714025,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15177,12 +15177,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006175",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "VERACRUZ",
         "nombre_unidad": "HOSPITAL GENERAL DE  TARIMOYA (VERACRUZ)",
@@ -15198,8 +15198,8 @@
         "total_camas": 94,
         "latitud": 19.192801,
         "longitud": -96.1839,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15207,12 +15207,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006192",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLALIXCOYAN",
         "nombre_unidad": "HOSPITAL GENERAL TLALIXCOYAN",
@@ -15228,8 +15228,8 @@
         "total_camas": 33,
         "latitud": 18.79976,
         "longitud": -96.057609,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15237,12 +15237,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB006315",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "OLUTA",
         "nombre_unidad": "HOSPITAL GENERAL DE OLUTA-ACAYUCAN",
@@ -15258,8 +15258,8 @@
         "total_camas": 83,
         "latitud": 17.9320003,
         "longitud": -94.9061527,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15267,12 +15267,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB007102",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "PEROTE",
         "nombre_unidad": "HOSPITAL GENERAL PEROTE VERACRUZ",
@@ -15288,8 +15288,8 @@
         "total_camas": 53,
         "latitud": 19.5784667,
         "longitud": -97.2421711,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15297,12 +15297,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB007365",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "BOCA DEL RIO",
         "nombre_unidad": "HOSPITAL GENERAL DE  BOCA DEL RIO",
@@ -15318,8 +15318,8 @@
         "total_camas": 91,
         "latitud": 19.10332,
         "longitud": -96.108657,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15327,12 +15327,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB007575",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "ISLA",
         "nombre_unidad": "HOSPITAL GENERAL ISLA",
@@ -15348,8 +15348,8 @@
         "total_camas": 68,
         "latitud": 18.0376261,
         "longitud": -95.530038,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15357,12 +15357,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB007930",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "COSOLEACAQUE",
         "nombre_unidad": "HOSPITAL GENERAL COSOLEACAQUE",
@@ -15378,8 +15378,8 @@
         "total_camas": 31,
         "latitud": 17.99222,
         "longitud": -94.6412,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15387,12 +15387,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "VZIMB008053",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "ALAMO TEMAPACHE",
         "nombre_unidad": "HOSPITAL GENERAL ÁLAMO",
@@ -15408,8 +15408,8 @@
         "total_camas": 54,
         "latitud": 20.88483,
         "longitud": -97.6537,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -15417,7 +15417,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "ZSIMB000113",
@@ -15440,14 +15440,14 @@
         "longitud": -102.912707,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB000533",
@@ -15470,14 +15470,14 @@
         "longitud": -102.996528,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB002295",
@@ -15500,14 +15500,14 @@
         "longitud": -101.989743,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "ZSIMB002481",
@@ -15530,19 +15530,19 @@
         "longitud": -102.619871,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "MCIMB012295",
         "inst": "IMB",
-        "entidad": "ESTADO DE MÉXICO",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "IXTAPALUCA",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD IXTAPALUCA",
@@ -15572,7 +15572,7 @@
     {
         "clues": "OCIMB006826",
         "inst": "IMB",
-        "entidad": "OAXACA",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "SAN BARTOLO COYOTEPEC",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE OAXACA",
@@ -15632,7 +15632,7 @@
     {
         "clues": "MCIMB012464",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TOLUCA",
         "nombre_unidad": "HOSPITAL DE GINECOLOGÍA Y OBSTETRICÍA IMIEM",
@@ -15722,7 +15722,7 @@
     {
         "clues": "MNIMB001403",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MORELIA",
         "nombre_unidad": "HOSPITAL DE LA MUJER",
@@ -15889,15 +15889,15 @@
         "latitud": 19.3687028,
         "longitud": -98.2125199,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "ZSIMB002126",
@@ -15920,14 +15920,14 @@
         "longitud": -102.500206,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
     },
     {
         "clues": "PLIMB004720",
@@ -15962,7 +15962,7 @@
     {
         "clues": "SPIMB002965",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "SAN LUIS POTOSI",
         "nombre_unidad": "HOSPITAL DE LA NIÑEZ Y LA MUJER DR. ALBERTO LÓPEZ HERMOSA",
@@ -16052,7 +16052,7 @@
     {
         "clues": "MNIMB003660",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MORELIA",
         "nombre_unidad": "HOSPITAL INFANTIL DE MORELIA \"EVA SAMANO DE LÓPEZ MATEOS\"",
@@ -16129,15 +16129,15 @@
         "latitud": 19.3683333,
         "longitud": -98.2113333,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "SRIMB002174",
@@ -16172,7 +16172,7 @@
     {
         "clues": "MCIMB009676",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEXCOCO",
         "nombre_unidad": "HOSPITAL MATERNO DE TEXCOCO",
@@ -16292,7 +16292,7 @@
     {
         "clues": "MCIMB011986",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CHALCO",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL CHALCO JOSÉFA ORTÍZ DE DOMÍNGUEZ",
@@ -16352,7 +16352,7 @@
     {
         "clues": "DFIMB000183",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "COYOACAN",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO COYOACÁN",
@@ -16382,7 +16382,7 @@
     {
         "clues": "YNSSA001830",
         "inst": "SSA",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MERIDA",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL",
@@ -16412,7 +16412,7 @@
     {
         "clues": "VZIMB008946",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "COATZACOALCOS",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL DE COATZACOALCOS",
@@ -16428,8 +16428,8 @@
         "total_camas": 101,
         "latitud": 18.146144,
         "longitud": -94.511622,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -16437,7 +16437,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "BSIMB000812",
@@ -16472,7 +16472,7 @@
     {
         "clues": "DFIMB002015",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "MIGUEL HIDALGO",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO LEGARIA",
@@ -16502,7 +16502,7 @@
     {
         "clues": "MCIMB012254",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ATIZAPAN DE ZARAGOZA",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL GUADALUPE VICTORIA ATIZAPÁN DE ZARAGOZA",
@@ -16532,7 +16532,7 @@
     {
         "clues": "DFIMB001151",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "MILPA ALTA",
         "nombre_unidad": "HOSPITAL GENERAL MILPA ALTA",
@@ -16562,7 +16562,7 @@
     {
         "clues": "MCIMB012085",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "SAN JOSE DEL RINCON",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL JOSÉ MARÍA MORELOS Y PAVÓN BICENTENARIO SAN JOSÉ DEL RINCÓN",
@@ -16592,7 +16592,7 @@
     {
         "clues": "DFIMB000410",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "GUSTAVO A. MADERO",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO SAN JUAN DE ARAGÓN",
@@ -16622,7 +16622,7 @@
     {
         "clues": "MCIMB012143",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "LA PAZ",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL MIGUEL HIDALGO Y COSTILLA LOS REYES LA PAZ",
@@ -16682,7 +16682,7 @@
     {
         "clues": "DFIMB001933",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CUAUHTEMOC",
         "nombre_unidad": "HOSPITAL GENERAL DR. GREGORIO SALAS FLORES",
@@ -16712,7 +16712,7 @@
     {
         "clues": "MCIMB012201",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CHIMALHUACAN",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL VICENTE GUERRERO CHIMALHUACÁN",
@@ -16742,7 +16742,7 @@
     {
         "clues": "DFIMB000760",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IZTACALCO",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO IZTACALCO",
@@ -16772,7 +16772,7 @@
     {
         "clues": "MCIMB006951",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TOLUCA",
         "nombre_unidad": "HOSPITAL MATERNO PERINATAL MÓNICA PRETELINI SÁENZ",
@@ -16922,7 +16922,7 @@
     {
         "clues": "MCIMB012440",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TOLUCA",
         "nombre_unidad": "HOSPITAL PARA EL NIÑO IMIEM",
@@ -16952,7 +16952,7 @@
     {
         "clues": "DFIMB000434",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "GUSTAVO A. MADERO",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL CUAUTEPEC",
@@ -16982,7 +16982,7 @@
     {
         "clues": "DFIMB000422",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "GUSTAVO A. MADERO",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO VILLA",
@@ -17042,7 +17042,7 @@
     {
         "clues": "DFIMB001385",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLAHUAC",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL TLÁHUAC",
@@ -17072,7 +17072,7 @@
     {
         "clues": "DFIMB001064",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "LA MAGDALENA CONTRERAS",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL MAGDALENA CONTRERAS",
@@ -17102,7 +17102,7 @@
     {
         "clues": "DFIMB000031",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "AZCAPOTZALCO",
         "nombre_unidad": "HOSPITAL MATERNO INFANTIL DR. NICOLÁS M. CEDILLO",
@@ -17132,7 +17132,7 @@
     {
         "clues": "DFIMB002650",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IZTAPALAPA",
         "nombre_unidad": "CLÍNICA HOSPITAL EMILIANO ZAPATA",
@@ -17162,7 +17162,7 @@
     {
         "clues": "DFIMB000026",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "AZCAPOTZALCO",
         "nombre_unidad": "HOSPITAL PEDIÁTRICO AZCAPOTZALCO",
@@ -17192,7 +17192,7 @@
     {
         "clues": "DFIMB002085",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "VENUSTIANO CARRANZA",
         "nombre_unidad": "CLÍNICA HOSPITAL DE ESPECIALIDADES TOXICOLÓGICAS VENUSTIANO CARRANZA",
@@ -17222,7 +17222,7 @@
     {
         "clues": "DFIMB001694",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MEXICO",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "XOCHIMILCO",
         "nombre_unidad": "CLÍNICA HOSPITAL DE ESPECIALIDADES TOXICOLÓGICAS XOCHIMILCO",
@@ -17329,20 +17329,20 @@
         "latitud": 19.913613,
         "longitud": -90.419136,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "VZIMB008963",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "ORIZABA",
         "nombre_unidad": "HOSPITAL DE SALUD MENTAL ORIZABA DR. VÍCTOR M. CONCHA VÁSQUEZ",
@@ -17358,8 +17358,8 @@
         "total_camas": 120,
         "latitud": 20.1972254,
         "longitud": -96.75892,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -17367,7 +17367,7 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "HGIMB004952",
@@ -17402,7 +17402,7 @@
     {
         "clues": "MCIMB000231",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ACOLMAN",
         "nombre_unidad": "HOSPITAL PSIQUIÁTRICO  DR. ADOLFO M. NIETO TEPEXPAN",
@@ -17432,7 +17432,7 @@
     {
         "clues": "MCIMB000243",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "ACOLMAN",
         "nombre_unidad": "HOSPITAL PSIQUIÁTRICO JOSÉ SAYAGO",
@@ -17462,7 +17462,7 @@
     {
         "clues": "MCIMB002570",
         "inst": "IMB",
-        "entidad": "MEXICO",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTAPALUCA",
         "nombre_unidad": "H. ZOQUIAPAN GRANJA LA SALUD",
@@ -17492,7 +17492,7 @@
     {
         "clues": "MNIMB001420",
         "inst": "IMB",
-        "entidad": "MICHOACAN DE OCAMPO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MORELIA",
         "nombre_unidad": "HOSPITAL PSIQUIATRICO \"DR. JOSÉ TORRES OROZCO\"",
@@ -17582,7 +17582,7 @@
     {
         "clues": "SPIMB000976",
         "inst": "IMB",
-        "entidad": "SAN LUIS POTOSI",
+        "entidad": "SAN LUIS POTOSÍ",
         "tipo_entidad": "ESTATAL",
         "municipio": "SOLEDAD DE GRACIANO SANCHEZ",
         "nombre_unidad": "CLÍNICA PSIQUIÁTRICA DR. EVERARDO NEUMANN PEÑA",
@@ -17762,7 +17762,7 @@
     {
         "clues": "VZIMB002354",
         "inst": "IMB",
-        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "entidad": "VERACRÚZ",
         "tipo_entidad": "ESTATAL",
         "municipio": "XALAPA",
         "nombre_unidad": "INSTITUTO VERACRUZANO DE SALUD MENTAL DR. RAFAEL VELASCO FERNANDEZ",
@@ -17778,8 +17778,8 @@
         "total_camas": 71,
         "latitud": 19.5456727,
         "longitud": -96.9234292,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
@@ -17787,12 +17787,12 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.20833333333333331
     },
     {
         "clues": "YNSSA000570",
         "inst": "SSA",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MERIDA",
         "nombre_unidad": "HOSPITAL PSIQUIÁTRICO YUCATÁN",
@@ -17840,19 +17840,49 @@
         "longitud": -102.684899,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.16666666666666666
+    },
+    {
+        "clues": "GTIMB000020",
+        "inst": "IMB",
+        "entidad": "GUANAJUATO",
+        "tipo_entidad": "ESTATAL",
+        "municipio": "SAN MIGUEL DE ALLENDE",
+        "nombre_unidad": "CENTRO DE EXCELENCIA EN PARTERÍA Y BIENESTAR",
+        "categoria_gerencial": "",
+        "prioridad": null,
+        "tipologia": "CLÍNICA DE ESPECIALIDADES",
+        "subtipologia": "NO ESPECIFICADO",
+        "estatus_operacion": "EN OPERACION",
+        "nivel_atencion": "SEGUNDO NIVEL",
+        "estrato_unidad": "URBANO",
+        "total_consultorios": 0,
+        "total_quirofanos": 0,
+        "total_camas": 0,
+        "latitud": 209183611.0,
+        "longitud": -1007520958.0,
+        "formato_tics_servicios": "",
+        "entrega_equipos_red": "",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
+        "configuraciones_iniciales": "EN PROCESO",
+        "capacitaciones": "CONCLUIDAS",
+        "uso_pheds": "",
+        "uso_moce": "",
+        "observaciones": "",
+        "avance": 0.4583333333333333
     },
     {
         "clues": "GTIMB000015",
         "inst": "IMB",
-        "entidad": "GUANAJUATO",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "LEON",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DEL BAJÍO",
@@ -17899,15 +17929,15 @@
         "latitud": 19.817002,
         "longitud": -90.525127,
         "formato_tics_servicios": "ENTREGADO/REVISIÓN",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.08333333333333333
+        "avance": 0.29166666666666663
     },
     {
         "clues": "OCIMB000876",
@@ -18169,15 +18199,15 @@
         "latitud": 19.3680915,
         "longitud": -98.2104569,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "entrega_equipos_red": "CONCLUIDO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.33333333333333337
     },
     {
         "clues": "ZSIMB002225",
@@ -18200,14 +18230,14 @@
         "longitud": -102.502348,
         "formato_tics_servicios": "ENVIADO A LA CE/UM",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.041666666666666664
+        "avance": 0.125
     },
     {
         "clues": "TSIMB003594",
@@ -18242,7 +18272,7 @@
     {
         "clues": "YNSSA001941",
         "inst": "SSA",
-        "entidad": "YUCATAN",
+        "entidad": "YUCATÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MERIDA",
         "nombre_unidad": "UNEME DE ONCOLOGIA",
