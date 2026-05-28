@@ -26,8 +26,16 @@ const etapasDistribucion = [
     nombre: "Kick-Off",
     corto: "Kick-Off",
     color: "#235B4E",
-    cumple: (item) => item.entidad !== "GUANAJUATO",
+    cumple: () => true,
   },
+
+  // const etapasDistribucion = [
+  //   {
+  //     nombre: "Kick-Off",
+  //     corto: "Kick-Off",
+  //     color: "#235B4E",
+  //     cumple: (item) => item.entidad !== "GUANAJUATO",
+  //   },
   {
     nombre: "Diagnóstico de infraestructura concluido",
     corto: "Diagnóstico",
