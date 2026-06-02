@@ -159,7 +159,8 @@
         >
           <div class="kpi-label">Uso parcial</div>
           <div class="kpi-value" id="kpi-alto">0</div>
-          <div class="kpi-sub">75% a 99.9%</div>
+          <!-- <div class="kpi-sub">75% a 99.9%</div> -->
+          <div class="kpi-sub">Sólo PHEDS o sólo MoCE</div>
         </article>
 
         <article
@@ -169,7 +170,8 @@
         >
           <div class="kpi-label">Uso completo</div>
           <div class="kpi-value" id="kpi-completo">0</div>
-          <div class="kpi-sub">100% de avance</div>
+          <!-- <div class="kpi-sub">100% de avance</div> -->
+          <div class="kpi-sub">PHEDS y MoCE = SI</div>
         </article>
 
         <article class="kpi-card" style="--kpi-color: var(--beige-osc)">
@@ -273,8 +275,36 @@
 
       <section class="section-card equipment-matrix-card">
         <div class="section-header">
-          <h2>Matriz de avance de equipamiento</h2>
+          <h2>Avance de equipamiento</h2>
           <span class="section-badge">PC · AP'S · Impresoras</span>
+        </div>
+
+        <div class="equipment-kpi-grid">
+          <article class="kpi-card" style="--kpi-color: var(--verde)">
+            <div class="kpi-label">Avance PC</div>
+            <div class="kpi-value">
+              <span id="eq-kpi-pc">0.0</span><span>%</span>
+            </div>
+            <div class="kpi-sub" id="eq-kpi-pc-detalle">0 / 0 entregadas</div>
+          </article>
+
+          <article class="kpi-card" style="--kpi-color: #4aa090">
+            <div class="kpi-label">Avance AP'S</div>
+            <div class="kpi-value">
+              <span id="eq-kpi-aps">0.0</span><span>%</span>
+            </div>
+            <div class="kpi-sub" id="eq-kpi-aps-detalle">0 / 0 entregadas</div>
+          </article>
+
+          <article class="kpi-card" style="--kpi-color: #3070c0">
+            <div class="kpi-label">Avance impresoras</div>
+            <div class="kpi-value">
+              <span id="eq-kpi-impresoras">0.0</span><span>%</span>
+            </div>
+            <div class="kpi-sub" id="eq-kpi-impresoras-detalle">
+              0 / 0 entregadas
+            </div>
+          </article>
         </div>
 
         <div class="equipment-matrix-container" id="equipment-matrix"></div>
