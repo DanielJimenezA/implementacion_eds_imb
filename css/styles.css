@@ -980,13 +980,33 @@ header {
   padding-left: 12px !important;
 }
 
-.matrix-value.active {
+/* .matrix-value.active {
   background: var(--verde) !important;
   color: white !important;
 }
 .matrix-value.low {
   background: var(--verde-pale);
   color: var(--verde-osc);
+} */
+
+.matrix-value.matrix-danger {
+  background: #c62828;
+  color: #ffffff;
+}
+
+.matrix-value.matrix-warning {
+  background: #f9a825;
+  color: #ffffff;
+}
+
+.matrix-value.matrix-success {
+  background: #43a047;
+  color: #ffffff;
+}
+
+.matrix-value.matrix-success-strong {
+  background: #1b5e20;
+  color: #ffffff;
 }
 
 .stage-bar-count {
@@ -1182,4 +1202,111 @@ header {
   .equipment-kpi-grid {
     grid-template-columns: 1fr !important;
   }
+}
+
+/* Semaforización matriz de avance por entidad y etapa */
+/* .matrix-value.matrix-danger {
+  background: #9f2241 !important;
+  color: #ffffff !important;
+}
+
+.matrix-value.matrix-warning {
+  background: #f9a825 !important;
+  color: #10312b !important;
+}
+
+.matrix-value.matrix-success {
+  background: #43a047 !important;
+  color: #ffffff !important;
+}
+
+.matrix-value.matrix-success-strong {
+  background: #1b5e20 !important;
+  color: #ffffff !important;
+} */
+
+/* Semaforización matriz de avance por entidad y etapa */
+/* .matrix-value.matrix-danger {
+  background: #c62828 !important;
+  color: #ffffff !important;
+}
+
+.matrix-value.matrix-warning {
+  background: #f9a825 !important;
+  color: #10312b !important;
+}
+
+.matrix-value.matrix-success {
+  background: #43a047 !important;
+  color: #ffffff !important;
+}
+
+.matrix-value.matrix-success-strong {
+  background: #1b5e20 !important;
+  color: #ffffff !important;
+} */
+/* =====================================================
+   SEMAFORIZACIÓN MATRIZ DE AVANCE
+===================================================== */
+
+.matrix-value.matrix-danger {
+  background: #f8d7da !important;
+  color: #842029 !important;
+}
+
+.matrix-value.matrix-warning {
+  background: #fff3cd !important;
+  color: #664d03 !important;
+}
+
+.matrix-value.matrix-success {
+  background: #d1e7dd !important;
+  color: #0f5132 !important;
+}
+
+.matrix-value.matrix-success-strong {
+  background: #a3cebb !important;
+  color: #0a3622 !important;
+}
+
+.matrix-value.matrix-notstarted {
+  background: #f3f3e7 !important;
+  color: #0a3622 !important;
+}
+
+/*Botón SVG */
+.matrix-copy-btn {
+  border: 1px solid var(--balmoral);
+  background: var(--verde-pale);
+  color: var(--verde-osc);
+
+  border-radius: 6px;
+  padding: 6px 10px;
+
+  font-family: "Noto Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+.matrix-copy-btn:hover {
+  background: var(--balmoral);
+}
+
+.legend-clickable {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.legend-clickable:hover span:last-child {
+  text-decoration: underline;
+}
+
+.legend-clickable:hover .legend-dot {
+  transform: scale(1.15);
 }

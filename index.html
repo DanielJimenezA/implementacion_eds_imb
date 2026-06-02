@@ -227,6 +227,15 @@
       <section class="section-card progress-matrix-card">
         <div class="section-header">
           <h2>Matriz de avance por entidad y etapa</h2>
+          <button class="matrix-copy-btn" onclick="copiarMatrizSVG()">
+            Copiar SVG
+          </button>
+          <button class="matrix-copy-btn" onclick="descargarMatrizSVG()">
+            Descargar SVG
+          </button>
+          <button class="matrix-copy-btn" onclick="descargarMatrizPNG()">
+            PNG
+          </button>
           <span class="section-badge">Porcentaje de avance</span>
         </div>
 
@@ -331,5 +340,6 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   </body>
 </html>
