@@ -1108,3 +1108,78 @@ header {
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(35, 91, 78, 0.16);
 }
+
+.equipment-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 900px) {
+  .equipment-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =====================================================
+   KPI EQUIPAMIENTO
+===================================================== */
+
+.equipment-kpi-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 18px;
+
+  margin-top: 18px;
+  margin-bottom: 20px;
+
+  width: 100%;
+}
+
+.equipment-kpi-grid .kpi-card {
+  height: 100%;
+
+  min-height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.equipment-kpi-grid .kpi-value {
+  font-size: 2rem;
+}
+
+.equipment-kpi-grid .kpi-sub {
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .equipment-kpi-grid {
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+  }
+}
+
+.equipment-kpi-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+  padding: 16px 16px 0 16px;
+  width: 100%;
+}
+
+.equipment-kpi-grid .kpi-card {
+  width: 100%;
+  min-height: 120px;
+}
+
+@media (max-width: 900px) {
+  .equipment-kpi-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

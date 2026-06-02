@@ -205,14 +205,5 @@
         "aps_entregado": 0,
         "impresoras_requerimiento": 113,
         "impresoras_entregado": 0
-    },
-    {
-        "entidad": "Totales",
-        "pc_requerimiento": 20158,
-        "pc_entregado": 722,
-        "aps_requerimiento": 3323,
-        "aps_entregado": 104,
-        "impresoras_requerimiento": 4251,
-        "impresoras_entregado": 423
     }
 ]

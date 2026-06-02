@@ -51,18 +51,37 @@ const etapasDistribucion = [
     cumple: (item) =>
       contieneConcluido(item.entrega_equipos_red) || item.avance >= 25,
   },
+  // {
+  //   nombre: "Formato PHEDS concluido",
+  //   corto: "Formato PHEDS",
+  //   color: "#F2B52E",
+  //   cumple: (item) =>
+  //     contieneConcluido(item.formato_pheds) || item.avance >= 37.5,
+  // },
+  // {
+  //   nombre: "Formato MoCE concluido",
+  //   corto: "Formato MoCE",
+  //   color: "#B7D44A",
+  //   cumple: (item) => contieneConcluido(item.formato_moce) || item.avance >= 50,
+  // },
+  // {
+  //   nombre: "Configuraciones iniciales concluidas",
+  //   corto: "Config.",
+  //   color: "#A6CF55",
+  //   cumple: (item) =>
+  //     valorUpper(item.configuraciones_iniciales) === "CONCLUIDO",
+  // },
   {
     nombre: "Formato PHEDS concluido",
     corto: "Formato PHEDS",
     color: "#F2B52E",
-    cumple: (item) =>
-      contieneConcluido(item.formato_pheds) || item.avance >= 37.5,
+    cumple: (item) => valorUpper(item.formato_pheds) === "CONCLUIDO",
   },
   {
     nombre: "Formato MoCE concluido",
     corto: "Formato MoCE",
     color: "#B7D44A",
-    cumple: (item) => contieneConcluido(item.formato_moce) || item.avance >= 50,
+    cumple: (item) => valorUpper(item.formato_moce) === "CONCLUIDO",
   },
   {
     nombre: "Configuraciones iniciales concluidas",
@@ -79,16 +98,26 @@ const etapasDistribucion = [
       contieneConcluido(item.capacitaciones) || item.avance >= 75,
   },
   {
-    nombre: "En uso del PHEDS",
+    nombre: "Uso PHEDS",
     corto: "Uso PHEDS",
-    color: "#4AA090",
-    cumple: (item) => contieneSi(item.uso_pheds) || item.avance >= 87.5,
+    color: "#235B4E",
+
+    cumple: (item) => {
+      const valor = valorUpper(item.uso_pheds);
+
+      return valor === "SI" || valor === "SÍ";
+    },
   },
   {
-    nombre: "En uso del MoCE",
+    nombre: "Uso MoCE",
     corto: "Uso MoCE",
-    color: "#3070C0",
-    cumple: (item) => contieneSi(item.uso_moce) || item.avance >= 100,
+    color: "#235B4E",
+
+    cumple: (item) => {
+      const valor = valorUpper(item.uso_moce);
+
+      return valor === "SI" || valor === "SÍ";
+    },
   },
   {
     nombre: "En uso de PHEDS y MoCE",
@@ -230,48 +259,109 @@ function contieneSi(valor) {
   return v === "SI" || v === "SÍ" || v.includes("SI");
 }
 
-//
+function esSi(valor) {
+  const v = valorUpper(valor);
+  return v === "SI" || v === "SÍ";
+}
+
+function esUsoParcial(item) {
+  const pheds = esSi(item.uso_pheds);
+  const moce = esSi(item.uso_moce);
+
+  return (pheds && !moce) || (!pheds && moce);
+}
+
+function esUsoCompleto(item) {
+  const pheds = esSi(item.uso_pheds);
+  const moce = esSi(item.uso_moce);
+
+  return pheds && moce;
+}
+
+// function obtenerEtapa(item) {
+//   if (item.avance >= 100) {
+//     return "En uso de PHEDS y MoCE";
+//   }
+
+//   if (contieneSi(item.uso_moce) || item.avance >= 87.5) {
+//     return "En uso del MoCE";
+//   }
+
+//   if (contieneSi(item.uso_pheds) || item.avance >= 75) {
+//     return "En uso del PHEDS";
+//   }
+
+//   if (contieneConcluido(item.capacitaciones)) {
+//     return "Capacitaciones concluidas";
+//   }
+
+//   if (contieneConcluido(item.configuraciones_iniciales)) {
+//     return "Configuraciones iniciales concluidas";
+//   }
+
+//   if (contieneConcluido(item.formato_moce)) {
+//     return "Formato MoCE concluido";
+//   }
+
+//   if (contieneConcluido(item.formato_pheds)) {
+//     return "Formato PHEDS concluido";
+//   }
+
+//   if (contieneConcluido(item.entrega_equipos_red)) {
+//     return "Entrega de equipos y config. de red concluida";
+//   }
+
+//   if (
+//     contieneConcluido(item.formato_tics_servicios) ||
+//     valorUpper(item.formato_tics_servicios).includes("ENVIADO")
+//   ) {
+//     return "Diagnóstico de infraestructura concluido";
+//   }
+
+//   return "Realizando diagnóstico de infraestructura";
+// }
+
 function obtenerEtapa(item) {
-  if (item.avance >= 100) {
+  const pheds = esSi(item.uso_pheds);
+  const moce = esSi(item.uso_moce);
+
+  if (pheds && moce) {
     return "En uso de PHEDS y MoCE";
   }
 
-  if (contieneSi(item.uso_moce) || item.avance >= 87.5) {
+  if (moce) {
     return "En uso del MoCE";
   }
 
-  if (contieneSi(item.uso_pheds) || item.avance >= 75) {
+  if (pheds) {
     return "En uso del PHEDS";
   }
 
-  if (contieneConcluido(item.capacitaciones)) {
+  if (valorUpper(item.capacitaciones) === "CONCLUIDO") {
     return "Capacitaciones concluidas";
   }
 
-  if (contieneConcluido(item.configuraciones_iniciales)) {
+  if (valorUpper(item.configuraciones_iniciales) === "CONCLUIDO") {
     return "Configuraciones iniciales concluidas";
   }
 
-  if (contieneConcluido(item.formato_moce)) {
+  if (valorUpper(item.formato_moce) === "CONCLUIDO") {
     return "Formato MoCE concluido";
   }
 
-  if (contieneConcluido(item.formato_pheds)) {
+  if (valorUpper(item.formato_pheds) === "CONCLUIDO") {
     return "Formato PHEDS concluido";
   }
 
-  if (contieneConcluido(item.entrega_equipos_red)) {
+  if (valorUpper(item.entrega_equipos_red) === "CONCLUIDO") {
     return "Entrega de equipos y config. de red concluida";
   }
 
-  if (
-    contieneConcluido(item.formato_tics_servicios) ||
-    valorUpper(item.formato_tics_servicios).includes("ENVIADO")
-  ) {
+  if (valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS") {
     return "Diagnóstico de infraestructura concluido";
   }
 
-  return "Realizando diagnóstico de infraestructura";
+  return "No ha iniciado";
 }
 
 function cargarFiltros(data) {
@@ -409,16 +499,56 @@ function actualizarDashboard(data) {
   }
 }
 
+// function cargarIndicadores(data) {
+//   const total = data.length;
+
+//   const sinInicio = data.filter((d) => d.avance === 0).length;
+
+//   const proceso = data.filter((d) => d.avance > 0 && d.avance < 75).length;
+
+//   const alto = data.filter((d) => {
+//     const pheds = valorUpper(d.uso_pheds);
+//     const moce = valorUpper(d.uso_moce);
+
+//     const completo =
+//       (pheds === "SI" || pheds === "SÍ") && (moce === "SI" || moce === "SÍ");
+
+//     return d.avance >= 75 && !completo;
+//   }).length;
+
+//   const completo = data.filter((d) => {
+//     const pheds = valorUpper(d.uso_pheds);
+//     const moce = valorUpper(d.uso_moce);
+
+//     return (
+//       (pheds === "SI" || pheds === "SÍ") && (moce === "SI" || moce === "SÍ")
+//     );
+//   }).length;
+
+//   const promedio = total
+//     ? data.reduce((acc, d) => acc + d.avance, 0) / total
+//     : 0;
+
+//   document.getElementById("kpi-total").innerText = total;
+//   document.getElementById("kpi-sin").innerText = sinInicio;
+//   document.getElementById("kpi-proceso").innerText = proceso;
+//   document.getElementById("kpi-alto").innerText = alto;
+//   document.getElementById("kpi-completo").innerText = completo;
+//   document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
+// }
+
 function cargarIndicadores(data) {
   const total = data.length;
 
   const sinInicio = data.filter((d) => d.avance === 0).length;
 
-  const proceso = data.filter((d) => d.avance > 0 && d.avance < 75).length;
+  const proceso = data.filter(
+    (d) => d.avance > 0 && !esUsoParcial(d) && !esUsoCompleto(d)
+  ).length;
 
-  const alto = data.filter((d) => d.avance >= 75 && d.avance < 100).length;
+  const usoParcial = data.filter(esUsoParcial).length;
 
-  const completo = data.filter((d) => d.avance >= 100).length;
+  const usoCompleto = data.filter(esUsoCompleto).length;
 
   const promedio = total
     ? data.reduce((acc, d) => acc + d.avance, 0) / total
@@ -427,8 +557,8 @@ function cargarIndicadores(data) {
   document.getElementById("kpi-total").innerText = total;
   document.getElementById("kpi-sin").innerText = sinInicio;
   document.getElementById("kpi-proceso").innerText = proceso;
-  document.getElementById("kpi-alto").innerText = alto;
-  document.getElementById("kpi-completo").innerText = completo;
+  document.getElementById("kpi-alto").innerText = usoParcial;
+  document.getElementById("kpi-completo").innerText = usoCompleto;
   document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
 }
 
@@ -447,13 +577,13 @@ function filtrarKpi(tipo) {
   }
 
   if (tipo === "alto") {
-    unidades = datosGlobales.filter((d) => d.avance >= 75 && d.avance < 100);
-    etiqueta = "Avance alto";
+    unidades = datosGlobales.filter(esUsoParcial);
+    etiqueta = "Uso parcial";
   }
 
   if (tipo === "completo") {
-    unidades = datosGlobales.filter((d) => d.avance >= 100);
-    etiqueta = "Completado";
+    unidades = datosGlobales.filter(esUsoCompleto);
+    etiqueta = "Uso completo";
   }
 
   cargarTabla(unidades);
@@ -1044,6 +1174,8 @@ async function cargarEquipamiento() {
     }));
 
     cargarMatrizEquipamiento(datosEquipamiento);
+    cargarKpiEquipamiento(datosEquipamiento);
+    cargarMatrizEquipamiento(datosEquipamiento);
   } catch (error) {
     console.warn("Equipamiento no disponible:", error);
   }
@@ -1167,4 +1299,34 @@ function sumarCampo(data, campo) {
     const valor = Number(item[campo]);
     return acc + (Number.isFinite(valor) ? valor : 0);
   }, 0);
+}
+
+function pintarKpiEquipamiento(prefix, requerido, entregado) {
+  const porcentaje = calcularPorcentajeEquipamiento(entregado, requerido);
+
+  const porcentajeEl = document.getElementById(`eq-kpi-${prefix}`);
+  const detalleEl = document.getElementById(`eq-kpi-${prefix}-detalle`);
+
+  if (!porcentajeEl || !detalleEl) return;
+
+  porcentajeEl.innerText = porcentaje.toFixed(1);
+
+  detalleEl.innerText = `${entregado.toLocaleString(
+    "es-MX"
+  )} / ${requerido.toLocaleString("es-MX")} entregadas`;
+}
+
+function cargarKpiEquipamiento(data) {
+  const pcReq = sumarCampo(data, "pc_requerimiento");
+  const pcEnt = sumarCampo(data, "pc_entregado");
+
+  const apsReq = sumarCampo(data, "aps_requerimiento");
+  const apsEnt = sumarCampo(data, "aps_entregado");
+
+  const impReq = sumarCampo(data, "impresoras_requerimiento");
+  const impEnt = sumarCampo(data, "impresoras_entregado");
+
+  pintarKpiEquipamiento("pc", pcReq, pcEnt);
+  pintarKpiEquipamiento("aps", apsReq, apsEnt);
+  pintarKpiEquipamiento("impresoras", impReq, impEnt);
 }
