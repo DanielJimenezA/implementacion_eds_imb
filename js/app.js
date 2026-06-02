@@ -2,6 +2,7 @@ let mapa;
 let markers = [];
 let datosGlobales = [];
 let tipoChart = null;
+let datosEquipamiento = [];
 
 const mexicoBounds = [
   [14.0, -118.5],
@@ -112,7 +113,10 @@ const etapaColores = {
   "En uso del MoCE": "#3070C0",
 };
 
-document.addEventListener("DOMContentLoaded", cargarDatos);
+document.addEventListener("DOMContentLoaded", () => {
+  cargarDatos();
+  cargarEquipamiento();
+});
 
 async function cargarDatos() {
   try {
@@ -397,34 +401,20 @@ function actualizarDashboard(data) {
   document.getElementById(
     "table-count"
   ).innerText = `${data.length} resultados`;
-  document.getElementById("footer-total").innerText = data.length;
+
+  const footerTotal = document.getElementById("footer-total");
+
+  if (footerTotal) {
+    footerTotal.innerText = data.length;
+  }
 }
-
-// function cargarIndicadores(data) {
-//   const total = data.length;
-//   const alto = data.filter((d) => d.avance >= 75).length;
-//   const medio = data.filter((d) => d.avance >= 25 && d.avance < 75).length;
-//   const sinInicio = data.filter((d) => d.avance === 0).length;
-
-//   const promedio = total
-//     ? data.reduce((acc, d) => acc + d.avance, 0) / total
-//     : 0;
-
-//   document.getElementById("kpi-total").innerText = total;
-//   document.getElementById("kpi-alto").innerText = alto;
-//   document.getElementById("kpi-medio").innerText = medio;
-//   document.getElementById("kpi-sin").innerText = sinInicio;
-//   document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
-// }
 
 function cargarIndicadores(data) {
   const total = data.length;
 
   const sinInicio = data.filter((d) => d.avance === 0).length;
 
-  const bajo = data.filter((d) => d.avance > 0 && d.avance < 25).length;
-
-  const medio = data.filter((d) => d.avance >= 25 && d.avance < 75).length;
+  const proceso = data.filter((d) => d.avance > 0 && d.avance < 75).length;
 
   const alto = data.filter((d) => d.avance >= 75 && d.avance < 100).length;
 
@@ -436,11 +426,73 @@ function cargarIndicadores(data) {
 
   document.getElementById("kpi-total").innerText = total;
   document.getElementById("kpi-sin").innerText = sinInicio;
-  document.getElementById("kpi-bajo").innerText = bajo;
-  document.getElementById("kpi-medio").innerText = medio;
+  document.getElementById("kpi-proceso").innerText = proceso;
   document.getElementById("kpi-alto").innerText = alto;
   document.getElementById("kpi-completo").innerText = completo;
   document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
+}
+
+function filtrarKpi(tipo) {
+  let unidades = [...datosGlobales];
+  let etiqueta = "Total en seguimiento";
+
+  if (tipo === "sin") {
+    unidades = datosGlobales.filter((d) => d.avance === 0);
+    etiqueta = "Sin inicio";
+  }
+
+  if (tipo === "proceso") {
+    unidades = datosGlobales.filter((d) => d.avance > 0 && d.avance < 75);
+    etiqueta = "En proceso";
+  }
+
+  if (tipo === "alto") {
+    unidades = datosGlobales.filter((d) => d.avance >= 75 && d.avance < 100);
+    etiqueta = "Avance alto";
+  }
+
+  if (tipo === "completo") {
+    unidades = datosGlobales.filter((d) => d.avance >= 100);
+    etiqueta = "Completado";
+  }
+
+  cargarTabla(unidades);
+  cargarMapa(unidades);
+  cargarIndicadores(unidades);
+  cargarDistribucionEtapas(unidades);
+  cargarGraficaTipologia(unidades);
+  cargarEntidades(unidades);
+  cargarMatrizAvance(unidades);
+
+  document.getElementById(
+    "results-count"
+  ).innerText = `${unidades.length} unidades`;
+  document.getElementById(
+    "map-count"
+  ).innerText = `${unidades.length} unidades`;
+  document.getElementById(
+    "table-count"
+  ).innerText = `${unidades.length} resultados · ${etiqueta}`;
+
+  const detalle = document.getElementById("detalle-unidad");
+
+  if (detalle) {
+    detalle.innerHTML = `
+      <div class="no-data">
+        Mostrando ${unidades.length} unidades para:<br>
+        <strong>${etiqueta}</strong>
+      </div>
+    `;
+  }
+
+  const tabla = document.querySelector(".bottom-grid");
+
+  if (tabla) {
+    tabla.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
 }
 
 function cargarMapa(data) {
@@ -965,4 +1017,154 @@ function colorPorAvance(avance) {
 
 function escapeJS(valor) {
   return String(valor).replace(/'/g, "\\'");
+}
+
+async function cargarEquipamiento() {
+  try {
+    const response = await fetch("data/equipamiento.json");
+
+    if (!response.ok) {
+      throw new Error("No se pudo cargar data/equipamiento.json");
+    }
+
+    const data = await response.json();
+
+    datosEquipamiento = data.map((item) => ({
+      ...item,
+      entidad: texto(item.entidad ?? item.ENTIDAD ?? item.Entidad),
+
+      pc_requerimiento: numero(item.pc_requerimiento),
+      pc_entregado: numero(item.pc_entregado),
+
+      aps_requerimiento: numero(item.aps_requerimiento),
+      aps_entregado: numero(item.aps_entregado),
+
+      impresoras_requerimiento: numero(item.impresoras_requerimiento),
+      impresoras_entregado: numero(item.impresoras_entregado),
+    }));
+
+    cargarMatrizEquipamiento(datosEquipamiento);
+  } catch (error) {
+    console.warn("Equipamiento no disponible:", error);
+  }
+}
+
+function calcularPorcentajeEquipamiento(entregado, requerido) {
+  if (!requerido || requerido <= 0) return 0;
+  return (entregado / requerido) * 100;
+}
+
+function crearCeldaEquipamiento(entidad, tipo, entregado, requerido) {
+  const porcentaje = calcularPorcentajeEquipamiento(entregado, requerido);
+  const faltante = Math.max(requerido - entregado, 0);
+  const clase = porcentaje > 0 ? "active" : "zero";
+
+  return `
+    <div
+      class="equipment-cell equipment-value ${clase}"
+      title="Entregado: ${entregado.toLocaleString(
+        "es-MX"
+      )} de ${requerido.toLocaleString(
+    "es-MX"
+  )}&#10;Faltante: ${faltante.toLocaleString("es-MX")}"
+      onclick="filtrarEquipamientoEntidad('${escapeJS(entidad)}', '${tipo}')"
+    >
+      ${porcentaje.toFixed(0)}%
+    </div>
+  `;
+}
+
+function cargarMatrizEquipamiento(data) {
+  const contenedor = document.getElementById("equipment-matrix");
+
+  if (!contenedor) return;
+
+  const entidades = [
+    ...new Set(data.map((d) => d.entidad).filter(Boolean)),
+  ].sort();
+
+  contenedor.innerHTML = `
+    <div class="equipment-matrix">
+      <div class="equipment-cell equipment-header">Entidad</div>
+      <div class="equipment-cell equipment-header">PC</div>
+      <div class="equipment-cell equipment-header">AP'S</div>
+      <div class="equipment-cell equipment-header">Impresoras</div>
+
+      ${entidades
+        .map((entidad) => {
+          const filas = data.filter((d) => d.entidad === entidad);
+
+          const pcReq = sumarCampo(filas, "pc_requerimiento");
+          const pcEnt = sumarCampo(filas, "pc_entregado");
+
+          const apsReq = sumarCampo(filas, "aps_requerimiento");
+          const apsEnt = sumarCampo(filas, "aps_entregado");
+
+          const impReq = sumarCampo(filas, "impresoras_requerimiento");
+          const impEnt = sumarCampo(filas, "impresoras_entregado");
+
+          return `
+            <div class="equipment-cell equipment-entity">${entidad}</div>
+            ${crearCeldaEquipamiento(entidad, "PC", pcEnt, pcReq)}
+            ${crearCeldaEquipamiento(entidad, "AP'S", apsEnt, apsReq)}
+            ${crearCeldaEquipamiento(entidad, "Impresoras", impEnt, impReq)}
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
+function filtrarEquipamientoEntidad(entidad, tipo) {
+  const unidades = datosGlobales.filter(
+    (d) => texto(d.entidad) === texto(entidad)
+  );
+
+  cargarTabla(unidades);
+  cargarMapa(unidades);
+  cargarIndicadores(unidades);
+  cargarDistribucionEtapas(unidades);
+  cargarGraficaTipologia(unidades);
+  cargarEntidades(unidades);
+  cargarMatrizAvance(unidades);
+
+  document.getElementById(
+    "results-count"
+  ).innerText = `${unidades.length} unidades`;
+
+  document.getElementById(
+    "map-count"
+  ).innerText = `${unidades.length} unidades`;
+
+  document.getElementById(
+    "table-count"
+  ).innerText = `${unidades.length} resultados · Equipamiento ${tipo} · ${entidad}`;
+
+  const detalle = document.getElementById("detalle-unidad");
+
+  if (detalle) {
+    detalle.innerHTML = `
+      <div class="no-data">
+        Mostrando ${unidades.length} unidades para:<br>
+        <strong>${entidad}</strong><br>
+        Equipamiento: <strong>${tipo}</strong>
+      </div>
+    `;
+  }
+
+  const tabla = document.querySelector(".bottom-grid");
+
+  if (tabla) {
+    tabla.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+}
+
+function sumarCampo(data, campo) {
+  return data.reduce((acc, item) => {
+    const valor = Number(item[campo]);
+    return acc + (Number.isFinite(valor) ? valor : 0);
+  }, 0);
 }

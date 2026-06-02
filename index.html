@@ -122,38 +122,52 @@
         </article>
       </section> -->
       <section class="kpi-grid">
-        <article class="kpi-card" style="--kpi-color: var(--verde)">
+        <article
+          class="kpi-card kpi-clickable"
+          style="--kpi-color: var(--verde)"
+          onclick="filtrarKpi('total')"
+        >
           <div class="kpi-label">Total en seguimiento</div>
           <div class="kpi-value" id="kpi-total">0</div>
           <div class="kpi-sub">Unidades hospitalarias</div>
         </article>
 
-        <article class="kpi-card" style="--kpi-color: #722222">
+        <article
+          class="kpi-card kpi-clickable"
+          style="--kpi-color: #722222"
+          onclick="filtrarKpi('sin')"
+        >
           <div class="kpi-label">Sin inicio</div>
           <div class="kpi-value" id="kpi-sin">0</div>
           <div class="kpi-sub">0% de avance</div>
         </article>
 
-        <article class="kpi-card" style="--kpi-color: #f47c20">
-          <div class="kpi-label">Avance bajo</div>
-          <div class="kpi-value" id="kpi-bajo">0</div>
-          <div class="kpi-sub">&gt; 0% a 24.9%</div>
+        <article
+          class="kpi-card kpi-clickable"
+          style="--kpi-color: #4aa090"
+          onclick="filtrarKpi('proceso')"
+        >
+          <div class="kpi-label">En proceso</div>
+          <div class="kpi-value" id="kpi-proceso">0</div>
+          <div class="kpi-sub">&gt; 0% a 74.9%</div>
         </article>
 
-        <article class="kpi-card" style="--kpi-color: #4aa090">
-          <div class="kpi-label">Avance medio</div>
-          <div class="kpi-value" id="kpi-medio">0</div>
-          <div class="kpi-sub">25% a 74.9%</div>
-        </article>
-
-        <article class="kpi-card" style="--kpi-color: #3070c0">
-          <div class="kpi-label">Avance alto</div>
+        <article
+          class="kpi-card kpi-clickable"
+          style="--kpi-color: #3070c0"
+          onclick="filtrarKpi('alto')"
+        >
+          <div class="kpi-label">Uso parcial</div>
           <div class="kpi-value" id="kpi-alto">0</div>
           <div class="kpi-sub">75% a 99.9%</div>
         </article>
 
-        <article class="kpi-card" style="--kpi-color: var(--sabila)">
-          <div class="kpi-label">Completado</div>
+        <article
+          class="kpi-card kpi-clickable"
+          style="--kpi-color: var(--sabila)"
+          onclick="filtrarKpi('completo')"
+        >
+          <div class="kpi-label">Uso completo</div>
           <div class="kpi-value" id="kpi-completo">0</div>
           <div class="kpi-sub">100% de avance</div>
         </article>
@@ -255,6 +269,15 @@
             </table>
           </div>
         </article>
+      </section>
+
+      <section class="section-card equipment-matrix-card">
+        <div class="section-header">
+          <h2>Matriz de avance de equipamiento</h2>
+          <span class="section-badge">PC · AP'S · Impresoras</span>
+        </div>
+
+        <div class="equipment-matrix-container" id="equipment-matrix"></div>
       </section>
     </main>
 
