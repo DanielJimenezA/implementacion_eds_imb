@@ -157,3 +157,44 @@ with open(salida_json, "w", encoding="utf-8") as f:
 print("JSON generado correctamente")
 print(f"Registros exportados: {len(registros):,}")
 print(salida_json)
+
+# =====================================================
+# EXPORTAR EQUIPAMIENTO
+# =====================================================
+
+salida_equipamiento = Path("data/equipamiento.json")
+
+try:
+    df_eq = pd.read_excel(archivo_excel, sheet_name="equipamiento")
+
+    df_eq.columns = [normalizar_columna(c) for c in df_eq.columns]
+
+    columnas_numericas_eq = [
+        "pc_requerimiento",
+        "pc_entregado",
+        "aps_requerimiento",
+        "aps_entregado",
+        "impresoras_requerimiento",
+        "impresoras_entregado",
+    ]
+
+    if "entidad" in df_eq.columns:
+        df_eq["entidad"] = df_eq["entidad"].apply(limpiar_texto)
+
+    for col in columnas_numericas_eq:
+        if col in df_eq.columns:
+            df_eq[col] = df_eq[col].apply(limpiar_entero)
+
+    df_eq = df_eq.where(pd.notnull(df_eq), None)
+
+    registros_eq = df_eq.to_dict(orient="records")
+    registros_eq = limpiar_json(registros_eq)
+
+    with open(salida_equipamiento, "w", encoding="utf-8") as f:
+        json.dump(registros_eq, f, ensure_ascii=False, indent=4, allow_nan=False)
+
+    print(f"Archivo de equipamiento: {salida_equipamiento}")
+    print(f"Registros equipamiento: {len(registros_eq):,}")
+
+except ValueError:
+    print("No se encontró la hoja 'equipamiento'. Se omite equipamiento.")

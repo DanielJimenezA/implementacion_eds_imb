@@ -1,0 +1,218 @@
+[
+    {
+        "entidad": "Sonora",
+        "pc_requerimiento": 722,
+        "pc_entregado": 722,
+        "aps_requerimiento": 94,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 245,
+        "impresoras_entregado": 245
+    },
+    {
+        "entidad": "Colima",
+        "pc_requerimiento": 0,
+        "pc_entregado": 0,
+        "aps_requerimiento": 36,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 60,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Baja California",
+        "pc_requerimiento": 510,
+        "pc_entregado": 0,
+        "aps_requerimiento": 82,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 0,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Baja California Sur",
+        "pc_requerimiento": 347,
+        "pc_entregado": 0,
+        "aps_requerimiento": 35,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 0,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Morelos",
+        "pc_requerimiento": 175,
+        "pc_entregado": 0,
+        "aps_requerimiento": 64,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 18,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Nayarit",
+        "pc_requerimiento": 507,
+        "pc_entregado": 0,
+        "aps_requerimiento": 61,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 36,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "San Luis Potosi",
+        "pc_requerimiento": 742,
+        "pc_entregado": 0,
+        "aps_requerimiento": 89,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 197,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Tamaulipas",
+        "pc_requerimiento": 396,
+        "pc_entregado": 0,
+        "aps_requerimiento": 144,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 48,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Tabasco",
+        "pc_requerimiento": 185,
+        "pc_entregado": 0,
+        "aps_requerimiento": 154,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 244,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Ciudad de México",
+        "pc_requerimiento": 1923,
+        "pc_entregado": 0,
+        "aps_requerimiento": 285,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 510,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Oaxaca",
+        "pc_requerimiento": 1351,
+        "pc_entregado": 0,
+        "aps_requerimiento": 189,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 336,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Guerrero",
+        "pc_requerimiento": 847,
+        "pc_entregado": 0,
+        "aps_requerimiento": 226,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 343,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Puebla",
+        "pc_requerimiento": 2446,
+        "pc_entregado": 0,
+        "aps_requerimiento": 317,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 521,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Veracruz",
+        "pc_requerimiento": 2393,
+        "pc_entregado": 0,
+        "aps_requerimiento": 341,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 577,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Estado de México",
+        "pc_requerimiento": 3410,
+        "pc_entregado": 0,
+        "aps_requerimiento": 497,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 662,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Sinaloa",
+        "pc_requerimiento": 1106,
+        "pc_entregado": 0,
+        "aps_requerimiento": 154,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 0,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Zacatecas",
+        "pc_requerimiento": 486,
+        "pc_entregado": 0,
+        "aps_requerimiento": 77,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 0,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Tlaxcala",
+        "pc_requerimiento": 332,
+        "pc_entregado": 0,
+        "aps_requerimiento": 42,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 20,
+        "impresoras_entregado": 20
+    },
+    {
+        "entidad": "Yucatán",
+        "pc_requerimiento": 395,
+        "pc_entregado": 0,
+        "aps_requerimiento": 58,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 49,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Hidalgo",
+        "pc_requerimiento": 114,
+        "pc_entregado": 0,
+        "aps_requerimiento": 104,
+        "aps_entregado": 104,
+        "impresoras_requerimiento": 158,
+        "impresoras_entregado": 158
+    },
+    {
+        "entidad": "Michoacán",
+        "pc_requerimiento": 1165,
+        "pc_entregado": 0,
+        "aps_requerimiento": 162,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 0,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Campeche",
+        "pc_requerimiento": 138,
+        "pc_entregado": 0,
+        "aps_requerimiento": 30,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 114,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Quintana Roo",
+        "pc_requerimiento": 468,
+        "pc_entregado": 0,
+        "aps_requerimiento": 82,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 113,
+        "impresoras_entregado": 0
+    },
+    {
+        "entidad": "Totales",
+        "pc_requerimiento": 20158,
+        "pc_entregado": 722,
+        "aps_requerimiento": 3323,
+        "aps_entregado": 104,
+        "impresoras_requerimiento": 4251,
+        "impresoras_entregado": 423
+    }
+]
