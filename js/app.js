@@ -129,16 +129,32 @@ const etapasDistribucion = [
   },
 ];
 
+// const etapaColores = {
+//   "En uso de PHEDS y MoCE": "#00037A",
+//   "Realizando diagnóstico de infraestructura": "#7A1E1E",
+//   "Diagnóstico de infraestructura concluido": "#E04525",
+//   "Entrega de equipos y config. de red concluida": "#F47C20",
+//   "Formato PHEDS concluido": "#F2B52E",
+//   "Formato MoCE concluido": "#B7D44A",
+//   "Configuraciones iniciales concluidas": "#A6CF55",
+//   "Capacitaciones concluidas": "#67B74B",
+//   "En uso del PHEDS": "#4AA090",
+//   "En uso del MoCE": "#3070C0",
+// };
+
 const etapaColores = {
-  "En uso de PHEDS y MoCE": "#00037A",
   "Realizando diagnóstico de infraestructura": "#7A1E1E",
   "Diagnóstico de infraestructura concluido": "#E04525",
   "Entrega de equipos y config. de red concluida": "#F47C20",
+
+  "En uso de PHEDS y MoCE": "#00008B",
   "Formato PHEDS concluido": "#F2B52E",
   "Formato MoCE concluido": "#B7D44A",
+
   "Configuraciones iniciales concluidas": "#A6CF55",
   "Capacitaciones concluidas": "#67B74B",
   "En uso del PHEDS": "#4AA090",
+
   "En uso del MoCE": "#3070C0",
 };
 
@@ -360,8 +376,7 @@ function obtenerEtapa(item) {
   if (valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS") {
     return "Diagnóstico de infraestructura concluido";
   }
-
-  return "No ha iniciado";
+  return "Realizando diagnóstico de infraestructura";
 }
 
 function cargarFiltros(data) {
@@ -757,22 +772,47 @@ function mostrarDetalle(item) {
   `;
 }
 
+// function cargarLeyenda() {
+//   const contenedor = document.getElementById("legend-grid");
+
+//   contenedor.innerHTML = etapasOrden
+//     .map((etapa) => {
+//       const color = etapaColores[etapa];
+
+//       return `
+//         <div class="legend-item">
+//           <span class="legend-dot" style="background:${color}"></span>
+//           <span>${etapa}</span>
+//         </div>
+//       `;
+//     })
+//     .join("");
+// }
+
 function cargarLeyenda() {
   const contenedor = document.getElementById("legend-grid");
 
+  if (!contenedor) return;
+
   contenedor.innerHTML = etapasOrden
     .map((etapa) => {
-      const color = etapaColores[etapa];
+      const color = etapaColores[etapa] || "#235B4E";
 
       return `
-        <div class="legend-item">
+        <button
+          class="legend-item legend-clickable"
+          type="button"
+          onclick="filtrarPorEtapaLeyenda('${escapeJS(etapa)}')"
+          title="Ver unidades: ${etapa}"
+        >
           <span class="legend-dot" style="background:${color}"></span>
           <span>${etapa}</span>
-        </div>
+        </button>
       `;
     })
     .join("");
 }
+
 function cargarDistribucionEtapas(data) {
   const total = data.length || 1;
 
@@ -885,7 +925,27 @@ function cargarMatrizAvance(data) {
               const cantidad = unidadesEntidad.filter(etapa.cumple).length;
               const porcentaje = (cantidad / totalEntidad) * 100;
 
-              const clase = porcentaje > 0 ? "active" : "low";
+              // let clase = "matrix-danger";
+
+              // if (porcentaje >= 75) {
+              //   clase = "matrix-success-strong";
+              // } else if (porcentaje >= 80) {
+              //   clase = "matrix-success";
+              // } else if (porcentaje >= 60) {
+              //   clase = "matrix-warning";
+              // }
+
+              let clase = "matrix-danger";
+
+              if (porcentaje >= 75) {
+                clase = "matrix-success-strong";
+              } else if (porcentaje >= 50) {
+                clase = "matrix-success";
+              } else if (porcentaje >= 25) {
+                clase = "matrix-warning";
+              } else if (porcentaje === 0) {
+                clase = "matrix-notstarted";
+              }
 
               return `
                 <div
@@ -1329,4 +1389,221 @@ function cargarKpiEquipamiento(data) {
   pintarKpiEquipamiento("pc", pcReq, pcEnt);
   pintarKpiEquipamiento("aps", apsReq, apsEnt);
   pintarKpiEquipamiento("impresoras", impReq, impEnt);
+}
+
+async function copiarMatrizSVG() {
+  const matriz = document.querySelector(".progress-matrix");
+
+  if (!matriz) {
+    alert("No se encontró la matriz.");
+    return;
+  }
+
+  const rect = matriz.getBoundingClientRect();
+  const ancho = Math.ceil(rect.width);
+  const alto = Math.ceil(rect.height);
+
+  const estilos = `
+    <style>
+      .progress-matrix {
+        display: grid;
+        gap: 4px;
+        width: ${ancho}px;
+        font-family: "Noto Sans", Arial, sans-serif;
+      }
+
+      .matrix-cell {
+        min-height: 30px;
+        border-radius: 6px;
+        padding: 5px 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: 800;
+        text-align: center;
+        line-height: 1.05;
+        border: 1px solid rgba(35, 91, 78, 0.12);
+      }
+
+      .matrix-header {
+        background: #5D9A84;
+        color: #ffffff;
+        font-size: 13px;
+      }
+
+      .matrix-entity {
+        justify-content: flex-start;
+        text-align: left;
+        background: #E7F1EC;
+        color: #10312B;
+        font-size: 13px;
+      }
+
+      .matrix-danger {
+        background: #F4D6D8;
+        color: #6A1B1F;
+      }
+
+      .matrix-warning {
+        background: #F9E7B7;
+        color: #7A5A00;
+      }
+
+      .matrix-success {
+        background: #DCEBDE;
+        color: #235B4E;
+      }
+
+      .matrix-success-strong {
+        background: #B7D8C7;
+        color: #163D34;
+      }
+    </style>
+  `;
+
+  const html = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="${ancho}" height="${alto}">
+      <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          ${estilos}
+          ${matriz.outerHTML}
+        </div>
+      </foreignObject>
+    </svg>
+  `;
+
+  try {
+    await navigator.clipboard.writeText(html);
+    alert("SVG de la matriz copiado al portapapeles.");
+  } catch (error) {
+    console.error("No se pudo copiar el SVG:", error);
+
+    const blob = new Blob([html], { type: "image/svg+xml" });
+    const url = URL.createObjectURL(blob);
+    window.open(url, "_blank");
+  }
+}
+
+function descargarMatrizSVG() {
+  const matriz = document.querySelector(".progress-matrix");
+
+  if (!matriz) {
+    alert("No se encontró la matriz.");
+    return;
+  }
+
+  const rect = matriz.getBoundingClientRect();
+  const ancho = Math.ceil(rect.width);
+  const alto = Math.ceil(rect.height);
+
+  const estilos = `
+    <style>
+      .progress-matrix { display: grid; gap: 4px; width: ${ancho}px; font-family: Arial, sans-serif; }
+      .matrix-cell { min-height: 30px; border-radius: 6px; padding: 5px 6px; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 800; text-align: center; border: 1px solid rgba(35,91,78,.12); }
+      .matrix-header { background: #5D9A84; color: #fff; font-size: 13px; }
+      .matrix-entity { justify-content: flex-start; text-align: left; background: #E7F1EC; color: #10312B; font-size: 13px; }
+      .matrix-danger { background: #F4D6D8; color: #6A1B1F; }
+      .matrix-warning { background: #F9E7B7; color: #7A5A00; }
+      .matrix-success { background: #DCEBDE; color: #235B4E; }
+      .matrix-success-strong { background: #B7D8C7; color: #163D34; }
+    </style>
+  `;
+
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="${ancho}" height="${alto}">
+      <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          ${estilos}
+          ${matriz.outerHTML}
+        </div>
+      </foreignObject>
+    </svg>
+  `;
+
+  const blob = new Blob([svg], { type: "image/svg+xml;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "matriz-avance.svg";
+  link.click();
+
+  URL.revokeObjectURL(url);
+}
+
+async function descargarMatrizPNG() {
+  const matriz = document.querySelector(".progress-matrix");
+
+  if (!matriz) {
+    alert("No se encontró la matriz.");
+    return;
+  }
+
+  try {
+    const canvas = await html2canvas(matriz, {
+      backgroundColor: "#ffffff",
+      scale: 3,
+      useCORS: true,
+    });
+
+    const enlace = document.createElement("a");
+
+    enlace.download = `matriz_avance_${new Date()
+      .toISOString()
+      .slice(0, 10)}.png`;
+
+    enlace.href = canvas.toDataURL("image/png");
+
+    document.body.appendChild(enlace);
+    enlace.click();
+    document.body.removeChild(enlace);
+  } catch (error) {
+    console.error(error);
+    alert("No fue posible generar el PNG.");
+  }
+}
+
+function aplicarVistaFiltrada(data, etiqueta = "Filtro aplicado") {
+  cargarIndicadores(data);
+  cargarMapa(data);
+  cargarDistribucionEtapas(data);
+  cargarGraficaTipologia(data);
+  cargarEntidades(data);
+  cargarTabla(data);
+  cargarMatrizAvance(data);
+
+  document.getElementById(
+    "results-count"
+  ).innerText = `${data.length} unidades`;
+  document.getElementById("map-count").innerText = `${data.length} unidades`;
+  document.getElementById(
+    "table-count"
+  ).innerText = `${data.length} resultados · ${etiqueta}`;
+
+  const detalle = document.getElementById("detalle-unidad");
+
+  if (detalle) {
+    detalle.innerHTML = `
+      <div class="no-data">
+        Mostrando ${data.length} unidades para:<br>
+        <strong>${etiqueta}</strong>
+      </div>
+    `;
+  }
+}
+
+function filtrarPorEtapaLeyenda(etapa) {
+  const unidades = datosGlobales.filter((d) => obtenerEtapa(d) === etapa);
+
+  aplicarVistaFiltrada(unidades, etapa);
+
+  const mapa = document.getElementById("map");
+
+  if (mapa) {
+    mapa.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
 }
