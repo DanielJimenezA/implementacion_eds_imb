@@ -66,10 +66,10 @@ const etapasDistribucion = [
   },
   {
     nombre: "Configuraciones iniciales concluidas",
-    corto: "Configuración",
+    corto: "Config.",
     color: "#A6CF55",
     cumple: (item) =>
-      contieneConcluido(item.configuraciones_iniciales) || item.avance >= 62.5,
+      valorUpper(item.configuraciones_iniciales) === "CONCLUIDO",
   },
   {
     nombre: "Capacitaciones concluidas",
