@@ -24,8 +24,8 @@ const etapasOrden = [
 
 const etapasDistribucion = [
   {
-    nombre: "Kick-Off",
-    corto: "Kick-Off",
+    nombre: "Introducción",
+    corto: "Introducción",
     color: "#235B4E",
     cumple: () => true,
   },
