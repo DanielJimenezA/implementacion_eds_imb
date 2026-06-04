@@ -2812,12 +2812,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "MCIMB000890",
@@ -9892,12 +9892,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "HGIMB002572",
@@ -9982,12 +9982,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "HGIMB002036",
@@ -10012,12 +10012,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "HGIMB001394",
@@ -14000,14 +14000,14 @@
         "longitud": -97.823416,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
-        "configuraciones_iniciales": "",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.5
     },
     {
         "clues": "TSIMB001091",
