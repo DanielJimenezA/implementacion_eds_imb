@@ -3950,14 +3950,14 @@
         "longitud": -99.32647,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MSIMB002515",
@@ -3984,10 +3984,10 @@
         "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
         "observaciones": "",
-        "avance": 0.75
+        "avance": 1.0
     },
     {
         "clues": "MSIMB001861",
@@ -4010,14 +4010,14 @@
         "longitud": -98.7849473,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MSIMB002112",
@@ -4040,14 +4040,14 @@
         "longitud": -98.8065608,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "NTIMB000020",
@@ -11510,14 +11510,14 @@
         "longitud": -98.9391,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MSIMB000386",
@@ -11540,14 +11540,14 @@
         "longitud": -99.2335,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MSIMB000806",
@@ -11570,14 +11570,14 @@
         "longitud": -99.1907,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MSIMB001243",
@@ -11600,14 +11600,14 @@
         "longitud": -99.3897781,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MSIMB001856",
@@ -11630,14 +11630,14 @@
         "longitud": -99.2390247,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MSIMB002351",
@@ -11660,14 +11660,14 @@
         "longitud": -98.7625018,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "NTIMB000551",
@@ -15770,14 +15770,14 @@
         "longitud": -99.08,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "NTIMB000015",
@@ -16910,14 +16910,14 @@
         "longitud": -99.2022,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.20833333333333331
     },
     {
         "clues": "MCIMB012440",
@@ -17495,7 +17495,7 @@
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "MORELIA",
-        "nombre_unidad": "HOSPITAL GENERAL DE CHALCO",
+        "nombre_unidad": "HOSPITAL PSIQUIATRICO \"DR. JOSÉ TORRES OROZCO\"",
         "categoria_gerencial": "Psiquiátrico",
         "prioridad": 2,
         "tipologia": "HOSPITAL PSIQUIÁTRICO",
