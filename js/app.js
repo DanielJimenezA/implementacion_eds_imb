@@ -1550,27 +1550,60 @@ async function descargarMatrizPNG() {
     return;
   }
 
+  const clon = matriz.cloneNode(true);
+
+  clon.style.position = "fixed";
+  clon.style.left = "-9999px";
+  clon.style.top = "0";
+  clon.style.background = "#ffffff";
+  clon.style.padding = "12px";
+  clon.style.display = "grid";
+  clon.style.gap = "4px";
+  clon.style.width = `${matriz.offsetWidth}px`;
+  clon.style.gridTemplateColumns = getComputedStyle(matriz).gridTemplateColumns;
+
+  clon.querySelectorAll(".matrix-cell").forEach((celda) => {
+    const estilo = getComputedStyle(celda);
+
+    celda.style.background = estilo.backgroundColor;
+    celda.style.color = estilo.color;
+    celda.style.border = estilo.border;
+    celda.style.borderRadius = estilo.borderRadius;
+    celda.style.padding = estilo.padding;
+    celda.style.fontSize = estilo.fontSize;
+    celda.style.fontWeight = estilo.fontWeight;
+    celda.style.textAlign = estilo.textAlign;
+    celda.style.display = "flex";
+    celda.style.alignItems = "center";
+    celda.style.justifyContent = celda.classList.contains("matrix-entity")
+      ? "flex-start"
+      : "center";
+    celda.style.minHeight = estilo.minHeight;
+  });
+
+  document.body.appendChild(clon);
+
   try {
-    const canvas = await html2canvas(matriz, {
+    const canvas = await html2canvas(clon, {
       backgroundColor: "#ffffff",
       scale: 3,
       useCORS: true,
+      logging: false,
+      windowWidth: clon.scrollWidth,
+      windowHeight: clon.scrollHeight,
     });
 
     const enlace = document.createElement("a");
-
     enlace.download = `matriz_avance_${new Date()
       .toISOString()
       .slice(0, 10)}.png`;
-
     enlace.href = canvas.toDataURL("image/png");
-
-    document.body.appendChild(enlace);
     enlace.click();
-    document.body.removeChild(enlace);
   } catch (error) {
-    console.error(error);
+    console.error("No fue posible generar el PNG:", error);
     alert("No fue posible generar el PNG.");
+  } finally {
+    document.body.removeChild(clon);
   }
 }
 
