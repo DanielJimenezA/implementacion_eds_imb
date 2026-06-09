@@ -1266,6 +1266,16 @@ function crearCeldaEquipamiento(entidad, tipo, entregado, requerido) {
   `;
 }
 
+let clase = "equipment-danger";
+
+if (porcentaje >= 75) {
+  clase = "equipment-success-strong";
+} else if (porcentaje >= 50) {
+  clase = "equipment-success";
+} else if (porcentaje >= 25) {
+  clase = "equipment-warning";
+}
+
 function cargarMatrizEquipamiento(data) {
   const contenedor = document.getElementById("equipment-matrix");
 
