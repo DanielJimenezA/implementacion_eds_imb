@@ -1310,3 +1310,31 @@ header {
 .legend-clickable:hover .legend-dot {
   transform: scale(1.15);
 }
+
+/* =====================================================
+   SEMAFORIZACIÓN MATRIZ DE EQUIPAMIENTO
+   0 - 24.9   rojo pastel
+   25 - 49.9  amarillo pastel
+   50 - 74.9  verde claro
+   75 - 100   verde fuerte
+===================================================== */
+
+.equipment-value.equipment-danger {
+  background: #f4d6d8 !important;
+  color: #6a1b1f !important;
+}
+
+.equipment-value.equipment-warning {
+  background: #f9e7b7 !important;
+  color: #7a5a00 !important;
+}
+
+.equipment-value.equipment-success {
+  background: #dcebde !important;
+  color: #235b4e !important;
+}
+
+.equipment-value.equipment-success-strong {
+  background: #b7d8c7 !important;
+  color: #163d34 !important;
+}
