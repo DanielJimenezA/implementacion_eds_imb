@@ -1,4 +1,4 @@
-# Dashboard IMSS-Bienestar — GitHub Pages
+# Avance de Expediente Digital - IMSS-Bienestar — 
 
 Proyecto estático para GitHub Pages. No requiere backend.
 
