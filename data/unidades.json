@@ -1848,7 +1848,7 @@
         "total_camas": 253,
         "latitud": 19.3598136,
         "longitud": -99.1632394,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
@@ -1857,7 +1857,7 @@
         "uso_pheds": "SI",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.6666666666666666
+        "avance": 0.75
     },
     {
         "clues": "GRIMB000934",
@@ -3320,14 +3320,14 @@
         "longitud": -98.971475,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "ENVIADO",
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
-        "avance": 0.3333333333333333
+        "observaciones": "Conexión eléctrica DEFICIENTE — requiere adecuación antes del arranque del sistema.\nEquipos obsoletos con bajo rendimiento identificados en múltiples áreas.\nStarlink sin configurar — acción prioritaria junto con corrección eléctrica.",
+        "avance": 0.4166666666666667
     },
     {
         "clues": "MCIMB009051",
@@ -3500,14 +3500,14 @@
         "longitud": -98.897241,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "EN PROCESO",
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
-        "avance": 0.37499999999999994
+        "observaciones": "Nodos de red deteriorados en múltiples áreas — reemplazo físico de infraestructura requerido.",
+        "avance": 0.4583333333333333
     },
     {
         "clues": "MCIMB010294",
@@ -3536,7 +3536,7 @@
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
-        "observaciones": "",
+        "observaciones": "Solo 4 PCs operativos de 46 necesarios — déficit del 91%.",
         "avance": 0.125
     },
     {
@@ -3566,7 +3566,7 @@
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
-        "observaciones": "EN LA VISITA DEL HOSPITAL, SE IDENTIFICO QUE EL HOSPITAL BRINDA SERVICIO, PESE A SUS LIMITANTES DE ESPACIO, LO QUE IMPLICA QUE",
+        "observaciones": "Sin switches instalados en ninguna área. Los APs requeridos en consulta externa (17) y hospitalización (5) son los más altos de la célula.",
         "avance": 0.375
     },
     {
@@ -3950,14 +3950,14 @@
         "longitud": -99.32647,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "MSIMB002515",
@@ -4010,14 +4010,14 @@
         "longitud": -98.7849473,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "MSIMB002112",
@@ -4040,14 +4040,14 @@
         "longitud": -98.8065608,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB000020",
@@ -4070,14 +4070,14 @@
         "longitud": -105.3677335,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB000353",
@@ -4100,14 +4100,14 @@
         "longitud": -104.3780574,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB000510",
@@ -4130,14 +4130,14 @@
         "longitud": -104.5171004,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB002202",
@@ -4160,14 +4160,14 @@
         "longitud": -104.08296,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB002523",
@@ -4190,14 +4190,14 @@
         "longitud": -105.2986692,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB002622",
@@ -4220,14 +4220,14 @@
         "longitud": -104.8913778,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB002634",
@@ -4250,14 +4250,14 @@
         "longitud": -105.450584,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB002646",
@@ -4280,14 +4280,14 @@
         "longitud": -105.134699,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB002745",
@@ -4310,14 +4310,14 @@
         "longitud": -105.3119832,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "OCIMB000135",
@@ -8450,14 +8450,14 @@
         "longitud": -111.364929,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "BSIMB000346",
@@ -8480,14 +8480,14 @@
         "longitud": -109.7082831,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "BSIMB000643",
@@ -8510,14 +8510,14 @@
         "longitud": -109.9248226,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "BSIMB000672",
@@ -8540,14 +8540,14 @@
         "longitud": -110.318457,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000073",
@@ -8748,16 +8748,16 @@
         "total_camas": 200,
         "latitud": 19.3443153,
         "longitud": -99.0274286,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
-        "configuraciones_iniciales": "",
-        "capacitaciones": "CONCLUIDAS",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "ENVIADO A LA CE/UM",
+        "configuraciones_iniciales": "EN PROCESO",
+        "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.16666666666666666
+        "avance": 0.3333333333333333
     },
     {
         "clues": "DFIMB002662",
@@ -8778,16 +8778,16 @@
         "total_camas": 200,
         "latitud": 19.287391,
         "longitud": -99.052743,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
-        "configuraciones_iniciales": "",
-        "capacitaciones": "CONCLUIDAS",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
+        "configuraciones_iniciales": "EN PROCESO",
+        "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.16666666666666666
+        "avance": 0.25
     },
     {
         "clues": "DFIMB002575",
@@ -8868,16 +8868,16 @@
         "total_camas": 182,
         "latitud": 19.3066411,
         "longitud": -99.0660984,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
-        "configuraciones_iniciales": "",
-        "capacitaciones": "CONCLUIDAS",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "ENVIADO A LA CE/UM",
+        "formato_moce": "ENVIADO A LA CE/UM",
+        "configuraciones_iniciales": "EN PROCESO",
+        "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.16666666666666666
+        "avance": 0.25
     },
     {
         "clues": "DFIMB002020",
@@ -8898,16 +8898,16 @@
         "total_camas": 173,
         "latitud": 19.45112,
         "longitud": -99.169315,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
-        "configuraciones_iniciales": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
+        "configuraciones_iniciales": "EN PROCESO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.16666666666666666
+        "avance": 0.5833333333333333
     },
     {
         "clues": "DFIMB001706",
@@ -9108,16 +9108,16 @@
         "total_camas": 99,
         "latitud": 19.4025483,
         "longitud": -99.1908109,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
-        "configuraciones_iniciales": "",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.16666666666666666
+        "avance": 0.625
     },
     {
         "clues": "DFIMB000830",
@@ -10070,14 +10070,14 @@
         "longitud": -98.9410275,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "ENVIADO",
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
-        "avance": 0.3333333333333333
+        "observaciones": "Hospital con mayores necesidades de infraestructura TI: SIN antena Starlink, sin nodos de red.",
+        "avance": 0.4166666666666667
     },
     {
         "clues": "MCIMB000914",
@@ -10106,7 +10106,7 @@
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
-        "observaciones": "",
+        "observaciones": "Déficit de 103 PCs y 34 impresoras — máximo de la célula.",
         "avance": 0.125
     },
     {
@@ -10136,7 +10136,7 @@
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
-        "observaciones": "",
+        "observaciones": "Espacio físico parcialmente rentado — limita intervenciones de infraestructura permanente.",
         "avance": 0.125
     },
     {
@@ -10160,14 +10160,14 @@
         "longitud": -98.8936991,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "EN PROCESO",
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
-        "avance": 0.37499999999999994
+        "observaciones": "Hospital con déficit de equipamiento — 9 equipos de cómputo operativos concentrados en consulta externa, todos obsoletos excepto Gineco y Cirugía. Urgencias, hospitalización, quirófano y toco-cirugía sin equipos ni red completa. Se requieren 15 computadoras y 8 impresoras adicionales. Sin VPN Starlink — acción prioritaria. MoCE (V4) y PHEDS completados",
+        "avance": 0.4583333333333333
     },
     {
         "clues": "MCIMB001841",
@@ -10196,7 +10196,7 @@
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
+        "observaciones": "Personal usa máquinas de escribir por ausencia de PCs. Se requiere VPN Starlink como acción prioritaria antes del arranque.\nBrecha de 68 PCs y 15 impresoras — mayor prioridad de equipamiento en la célula.\nSin red en áreas clínicas (hospitalización, quirófano, consulta externa).",
         "avance": 0.24999999999999997
     },
     {
@@ -10219,13 +10219,13 @@
         "latitud": 19.5145331,
         "longitud": -99.0381083,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
-        "uso_pheds": "",
-        "uso_moce": "",
+        "uso_pheds": "NO",
+        "uso_moce": "NO",
         "observaciones": "",
         "avance": 0.375
     },
@@ -10669,13 +10669,13 @@
         "latitud": 19.5936922,
         "longitud": -99.0188783,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
-        "uso_pheds": "",
-        "uso_moce": "",
+        "uso_pheds": "NO",
+        "uso_moce": "NO",
         "observaciones": "",
         "avance": 0.375
     },
@@ -10699,15 +10699,15 @@
         "latitud": 19.387644,
         "longitud": -98.989264,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
-        "uso_pheds": "",
-        "uso_moce": "",
+        "uso_pheds": "NO",
+        "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.3333333333333333
+        "avance": 0.375
     },
     {
         "clues": "MCIMB009261",
@@ -10760,14 +10760,14 @@
         "longitud": -98.960401,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "EN PROCESO",
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
-        "avance": 0.37499999999999994
+        "observaciones": "Hospital con mayor avance de implementación de la célula.\nDocumentos finales: MoCE y PHEDS V5 FINAL enviados el 6 de junio.\nRequiere VPN Starlink y 26 PCs adicionales para cubrir mínimo operable.\nConsulta externa sin red — instalación de APs pendiente.",
+        "avance": 0.4583333333333333
     },
     {
         "clues": "MCIMB009775",
@@ -10850,14 +10850,14 @@
         "longitud": -98.871977,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "EN PROCESO",
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
-        "avance": 0.37499999999999994
+        "observaciones": "Hospital con Starlink instalado pero conexión inestable — requiere revisión técnica y configuración de VPN. 31 equipos de cómputo registrados, pero la mayoría son obsoletos (solo 11 nuevos). Red parcialmente instalada en todas las áreas principales. PHEDS completado (V3 Final). MoCE casi completo",
+        "avance": 0.4583333333333333
     },
     {
         "clues": "MCIMB012073",
@@ -10970,14 +10970,14 @@
         "longitud": -98.91381,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "EN PROCESO",
         "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "",
-        "avance": 0.37499999999999994
+        "observaciones": "Hospital de reciente construcción (1 año de inaugurado) con infraestructura TI en buenas condiciones. Cuenta con 96 equipos de cómputo instalados (5 con daño de software) y red cableada funcional en todas las áreas. Starlink instalado pero sin configuración VPN — acción prioritaria para habilitar el sistema EDS. MoCE y PHEDS completados. Personal médico registrado en múltiples especialidades.",
+        "avance": 0.4583333333333333
     },
     {
         "clues": "MNIMB000650",
@@ -11510,14 +11510,14 @@
         "longitud": -98.9391,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "MSIMB000386",
@@ -11540,14 +11540,14 @@
         "longitud": -99.2335,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "",
+        "formato_moce": "",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.125
     },
     {
         "clues": "MSIMB000806",
@@ -11570,14 +11570,14 @@
         "longitud": -99.1907,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "MSIMB001243",
@@ -11600,14 +11600,14 @@
         "longitud": -99.3897781,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "MSIMB001856",
@@ -11630,14 +11630,14 @@
         "longitud": -99.2390247,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "MSIMB002351",
@@ -11660,14 +11660,14 @@
         "longitud": -98.7625018,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB000551",
@@ -11690,14 +11690,14 @@
         "longitud": -105.2094934,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB001246",
@@ -11720,14 +11720,14 @@
         "longitud": -104.897629,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB001654",
@@ -11750,14 +11750,14 @@
         "longitud": -105.4103064,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB001724",
@@ -11780,14 +11780,14 @@
         "longitud": -105.2089011,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "OCIMB000490",
@@ -15770,14 +15770,14 @@
         "longitud": -99.08,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB000015",
@@ -15800,14 +15800,14 @@
         "longitud": -104.8459279,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "PLIMB004126",
@@ -16220,14 +16220,14 @@
         "longitud": -111.6618657,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "SRIMB000914",
@@ -16368,16 +16368,16 @@
         "total_camas": 84,
         "latitud": 19.345626,
         "longitud": -99.1678512,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
-        "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
-        "configuraciones_iniciales": "",
-        "capacitaciones": "CONCLUIDAS",
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "ENVIADO A LA CE/UM",
+        "configuraciones_iniciales": "CONCLUIDO",
+        "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.16666666666666666
+        "avance": 0.375
     },
     {
         "clues": "YNSSA001830",
@@ -16460,14 +16460,14 @@
         "longitud": -112.2728432,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "DFIMB002015",
@@ -16488,7 +16488,7 @@
         "total_camas": 82,
         "latitud": 19.4507251,
         "longitud": -99.2028541,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
@@ -16497,7 +16497,7 @@
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.5416666666666666
+        "avance": 0.625
     },
     {
         "clues": "MCIMB012254",
@@ -16608,7 +16608,7 @@
         "total_camas": 70,
         "latitud": 19.458007,
         "longitud": -99.0924319,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
@@ -16617,7 +16617,7 @@
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.41666666666666663
+        "avance": 0.5
     },
     {
         "clues": "MCIMB012143",
@@ -16641,13 +16641,13 @@
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "NO FUE REMITIDA LA INFORMACION DEL MOCE TODA VEZ QUE INFORMARON SE DEBIA VERIFICAR CON LA DIRECTORA DEL HOSPITAL, MISMA QUE NO SE ENCONTRABA PRESENTE EL DÍA DE LA VISITA, SIN EMBARGO AUN NO REMITEN DICHA INFORMACION",
-        "avance": 0.3333333333333333
+        "avance": 0.375
     },
     {
         "clues": "QRIMB000346",
@@ -16729,13 +16729,13 @@
         "latitud": 19.4422201,
         "longitud": -98.9726375,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "",
+        "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
-        "uso_pheds": "",
-        "uso_moce": "",
+        "uso_pheds": "NO",
+        "uso_moce": "NO",
         "observaciones": "",
         "avance": 0.375
     },
@@ -16910,14 +16910,14 @@
         "longitud": -99.2022,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "MCIMB012440",
@@ -17058,16 +17058,16 @@
         "total_camas": 56,
         "latitud": 19.2652517,
         "longitud": -98.9980989,
-        "formato_tics_servicios": "ENVIADO A LA CE/UM",
+        "formato_tics_servicios": "ENTREGADO/REVISIÓN",
         "entrega_equipos_red": "",
         "formato_pheds": "",
         "formato_moce": "",
         "configuraciones_iniciales": "",
-        "capacitaciones": "CONCLUIDAS",
+        "capacitaciones": "PROGRAMADAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "Etapa 1",
-        "avance": 0.16666666666666666
+        "avance": 0.08333333333333333
     },
     {
         "clues": "DFIMB001064",
@@ -17300,14 +17300,14 @@
         "longitud": -110.398409,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "CCIMB000143",
@@ -17449,15 +17449,15 @@
         "latitud": 19.611483,
         "longitud": -98.944548,
         "formato_tics_servicios": "ENVIADO A TICS",
-        "entrega_equipos_red": "",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
-        "uso_pheds": "",
-        "uso_moce": "",
+        "uso_pheds": "NO",
+        "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.3333333333333333
+        "avance": 0.375
     },
     {
         "clues": "MCIMB002570",
@@ -18020,14 +18020,14 @@
         "longitud": -110.31905,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "ENVIADO A LA CE/UM",
-        "formato_moce": "ENVIADO A LA CE/UM",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.20833333333333331
+        "avance": 0.29166666666666663
     },
     {
         "clues": "NTIMB001765",
@@ -18050,14 +18050,14 @@
         "longitud": -104.8973839,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "",
-        "formato_pheds": "",
-        "formato_moce": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.125
+        "avance": 0.29166666666666663
     },
     {
         "clues": "SLIMB002971",
@@ -18290,6 +18290,66 @@
         "longitud": -89.6405652,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
+        "configuraciones_iniciales": "",
+        "capacitaciones": "",
+        "uso_pheds": "",
+        "uso_moce": "",
+        "observaciones": "",
+        "avance": 0.29166666666666663
+    },
+    {
+        "clues": "NTIMB002540",
+        "inst": "IMB",
+        "entidad": "NAYARIT",
+        "tipo_entidad": "ESTATAL",
+        "municipio": "TEPIC",
+        "nombre_unidad": "UNIDAD DE HEMODIÁLISIS",
+        "categoria_gerencial": "UNEME",
+        "prioridad": 3,
+        "tipologia": "UNIDAD DE ESPECIALIDADES MÉDICAS (UNEMES)",
+        "subtipologia": "UNEMES DE HEMODIÁLISIS",
+        "estatus_operacion": "EN OPERACION",
+        "nivel_atencion": "SEGUNDO NIVEL",
+        "estrato_unidad": "URBANO",
+        "total_consultorios": 3,
+        "total_quirofanos": 0,
+        "total_camas": 0,
+        "latitud": 21.47908,
+        "longitud": -104.846994,
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "",
+        "formato_pheds": "EN REVISIÓN CENTRAL",
+        "formato_moce": "EN REVISIÓN CENTRAL",
+        "configuraciones_iniciales": "",
+        "capacitaciones": "",
+        "uso_pheds": "",
+        "uso_moce": "",
+        "observaciones": "",
+        "avance": 0.29166666666666663
+    },
+    {
+        "clues": "NTIMB002086",
+        "inst": "IMB",
+        "entidad": "NAYARIT",
+        "tipo_entidad": "ESTATAL",
+        "municipio": "TEPIC",
+        "nombre_unidad": "UNEMES DE CIRUGÍA AMBULATORIA",
+        "categoria_gerencial": "UNEME",
+        "prioridad": 3,
+        "tipologia": "UNIDAD DE ESPECIALIDADES MÉDICAS (UNEMES)",
+        "subtipologia": "UNEMES DE CIRUGÍA AMBULATORIA",
+        "estatus_operacion": "EN OPERACION",
+        "nivel_atencion": "SEGUNDO NIVEL",
+        "estrato_unidad": "URBANO",
+        "total_consultorios": 4,
+        "total_quirofanos": 4,
+        "total_camas": 10,
+        "latitud": 21.479264,
+        "longitud": -104.847415,
+        "formato_tics_servicios": "ENVIADO A TICS",
+        "entrega_equipos_red": "",
         "formato_pheds": "EN REVISIÓN CENTRAL",
         "formato_moce": "EN REVISIÓN CENTRAL",
         "configuraciones_iniciales": "",
