@@ -2752,12 +2752,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "HGIMB001686",
@@ -9832,12 +9832,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "HGIMB000151",
@@ -16282,12 +16282,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "MCIMB011986",
@@ -17392,12 +17392,12 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "configuraciones_iniciales": "EN PROCESO",
+        "configuraciones_iniciales": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.7083333333333334
+        "avance": 0.75
     },
     {
         "clues": "MCIMB000231",
