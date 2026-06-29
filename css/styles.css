@@ -980,15 +980,6 @@ header {
   padding-left: 12px !important;
 }
 
-/* .matrix-value.active {
-  background: var(--verde) !important;
-  color: white !important;
-}
-.matrix-value.low {
-  background: var(--verde-pale);
-  color: var(--verde-osc);
-} */
-
 .matrix-value.matrix-danger {
   background: #c62828;
   color: #ffffff;
@@ -1141,10 +1132,6 @@ header {
     grid-template-columns: 1fr;
   }
 }
-
-/* =====================================================
-   KPI EQUIPAMIENTO
-===================================================== */
 
 .equipment-kpi-grid {
   display: grid;
@@ -1319,22 +1306,22 @@ header {
    75 - 100   verde fuerte
 ===================================================== */
 
-.equipment-value.equipment-danger {
-  background: #f4d6d8 !important;
-  color: #6a1b1f !important;
+.equipment-cell.equipment-value.equipment-danger {
+  background: #f3f3e7 !important;
+  color: #0a3622 !important;
 }
 
-.equipment-value.equipment-warning {
+.equipment-cell.equipment-value.equipment-warning {
   background: #f9e7b7 !important;
   color: #7a5a00 !important;
 }
 
-.equipment-value.equipment-success {
+.equipment-cell.equipment-value.equipment-success {
   background: #dcebde !important;
   color: #235b4e !important;
 }
 
-.equipment-value.equipment-success-strong {
+.equipment-cell.equipment-value.equipment-success-strong {
   background: #b7d8c7 !important;
   color: #163d34 !important;
 }

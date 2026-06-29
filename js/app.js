@@ -1249,7 +1249,16 @@ function calcularPorcentajeEquipamiento(entregado, requerido) {
 function crearCeldaEquipamiento(entidad, tipo, entregado, requerido) {
   const porcentaje = calcularPorcentajeEquipamiento(entregado, requerido);
   const faltante = Math.max(requerido - entregado, 0);
-  const clase = porcentaje > 0 ? "active" : "zero";
+
+  let clase = "equipment-danger";
+
+  if (porcentaje >= 75) {
+    clase = "equipment-success-strong";
+  } else if (porcentaje >= 50) {
+    clase = "equipment-success";
+  } else if (porcentaje >= 25) {
+    clase = "equipment-warning";
+  }
 
   return `
     <div
@@ -1264,16 +1273,6 @@ function crearCeldaEquipamiento(entidad, tipo, entregado, requerido) {
       ${porcentaje.toFixed(0)}%
     </div>
   `;
-}
-
-let clase = "equipment-danger";
-
-if (porcentaje >= 75) {
-  clase = "equipment-success-strong";
-} else if (porcentaje >= 50) {
-  clase = "equipment-success";
-} else if (porcentaje >= 25) {
-  clase = "equipment-warning";
 }
 
 function cargarMatrizEquipamiento(data) {
