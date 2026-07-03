@@ -16,7 +16,6 @@ const etapasOrden = [
   "En uso de PHEDS y MoCE",
   "Formato PHEDS concluido",
   "Formato MoCE concluido",
-  "Configuraciones iniciales concluidas",
   "Capacitaciones concluidas",
   "En uso del PHEDS",
   "En uso del MoCE",
@@ -27,20 +26,14 @@ const etapasDistribucion = [
     nombre: "Introducción",
     corto: "Introducción",
     color: "#235B4E",
+    puntaje: () => 1,
     cumple: () => true,
   },
-
-  // const etapasDistribucion = [
-  //   {
-  //     nombre: "Kick-Off",
-  //     corto: "Kick-Off",
-  //     color: "#235B4E",
-  //     cumple: (item) => item.entidad !== "GUANAJUATO",
-  //   },
   {
     nombre: "Diagnóstico de infraestructura concluido",
     corto: "Diagnóstico",
     color: "#E04525",
+    puntaje: (item) => puntajeFormatoTics(item.formato_tics_servicios),
     cumple: (item) =>
       valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS",
   },
@@ -48,99 +41,59 @@ const etapasDistribucion = [
     nombre: "Entrega de equipos y config. de red concluida",
     corto: "Entrega equipos",
     color: "#F47C20",
-    cumple: (item) =>
-      contieneConcluido(item.entrega_equipos_red) || item.avance >= 25,
+    puntaje: (item) => puntajeEntregaEquipos(item.entrega_equipos_red),
+    cumple: (item) => valorUpper(item.entrega_equipos_red) === "CONCLUIDO",
   },
-  // {
-  //   nombre: "Formato PHEDS concluido",
-  //   corto: "Formato PHEDS",
-  //   color: "#F2B52E",
-  //   cumple: (item) =>
-  //     contieneConcluido(item.formato_pheds) || item.avance >= 37.5,
-  // },
-  // {
-  //   nombre: "Formato MoCE concluido",
-  //   corto: "Formato MoCE",
-  //   color: "#B7D44A",
-  //   cumple: (item) => contieneConcluido(item.formato_moce) || item.avance >= 50,
-  // },
-  // {
-  //   nombre: "Configuraciones iniciales concluidas",
-  //   corto: "Config.",
-  //   color: "#A6CF55",
-  //   cumple: (item) =>
-  //     valorUpper(item.configuraciones_iniciales) === "CONCLUIDO",
-  // },
   {
     nombre: "Formato PHEDS concluido",
     corto: "Formato PHEDS",
     color: "#F2B52E",
+    puntaje: (item) => puntajeFormatoRevision(item.formato_pheds),
     cumple: (item) => valorUpper(item.formato_pheds) === "CONCLUIDO",
   },
   {
     nombre: "Formato MoCE concluido",
     corto: "Formato MoCE",
     color: "#B7D44A",
+    puntaje: (item) => puntajeFormatoRevision(item.formato_moce),
     cumple: (item) => valorUpper(item.formato_moce) === "CONCLUIDO",
   },
   {
-    nombre: "Configuraciones iniciales concluidas",
-    corto: "Config.",
-    color: "#A6CF55",
-    cumple: (item) =>
-      valorUpper(item.configuraciones_iniciales) === "CONCLUIDO",
+    nombre: "Cargas PHEDS concluidas",
+    corto: "Cargas PHEDS",
+    color: "#5FA777",
+    puntaje: (item) => puntajeCargas(item.cargas_pheds),
+    cumple: (item) => valorUpper(item.cargas_pheds) === "CONCLUIDO",
+  },
+  {
+    nombre: "Cargas MoCE concluidas",
+    corto: "Cargas MoCE",
+    color: "#4B8F6F",
+    puntaje: (item) => puntajeCargas(item.cargas_moce),
+    cumple: (item) => valorUpper(item.cargas_moce) === "CONCLUIDO",
   },
   {
     nombre: "Capacitaciones concluidas",
     corto: "Capacitación",
     color: "#67B74B",
-    cumple: (item) =>
-      contieneConcluido(item.capacitaciones) || item.avance >= 75,
+    puntaje: (item) => puntajeCapacitaciones(item.capacitaciones),
+    cumple: (item) => valorUpper(item.capacitaciones) === "CONCLUIDAS",
   },
   {
     nombre: "Uso PHEDS",
     corto: "Uso PHEDS",
-    color: "#235B4E",
-
-    cumple: (item) => {
-      const valor = valorUpper(item.uso_pheds);
-
-      return valor === "SI" || valor === "SÍ";
-    },
+    color: "#4AA090",
+    puntaje: (item) => puntajeSiNo(item.uso_pheds),
+    cumple: (item) => esSi(item.uso_pheds),
   },
   {
     nombre: "Uso MoCE",
     corto: "Uso MoCE",
-    color: "#235B4E",
-
-    cumple: (item) => {
-      const valor = valorUpper(item.uso_moce);
-
-      return valor === "SI" || valor === "SÍ";
-    },
-  },
-  {
-    nombre: "En uso de PHEDS y MoCE",
-    corto: "PHEDS y MoCE",
-    color: "#235B4E",
-    cumple: (item) =>
-      item.avance >= 100 ||
-      (contieneSi(item.uso_pheds) && contieneSi(item.uso_moce)),
+    color: "#3070C0",
+    puntaje: (item) => puntajeSiNo(item.uso_moce),
+    cumple: (item) => esSi(item.uso_moce),
   },
 ];
-
-// const etapaColores = {
-//   "En uso de PHEDS y MoCE": "#00037A",
-//   "Realizando diagnóstico de infraestructura": "#7A1E1E",
-//   "Diagnóstico de infraestructura concluido": "#E04525",
-//   "Entrega de equipos y config. de red concluida": "#F47C20",
-//   "Formato PHEDS concluido": "#F2B52E",
-//   "Formato MoCE concluido": "#B7D44A",
-//   "Configuraciones iniciales concluidas": "#A6CF55",
-//   "Capacitaciones concluidas": "#67B74B",
-//   "En uso del PHEDS": "#4AA090",
-//   "En uso del MoCE": "#3070C0",
-// };
 
 const etapaColores = {
   "Realizando diagnóstico de infraestructura": "#7A1E1E",
@@ -151,7 +104,6 @@ const etapaColores = {
   "Formato PHEDS concluido": "#F2B52E",
   "Formato MoCE concluido": "#B7D44A",
 
-  "Configuraciones iniciales concluidas": "#A6CF55",
   "Capacitaciones concluidas": "#67B74B",
   "En uso del PHEDS": "#4AA090",
 
@@ -198,23 +150,27 @@ function normalizarRegistro(item) {
     municipio: texto(item.municipio),
     nombre_unidad: texto(item.nombre_unidad),
     categoria_gerencial: texto(item.categoria_gerencial),
+    prioridad: texto(item.prioridad),
     tipologia: texto(item.tipologia),
     estatus_operacion: texto(item.estatus_operacion),
-    latitud: numeroONull(item.latitud),
-    longitud: numeroONull(item.longitud),
-    avance: avanceNormalizado(item.avance),
+    nivel_atencion: texto(item.nivel_atencion),
+    estrato_unidad: texto(item.estrato_unidad),
     total_consultorios: numero(item.total_consultorios),
     total_quirofanos: numero(item.total_quirofanos),
     total_camas: numero(item.total_camas ?? item.total),
+    latitud: numeroONull(item.latitud),
+    longitud: numeroONull(item.longitud),
     formato_tics_servicios: texto(item.formato_tics_servicios),
     entrega_equipos_red: texto(item.entrega_equipos_red),
     formato_pheds: texto(item.formato_pheds),
     formato_moce: texto(item.formato_moce),
-    configuraciones_iniciales: texto(item.configuraciones_iniciales),
+    cargas_pheds: texto(item.cargas_pheds),
+    cargas_moce: texto(item.cargas_moce),
     capacitaciones: texto(item.capacitaciones),
     uso_pheds: texto(item.uso_pheds),
     uso_moce: texto(item.uso_moce),
     observaciones: texto(item.observaciones),
+    avance: calcularAvanceOperativo(item),
   };
 }
 
@@ -294,49 +250,6 @@ function esUsoCompleto(item) {
   return pheds && moce;
 }
 
-// function obtenerEtapa(item) {
-//   if (item.avance >= 100) {
-//     return "En uso de PHEDS y MoCE";
-//   }
-
-//   if (contieneSi(item.uso_moce) || item.avance >= 87.5) {
-//     return "En uso del MoCE";
-//   }
-
-//   if (contieneSi(item.uso_pheds) || item.avance >= 75) {
-//     return "En uso del PHEDS";
-//   }
-
-//   if (contieneConcluido(item.capacitaciones)) {
-//     return "Capacitaciones concluidas";
-//   }
-
-//   if (contieneConcluido(item.configuraciones_iniciales)) {
-//     return "Configuraciones iniciales concluidas";
-//   }
-
-//   if (contieneConcluido(item.formato_moce)) {
-//     return "Formato MoCE concluido";
-//   }
-
-//   if (contieneConcluido(item.formato_pheds)) {
-//     return "Formato PHEDS concluido";
-//   }
-
-//   if (contieneConcluido(item.entrega_equipos_red)) {
-//     return "Entrega de equipos y config. de red concluida";
-//   }
-
-//   if (
-//     contieneConcluido(item.formato_tics_servicios) ||
-//     valorUpper(item.formato_tics_servicios).includes("ENVIADO")
-//   ) {
-//     return "Diagnóstico de infraestructura concluido";
-//   }
-
-//   return "Realizando diagnóstico de infraestructura";
-// }
-
 function obtenerEtapa(item) {
   const pheds = esSi(item.uso_pheds);
   const moce = esSi(item.uso_moce);
@@ -345,20 +258,24 @@ function obtenerEtapa(item) {
     return "En uso de PHEDS y MoCE";
   }
 
-  if (moce) {
-    return "En uso del MoCE";
+  if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
+    return "Cargas MoCE concluidas";
   }
 
-  if (pheds) {
-    return "En uso del PHEDS";
+  if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
+    return "Cargas PHEDS concluidas";
+  }
+
+  if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
+    return "Cargas MoCE concluidas";
+  }
+
+  if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
+    return "Cargas PHEDS concluidas";
   }
 
   if (valorUpper(item.capacitaciones) === "CONCLUIDO") {
     return "Capacitaciones concluidas";
-  }
-
-  if (valorUpper(item.configuraciones_iniciales) === "CONCLUIDO") {
-    return "Configuraciones iniciales concluidas";
   }
 
   if (valorUpper(item.formato_moce) === "CONCLUIDO") {
@@ -477,10 +394,6 @@ function aplicarFiltros() {
     filtrado = filtrado.filter((d) => d.tipologia === tipologia);
   }
 
-  // if (estatus) {
-  //   filtrado = filtrado.filter((d) => d.estatus_operacion === estatus);
-  // }
-
   if (etapa) {
     filtrado = filtrado.filter((d) => obtenerEtapa(d) === etapa);
   }
@@ -513,44 +426,6 @@ function actualizarDashboard(data) {
     footerTotal.innerText = data.length;
   }
 }
-
-// function cargarIndicadores(data) {
-//   const total = data.length;
-
-//   const sinInicio = data.filter((d) => d.avance === 0).length;
-
-//   const proceso = data.filter((d) => d.avance > 0 && d.avance < 75).length;
-
-//   const alto = data.filter((d) => {
-//     const pheds = valorUpper(d.uso_pheds);
-//     const moce = valorUpper(d.uso_moce);
-
-//     const completo =
-//       (pheds === "SI" || pheds === "SÍ") && (moce === "SI" || moce === "SÍ");
-
-//     return d.avance >= 75 && !completo;
-//   }).length;
-
-//   const completo = data.filter((d) => {
-//     const pheds = valorUpper(d.uso_pheds);
-//     const moce = valorUpper(d.uso_moce);
-
-//     return (
-//       (pheds === "SI" || pheds === "SÍ") && (moce === "SI" || moce === "SÍ")
-//     );
-//   }).length;
-
-//   const promedio = total
-//     ? data.reduce((acc, d) => acc + d.avance, 0) / total
-//     : 0;
-
-//   document.getElementById("kpi-total").innerText = total;
-//   document.getElementById("kpi-sin").innerText = sinInicio;
-//   document.getElementById("kpi-proceso").innerText = proceso;
-//   document.getElementById("kpi-alto").innerText = alto;
-//   document.getElementById("kpi-completo").innerText = completo;
-//   document.getElementById("kpi-prom").innerText = promedio.toFixed(1);
-// }
 
 function cargarIndicadores(data) {
   const total = data.length;
@@ -772,23 +647,6 @@ function mostrarDetalle(item) {
   `;
 }
 
-// function cargarLeyenda() {
-//   const contenedor = document.getElementById("legend-grid");
-
-//   contenedor.innerHTML = etapasOrden
-//     .map((etapa) => {
-//       const color = etapaColores[etapa];
-
-//       return `
-//         <div class="legend-item">
-//           <span class="legend-dot" style="background:${color}"></span>
-//           <span>${etapa}</span>
-//         </div>
-//       `;
-//     })
-//     .join("");
-// }
-
 function cargarLeyenda() {
   const contenedor = document.getElementById("legend-grid");
 
@@ -848,6 +706,18 @@ function cargarDistribucionEtapas(data) {
     .join("");
 }
 
+function calcularAvanceEtapa(unidadesEntidad, etapa) {
+  return unidadesEntidad.reduce((acc, item) => {
+    const valor = etapa.puntaje
+      ? etapa.puntaje(item)
+      : etapa.cumple(item)
+      ? 1
+      : 0;
+
+    return acc + valor;
+  }, 0);
+}
+
 function cargarMatrizAvance(data) {
   const contenedor = document.getElementById("progress-matrix");
 
@@ -873,12 +743,11 @@ function cargarMatrizAvance(data) {
       const totalEntidad = unidadesEntidad.length || 1;
 
       const porcentajes = etapasDistribucion.map((etapa) => {
-        const cantidad = unidadesEntidad.filter(etapa.cumple).length;
-        return (cantidad / totalEntidad) * 100;
+        const avanceEtapa = calcularAvanceEtapa(unidadesEntidad, etapa);
+        return (avanceEtapa / totalEntidad) * 100;
       });
 
       const celdasConAvance = porcentajes.filter((p) => p > 0).length;
-
       const avanceTotal = porcentajes.reduce((acc, p) => acc + p, 0);
 
       return {
@@ -922,18 +791,10 @@ function cargarMatrizAvance(data) {
 
           const valores = etapasDistribucion
             .map((etapa) => {
+              const avanceEtapa = calcularAvanceEtapa(unidadesEntidad, etapa);
+              const porcentaje = (avanceEtapa / totalEntidad) * 100;
+
               const cantidad = unidadesEntidad.filter(etapa.cumple).length;
-              const porcentaje = (cantidad / totalEntidad) * 100;
-
-              // let clase = "matrix-danger";
-
-              // if (porcentaje >= 75) {
-              //   clase = "matrix-success-strong";
-              // } else if (porcentaje >= 80) {
-              //   clase = "matrix-success";
-              // } else if (porcentaje >= 60) {
-              //   clase = "matrix-warning";
-              // }
 
               let clase = "matrix-danger";
 
@@ -950,7 +811,7 @@ function cargarMatrizAvance(data) {
               return `
                 <div
                   class="matrix-cell matrix-value ${clase}"
-                  title="${cantidad} de ${totalEntidad} unidades"
+                  title="${cantidad} concluidas de ${totalEntidad} unidades"
                 >
                   ${porcentaje.toFixed(0)}%
                 </div>
@@ -1648,4 +1509,128 @@ function filtrarPorEtapaLeyenda(etapa) {
       block: "start",
     });
   }
+}
+
+function puntajeFormatoTics(valor) {
+  const v = valorUpper(valor);
+
+  if (v === "ENVIADO A LA CE/UM") return 1 / 3;
+  if (v === "ENTREGADO/REVISIÓN") return 2 / 3;
+  if (v === "ENVIADO A TICS") return 1;
+
+  return 0;
+}
+
+function puntajeEntregaEquipos(valor) {
+  const v = valorUpper(valor);
+
+  if (v === "EN PROCESO") return 1 / 2;
+
+  if (v === "CONCLUIDO") return 1;
+
+  return 0;
+}
+
+function puntajeFormatoRevision(valor) {
+  const v = valorUpper(valor);
+
+  if (v === "ENVIADO A LA CE/UM") return 1 / 3;
+  if (v === "EN REVISIÓN CENTRAL") return 2 / 3;
+  if (v === "CONCLUIDO") return 1;
+
+  return 0;
+}
+
+function puntajeCargas(valor) {
+  const v = valorUpper(valor);
+
+  if (v === "EN PROCESO") return 1 / 2;
+  if (v === "CONCLUIDO") return 1;
+
+  return 0;
+}
+
+function puntajeCapacitaciones(valor) {
+  const v = valorUpper(valor);
+
+  if (v === "PROGRAMADAS") return 1 / 2;
+  if (v === "CONCLUIDAS") return 1;
+
+  return 0;
+}
+
+function puntajeSiNo(valor) {
+  const v = valorUpper(valor);
+
+  if (v === "SI" || v === "SÍ") return 1;
+
+  return 0;
+}
+
+function calcularAvanceOperativo(item) {
+  const total =
+    puntajeFormatoTics(item.formato_tics_servicios) +
+    puntajeEntregaEquipos(item.entrega_equipos_red) +
+    puntajeFormatoRevision(item.formato_pheds) +
+    puntajeFormatoRevision(item.formato_moce) +
+    puntajeCargas(item.cargas_pheds) +
+    puntajeCargas(item.cargas_moce) +
+    puntajeCapacitaciones(item.capacitaciones) +
+    puntajeSiNo(item.uso_pheds) +
+    puntajeSiNo(item.uso_moce);
+
+  return (total / 9) * 100;
+}
+
+//Funciones auxiliares
+
+function esConcluido(valor) {
+  const v = valorUpper(valor);
+  return v === "CONCLUIDO" || v === "CONCLUIDA" || v === "CONCLUIDAS";
+}
+
+function esSi(valor) {
+  const v = valorUpper(valor);
+  return v === "SI" || v === "SÍ";
+}
+
+function puntajeFormatoTics(valor) {
+  const v = valorUpper(valor);
+  if (v === "ENVIADO A LA CE/UM") return 1 / 3;
+  if (v === "ENTREGADO/REVISIÓN") return 2 / 3;
+  if (v === "ENVIADO A TICS") return 1;
+  return 0;
+}
+
+function puntajeEntregaEquipos(valor) {
+  const v = valorUpper(valor);
+  if (v === "EN PROCESO") return 1 / 2;
+  if (v === "CONCLUIDO") return 1;
+  return 0;
+}
+
+function puntajeFormatoRevision(valor) {
+  const v = valorUpper(valor);
+  if (v === "ENVIADO A LA CE/UM") return 1 / 3;
+  if (v === "EN REVISIÓN CENTRAL") return 2 / 3;
+  if (v === "CONCLUIDO") return 1;
+  return 0;
+}
+
+function puntajeCargas(valor) {
+  const v = valorUpper(valor);
+  if (v === "EN PROCESO") return 1 / 2;
+  if (v === "CONCLUIDO") return 1;
+  return 0;
+}
+
+function puntajeCapacitaciones(valor) {
+  const v = valorUpper(valor);
+  if (v === "PROGRAMADAS") return 1 / 2;
+  if (v === "CONCLUIDAS") return 1;
+  return 0;
+}
+
+function puntajeSiNo(valor) {
+  return esSi(valor) ? 1 : 0;
 }
