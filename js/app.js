@@ -360,7 +360,6 @@ function resetFilters() {
   document.getElementById("f-entidad").value = "";
   document.getElementById("f-categoria").value = "";
   document.getElementById("f-tipologia").value = "";
-  // document.getElementById("f-estatus").value = "";
   document.getElementById("f-etapa").value = "";
   document.getElementById("f-avance").value = 0;
   document.getElementById("avance-value").innerText = "0%";
@@ -375,7 +374,6 @@ function aplicarFiltros() {
   const entidad = document.getElementById("f-entidad").value;
   const categoria = document.getElementById("f-categoria").value;
   const tipologia = document.getElementById("f-tipologia").value;
-  // const estatus = document.getElementById("f-estatus").value;
   const etapa = document.getElementById("f-etapa").value;
   const avanceMinimo = Number(document.getElementById("f-avance").value);
 
