@@ -44,33 +44,61 @@ const etapasDistribucion = [
     puntaje: (item) => puntajeEntregaEquipos(item.entrega_equipos_red),
     cumple: (item) => valorUpper(item.entrega_equipos_red) === "CONCLUIDO",
   },
+  // {
+  //   nombre: "Formato PHEDS concluido",
+  //   corto: "Formato PHEDS",
+  //   color: "#F2B52E",
+  //   puntaje: (item) => puntajeFormatoRevision(item.formato_pheds),
+  //   cumple: (item) => valorUpper(item.formato_pheds) === "CONCLUIDO",
+  // },
+  // {
+  //   nombre: "Formato MoCE concluido",
+  //   corto: "Formato MoCE",
+  //   color: "#B7D44A",
+  //   puntaje: (item) => puntajeFormatoRevision(item.formato_moce),
+  //   cumple: (item) => valorUpper(item.formato_moce) === "CONCLUIDO",
+  // },
   {
     nombre: "Formato PHEDS concluido",
     corto: "Formato PHEDS",
     color: "#F2B52E",
     puntaje: (item) => puntajeFormatoRevision(item.formato_pheds),
-    cumple: (item) => valorUpper(item.formato_pheds) === "CONCLUIDO",
+    cumple: (item) => esFormatoCubierto(item.formato_pheds),
   },
   {
     nombre: "Formato MoCE concluido",
     corto: "Formato MoCE",
     color: "#B7D44A",
     puntaje: (item) => puntajeFormatoRevision(item.formato_moce),
-    cumple: (item) => valorUpper(item.formato_moce) === "CONCLUIDO",
+    cumple: (item) => esFormatoCubierto(item.formato_moce),
   },
+  // {
+  //   nombre: "Cargas PHEDS concluidas",
+  //   corto: "Cargas PHEDS",
+  //   color: "#5FA777",
+  //   puntaje: (item) => puntajeCargas(item.cargas_pheds),
+  //   cumple: (item) => valorUpper(item.cargas_pheds) === "CONCLUIDO",
+  // },
+  // {
+  //   nombre: "Cargas MoCE concluidas",
+  //   corto: "Cargas MoCE",
+  //   color: "#4B8F6F",
+  //   puntaje: (item) => puntajeCargas(item.cargas_moce),
+  //   cumple: (item) => valorUpper(item.cargas_moce) === "CONCLUIDO",
+  // },
   {
     nombre: "Cargas PHEDS concluidas",
     corto: "Cargas PHEDS",
     color: "#5FA777",
     puntaje: (item) => puntajeCargas(item.cargas_pheds),
-    cumple: (item) => valorUpper(item.cargas_pheds) === "CONCLUIDO",
+    cumple: (item) => esCargaCubierta(item.cargas_pheds),
   },
   {
     nombre: "Cargas MoCE concluidas",
     corto: "Cargas MoCE",
     color: "#4B8F6F",
     puntaje: (item) => puntajeCargas(item.cargas_moce),
-    cumple: (item) => valorUpper(item.cargas_moce) === "CONCLUIDO",
+    cumple: (item) => esCargaCubierta(item.cargas_moce),
   },
   {
     nombre: "Capacitaciones concluidas",
@@ -79,19 +107,33 @@ const etapasDistribucion = [
     puntaje: (item) => puntajeCapacitaciones(item.capacitaciones),
     cumple: (item) => valorUpper(item.capacitaciones) === "CONCLUIDAS",
   },
+  // {
+  //   nombre: "Uso PHEDS",
+  //   corto: "Uso PHEDS",
+  //   color: "#4AA090",
+  //   puntaje: (item) => puntajeSiNo(item.uso_pheds),
+  //   cumple: (item) => esSi(item.uso_pheds),
+  // },
+  // {
+  //   nombre: "Uso MoCE",
+  //   corto: "Uso MoCE",
+  //   color: "#3070C0",
+  //   puntaje: (item) => puntajeSiNo(item.uso_moce),
+  //   cumple: (item) => esSi(item.uso_moce),
+  // },
   {
     nombre: "Uso PHEDS",
     corto: "Uso PHEDS",
     color: "#4AA090",
     puntaje: (item) => puntajeSiNo(item.uso_pheds),
-    cumple: (item) => esSi(item.uso_pheds),
+    cumple: (item) => esUsoCubierto(item.uso_pheds),
   },
   {
     nombre: "Uso MoCE",
     corto: "Uso MoCE",
     color: "#3070C0",
     puntaje: (item) => puntajeSiNo(item.uso_moce),
-    cumple: (item) => esSi(item.uso_moce),
+    cumple: (item) => esUsoCubierto(item.uso_moce),
   },
 ];
 
@@ -246,63 +288,145 @@ function esSi(valor) {
   return v === "SI" || v === "SÍ";
 }
 
+// function esUsoParcial(item) {
+//   const pheds = esSi(item.uso_pheds);
+//   const moce = esSi(item.uso_moce);
+
+//   return (pheds && !moce) || (!pheds && moce);
+// }
+
+// function esUsoCompleto(item) {
+//   const pheds = esSi(item.uso_pheds);
+//   const moce = esSi(item.uso_moce);
+
+//   return pheds && moce;
+// }
+
 function esUsoParcial(item) {
-  const pheds = esSi(item.uso_pheds);
-  const moce = esSi(item.uso_moce);
+  const pheds = esUsoCubierto(item.uso_pheds);
+  const moce = esUsoCubierto(item.uso_moce);
 
   return (pheds && !moce) || (!pheds && moce);
 }
 
 function esUsoCompleto(item) {
-  const pheds = esSi(item.uso_pheds);
-  const moce = esSi(item.uso_moce);
-
-  return pheds && moce;
+  return esUsoCubierto(item.uso_pheds) && esUsoCubierto(item.uso_moce);
 }
+
+// function obtenerEtapa(item) {
+//   const pheds = esSi(item.uso_pheds);
+//   const moce = esSi(item.uso_moce);
+
+//   if (pheds && moce) {
+//     return "En uso de PHEDS y MoCE";
+//   }
+
+//   if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
+//     return "Cargas MoCE concluidas";
+//   }
+
+//   if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
+//     return "Cargas PHEDS concluidas";
+//   }
+
+//   if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
+//     return "Cargas MoCE concluidas";
+//   }
+
+//   if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
+//     return "Cargas PHEDS concluidas";
+//   }
+
+//   if (valorUpper(item.capacitaciones) === "CONCLUIDO") {
+//     return "Capacitaciones concluidas";
+//   }
+
+//   if (valorUpper(item.formato_moce) === "CONCLUIDO") {
+//     return "Formato MoCE concluido";
+//   }
+
+//   if (valorUpper(item.formato_pheds) === "CONCLUIDO") {
+//     return "Formato PHEDS concluido";
+//   }
+
+//   if (valorUpper(item.entrega_equipos_red) === "CONCLUIDO") {
+//     return "Entrega de equipos y config. de red concluida";
+//   }
+
+//   if (valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS") {
+//     return "Diagnóstico de infraestructura concluido";
+//   }
+//   return "Realizando diagnóstico de infraestructura";
+// }
 
 function obtenerEtapa(item) {
   const pheds = esSi(item.uso_pheds);
   const moce = esSi(item.uso_moce);
 
+  // Uso real
+
   if (pheds && moce) {
     return "En uso de PHEDS y MoCE";
   }
 
-  if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
+  if (moce) {
+    return "En uso del MoCE";
+  }
+
+  if (pheds) {
+    return "En uso del PHEDS";
+  }
+
+  // Cargas
+
+  if (
+    valorUpper(item.cargas_moce) === "CONCLUIDO" ||
+    valorUpper(item.cargas_moce) === "NO APLICA"
+  ) {
     return "Cargas MoCE concluidas";
   }
 
-  if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
+  if (
+    valorUpper(item.cargas_pheds) === "CONCLUIDO" ||
+    valorUpper(item.cargas_pheds) === "NO APLICA"
+  ) {
     return "Cargas PHEDS concluidas";
   }
 
-  if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
-    return "Cargas MoCE concluidas";
-  }
+  // Capacitación
 
-  if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
-    return "Cargas PHEDS concluidas";
-  }
-
-  if (valorUpper(item.capacitaciones) === "CONCLUIDO") {
+  if (valorUpper(item.capacitaciones) === "CONCLUIDAS") {
     return "Capacitaciones concluidas";
   }
 
-  if (valorUpper(item.formato_moce) === "CONCLUIDO") {
+  // Formatos
+
+  // if (valorUpper(item.formato_moce) === "CONCLUIDO") {
+  //   return "Formato MoCE concluido";
+  // }
+
+  // if (valorUpper(item.formato_pheds) === "CONCLUIDO") {
+  //   return "Formato PHEDS concluido";
+  // }
+  if (esFormatoCubierto(item.formato_moce)) {
     return "Formato MoCE concluido";
   }
 
-  if (valorUpper(item.formato_pheds) === "CONCLUIDO") {
+  if (esFormatoCubierto(item.formato_pheds)) {
     return "Formato PHEDS concluido";
   }
+  // Equipamiento
 
   if (valorUpper(item.entrega_equipos_red) === "CONCLUIDO") {
     return "Entrega de equipos y config. de red concluida";
   }
 
+  // Diagnóstico
+
   if (valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS") {
     return "Diagnóstico de infraestructura concluido";
   }
+
   return "Realizando diagnóstico de infraestructura";
 }
 
@@ -1549,11 +1673,25 @@ function puntajeFormatoRevision(valor) {
   return 0;
 }
 
+// function puntajeCargas(valor) {
+//   const v = valorUpper(valor);
+
+//   if (v === "EN PROCESO") return 1 / 2;
+//   if (v === "CONCLUIDO") return 1;
+
+//   return 0;
+// }
+
 function puntajeCargas(valor) {
   const v = valorUpper(valor);
 
-  if (v === "EN PROCESO") return 1 / 2;
-  if (v === "CONCLUIDO") return 1;
+  if (v === "CONCLUIDO" || v === "NO APLICA") {
+    return 1;
+  }
+
+  if (v === "EN PROCESO") {
+    return 1 / 2;
+  }
 
   return 0;
 }
@@ -1567,13 +1705,38 @@ function puntajeCapacitaciones(valor) {
   return 0;
 }
 
+// function puntajeSiNo(valor) {
+//   const v = valorUpper(valor);
+
+//   if (v === "SI" || v === "SÍ") return 1;
+
+//   return 0;
+// }
+
 function puntajeSiNo(valor) {
   const v = valorUpper(valor);
 
-  if (v === "SI" || v === "SÍ") return 1;
+  if (v === "SI" || v === "SÍ" || v === "NO APLICA") {
+    return 1;
+  }
 
   return 0;
 }
+
+// function calcularAvanceOperativo(item) {
+//   const total =
+//     puntajeFormatoTics(item.formato_tics_servicios) +
+//     puntajeEntregaEquipos(item.entrega_equipos_red) +
+//     puntajeFormatoRevision(item.formato_pheds) +
+//     puntajeFormatoRevision(item.formato_moce) +
+//     puntajeCargas(item.cargas_pheds) +
+//     puntajeCargas(item.cargas_moce) +
+//     puntajeCapacitaciones(item.capacitaciones) +
+//     puntajeSiNo(item.uso_pheds) +
+//     puntajeSiNo(item.uso_moce);
+
+//   return (total / 9) * 100;
+// }
 
 function calcularAvanceOperativo(item) {
   const total =
@@ -1589,7 +1752,6 @@ function calcularAvanceOperativo(item) {
 
   return (total / 9) * 100;
 }
-
 //Funciones auxiliares
 
 function esConcluido(valor) {
@@ -1617,11 +1779,25 @@ function puntajeEntregaEquipos(valor) {
   return 0;
 }
 
+// function puntajeFormatoRevision(valor) {
+//   const v = valorUpper(valor);
+//   if (v === "ENVIADO A LA CE/UM") return 1 / 3;
+//   if (v === "EN REVISIÓN CENTRAL") return 2 / 3;
+//   if (v === "CONCLUIDO") return 1;
+//   return 0;
+// }
+
 function puntajeFormatoRevision(valor) {
   const v = valorUpper(valor);
-  if (v === "ENVIADO A LA CE/UM") return 1 / 3;
-  if (v === "EN REVISIÓN CENTRAL") return 2 / 3;
-  if (v === "CONCLUIDO") return 1;
+  if (v === "CONCLUIDO" || v === "NO APLICA") {
+    return 1;
+  }
+  if (v === "EN REVISIÓN CENTRAL") {
+    return 2 / 3;
+  }
+  if (v === "ENVIADO A LA CE/UM") {
+    return 1 / 3;
+  }
   return 0;
 }
 
@@ -1641,4 +1817,28 @@ function puntajeCapacitaciones(valor) {
 
 function puntajeSiNo(valor) {
   return esSi(valor) ? 1 : 0;
+}
+
+function esSi(valor) {
+  const v = valorUpper(valor);
+  return v === "SI" || v === "SÍ";
+}
+
+function esNoAplica(valor) {
+  return valorUpper(valor) === "NO APLICA";
+}
+
+function esUsoCubierto(valor) {
+  return esSi(valor) || esNoAplica(valor);
+}
+
+function esCargaCubierta(valor) {
+  const v = valorUpper(valor);
+  return v === "CONCLUIDO" || v === "NO APLICA";
+}
+
+function esFormatoCubierto(valor) {
+  const v = valorUpper(valor);
+
+  return v === "CONCLUIDO" || v === "NO APLICA";
 }
