@@ -303,10 +303,10 @@ function esSi(valor) {
 // }
 
 function esUsoParcial(item) {
-  const pheds = esUsoCubierto(item.uso_pheds);
-  const moce = esUsoCubierto(item.uso_moce);
+  const pheds = valorUpper(item.uso_pheds);
+  const moce = valorUpper(item.uso_moce);
 
-  return (pheds && !moce) || (!pheds && moce);
+  return (pheds === "SI" && moce === "NO") || (pheds === "NO" && moce === "SI");
 }
 
 function esUsoCompleto(item) {
@@ -945,7 +945,7 @@ function cargarMatrizAvance(data) {
                   class="matrix-cell matrix-value ${clase}"
                   title="${cantidad} concluidas de ${totalEntidad} unidades"
                 >
-                  ${porcentaje.toFixed(0)}%
+                  ${porcentaje.toFixed(1)}%
                 </div>
               `;
             })
@@ -1128,7 +1128,7 @@ function cargarEntidades(data) {
           </div>
           <div class="entidad-count">${item.total}</div>
           <div class="avance-badge" style="background:${color}22;color:${color}">
-            ${item.avancePromedio.toFixed(1)}%
+            ${item.avancePromedio.toFixed(2)}%
           </div>
           <div class="entidad-count">${item.alto}</div>
         </div>
@@ -1263,7 +1263,7 @@ function crearCeldaEquipamiento(entidad, tipo, entregado, requerido) {
   )}&#10;Faltante: ${faltante.toLocaleString("es-MX")}"
       onclick="filtrarEquipamientoEntidad('${escapeJS(entidad)}', '${tipo}')"
     >
-      ${porcentaje.toFixed(0)}%
+      ${porcentaje.toFixed(1)}%
     </div>
   `;
 }
