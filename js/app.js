@@ -9,17 +9,105 @@ const mexicoBounds = [
   [33.8, -85.0],
 ];
 
+// const etapasOrden = [
+//   "Realizando diagnóstico de infraestructura",
+//   "Diagnóstico de infraestructura concluido",
+//   "Entrega de equipos y config. de red concluida",
+//   "En uso de PHEDS y MoCE",
+//   "Formato PHEDS concluido",
+//   "Formato MoCE concluido",
+//   "Capacitaciones concluidas",
+//   "En uso del PHEDS",
+//   "En uso del MoCE",
+// ];
+
 const etapasOrden = [
   "Realizando diagnóstico de infraestructura",
   "Diagnóstico de infraestructura concluido",
   "Entrega de equipos y config. de red concluida",
-  "En uso de PHEDS y MoCE",
   "Formato PHEDS concluido",
   "Formato MoCE concluido",
+  "Cargas PHEDS concluidas",
+  "Cargas MoCE concluidas",
   "Capacitaciones concluidas",
   "En uso del PHEDS",
   "En uso del MoCE",
+  "En uso de PHEDS y MoCE",
 ];
+
+// const etapasDistribucion = [
+//   {
+//     nombre: "Introducción",
+//     corto: "Introducción",
+//     color: "#235B4E",
+//     puntaje: () => 1,
+//     cumple: () => true,
+//   },
+//   {
+//     nombre: "Diagnóstico de infraestructura concluido",
+//     corto: "Diagnóstico",
+//     color: "#E04525",
+//     puntaje: (item) => puntajeFormatoTics(item.formato_tics_servicios),
+//     cumple: (item) =>
+//       valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS",
+//   },
+//   {
+//     nombre: "Entrega de equipos y config. de red concluida",
+//     corto: "Entrega equipos",
+//     color: "#F47C20",
+//     puntaje: (item) => puntajeEntregaEquipos(item.entrega_equipos_red),
+//     cumple: (item) => valorUpper(item.entrega_equipos_red) === "CONCLUIDO",
+//   },
+//   {
+//     nombre: "Formato PHEDS concluido",
+//     corto: "Formato PHEDS",
+//     color: "#F2B52E",
+//     puntaje: (item) => puntajeFormatoRevision(item.formato_pheds),
+//     cumple: (item) => esFormatoCubierto(item.formato_pheds),
+//   },
+//   {
+//     nombre: "Formato MoCE concluido",
+//     corto: "Formato MoCE",
+//     color: "#B7D44A",
+//     puntaje: (item) => puntajeFormatoRevision(item.formato_moce),
+//     cumple: (item) => esFormatoCubierto(item.formato_moce),
+//   },
+//   {
+//     nombre: "Cargas PHEDS concluidas",
+//     corto: "Cargas PHEDS",
+//     color: "#5FA777",
+//     puntaje: (item) => puntajeCargas(item.cargas_pheds),
+//     cumple: (item) => esCargaCubierta(item.cargas_pheds),
+//   },
+//   {
+//     nombre: "Cargas MoCE concluidas",
+//     corto: "Cargas MoCE",
+//     color: "#4B8F6F",
+//     puntaje: (item) => puntajeCargas(item.cargas_moce),
+//     cumple: (item) => esCargaCubierta(item.cargas_moce),
+//   },
+//   {
+//     nombre: "Capacitaciones concluidas",
+//     corto: "Capacitación",
+//     color: "#67B74B",
+//     puntaje: (item) => puntajeCapacitaciones(item.capacitaciones),
+//     cumple: (item) => valorUpper(item.capacitaciones) === "CONCLUIDAS",
+//   },
+//   {
+//     nombre: "Uso PHEDS",
+//     corto: "Uso PHEDS",
+//     color: "#4AA090",
+//     puntaje: (item) => puntajeSiNo(item.uso_pheds),
+//     cumple: (item) => esUsoCubierto(item.uso_pheds),
+//   },
+//   {
+//     nombre: "Uso MoCE",
+//     corto: "Uso MoCE",
+//     color: "#3070C0",
+//     puntaje: (item) => puntajeSiNo(item.uso_moce),
+//     cumple: (item) => esUsoCubierto(item.uso_moce),
+//   },
+// ];
 
 const etapasDistribucion = [
   {
@@ -44,20 +132,6 @@ const etapasDistribucion = [
     puntaje: (item) => puntajeEntregaEquipos(item.entrega_equipos_red),
     cumple: (item) => valorUpper(item.entrega_equipos_red) === "CONCLUIDO",
   },
-  // {
-  //   nombre: "Formato PHEDS concluido",
-  //   corto: "Formato PHEDS",
-  //   color: "#F2B52E",
-  //   puntaje: (item) => puntajeFormatoRevision(item.formato_pheds),
-  //   cumple: (item) => valorUpper(item.formato_pheds) === "CONCLUIDO",
-  // },
-  // {
-  //   nombre: "Formato MoCE concluido",
-  //   corto: "Formato MoCE",
-  //   color: "#B7D44A",
-  //   puntaje: (item) => puntajeFormatoRevision(item.formato_moce),
-  //   cumple: (item) => valorUpper(item.formato_moce) === "CONCLUIDO",
-  // },
   {
     nombre: "Formato PHEDS concluido",
     corto: "Formato PHEDS",
@@ -72,20 +146,6 @@ const etapasDistribucion = [
     puntaje: (item) => puntajeFormatoRevision(item.formato_moce),
     cumple: (item) => esFormatoCubierto(item.formato_moce),
   },
-  // {
-  //   nombre: "Cargas PHEDS concluidas",
-  //   corto: "Cargas PHEDS",
-  //   color: "#5FA777",
-  //   puntaje: (item) => puntajeCargas(item.cargas_pheds),
-  //   cumple: (item) => valorUpper(item.cargas_pheds) === "CONCLUIDO",
-  // },
-  // {
-  //   nombre: "Cargas MoCE concluidas",
-  //   corto: "Cargas MoCE",
-  //   color: "#4B8F6F",
-  //   puntaje: (item) => puntajeCargas(item.cargas_moce),
-  //   cumple: (item) => valorUpper(item.cargas_moce) === "CONCLUIDO",
-  // },
   {
     nombre: "Cargas PHEDS concluidas",
     corto: "Cargas PHEDS",
@@ -107,20 +167,6 @@ const etapasDistribucion = [
     puntaje: (item) => puntajeCapacitaciones(item.capacitaciones),
     cumple: (item) => valorUpper(item.capacitaciones) === "CONCLUIDAS",
   },
-  // {
-  //   nombre: "Uso PHEDS",
-  //   corto: "Uso PHEDS",
-  //   color: "#4AA090",
-  //   puntaje: (item) => puntajeSiNo(item.uso_pheds),
-  //   cumple: (item) => esSi(item.uso_pheds),
-  // },
-  // {
-  //   nombre: "Uso MoCE",
-  //   corto: "Uso MoCE",
-  //   color: "#3070C0",
-  //   puntaje: (item) => puntajeSiNo(item.uso_moce),
-  //   cumple: (item) => esSi(item.uso_moce),
-  // },
   {
     nombre: "Uso PHEDS",
     corto: "Uso PHEDS",
@@ -288,20 +334,6 @@ function esSi(valor) {
   return v === "SI" || v === "SÍ";
 }
 
-// function esUsoParcial(item) {
-//   const pheds = esSi(item.uso_pheds);
-//   const moce = esSi(item.uso_moce);
-
-//   return (pheds && !moce) || (!pheds && moce);
-// }
-
-// function esUsoCompleto(item) {
-//   const pheds = esSi(item.uso_pheds);
-//   const moce = esSi(item.uso_moce);
-
-//   return pheds && moce;
-// }
-
 function esUsoParcial(item) {
   const pheds = valorUpper(item.uso_pheds);
   const moce = valorUpper(item.uso_moce);
@@ -312,52 +344,6 @@ function esUsoParcial(item) {
 function esUsoCompleto(item) {
   return esUsoCubierto(item.uso_pheds) && esUsoCubierto(item.uso_moce);
 }
-
-// function obtenerEtapa(item) {
-//   const pheds = esSi(item.uso_pheds);
-//   const moce = esSi(item.uso_moce);
-
-//   if (pheds && moce) {
-//     return "En uso de PHEDS y MoCE";
-//   }
-
-//   if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
-//     return "Cargas MoCE concluidas";
-//   }
-
-//   if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
-//     return "Cargas PHEDS concluidas";
-//   }
-
-//   if (valorUpper(item.cargas_moce) === "CONCLUIDO") {
-//     return "Cargas MoCE concluidas";
-//   }
-
-//   if (valorUpper(item.cargas_pheds) === "CONCLUIDO") {
-//     return "Cargas PHEDS concluidas";
-//   }
-
-//   if (valorUpper(item.capacitaciones) === "CONCLUIDO") {
-//     return "Capacitaciones concluidas";
-//   }
-
-//   if (valorUpper(item.formato_moce) === "CONCLUIDO") {
-//     return "Formato MoCE concluido";
-//   }
-
-//   if (valorUpper(item.formato_pheds) === "CONCLUIDO") {
-//     return "Formato PHEDS concluido";
-//   }
-
-//   if (valorUpper(item.entrega_equipos_red) === "CONCLUIDO") {
-//     return "Entrega de equipos y config. de red concluida";
-//   }
-
-//   if (valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS") {
-//     return "Diagnóstico de infraestructura concluido";
-//   }
-//   return "Realizando diagnóstico de infraestructura";
-// }
 
 function obtenerEtapa(item) {
   const pheds = esSi(item.uso_pheds);
@@ -401,13 +387,6 @@ function obtenerEtapa(item) {
 
   // Formatos
 
-  // if (valorUpper(item.formato_moce) === "CONCLUIDO") {
-  //   return "Formato MoCE concluido";
-  // }
-
-  // if (valorUpper(item.formato_pheds) === "CONCLUIDO") {
-  //   return "Formato PHEDS concluido";
-  // }
   if (esFormatoCubierto(item.formato_moce)) {
     return "Formato MoCE concluido";
   }
@@ -647,31 +626,54 @@ function filtrarKpi(tipo) {
   }
 }
 
+// function cargarMapa(data) {
+//   limpiarMarkers();
+
+//   const bounds = [];
+
+//   data.forEach((item) => {
+//     if (item.latitud === null || item.longitud === null) return;
+
+//     const etapa = obtenerEtapa(item);
+//     const color = etapaColores[etapa] || "#235B4E";
+
 function cargarMapa(data) {
   limpiarMarkers();
 
   const bounds = [];
+  const marcadoresTemporales = [];
 
   data.forEach((item) => {
     if (item.latitud === null || item.longitud === null) return;
 
     const etapa = obtenerEtapa(item);
     const color = etapaColores[etapa] || "#235B4E";
+    const estilo = estiloMarcadorPorAvance(item.avance);
 
     const marker = L.circleMarker([item.latitud, item.longitud], {
-      radius: 7,
+      radius: estilo.radius,
       color: "#ffffff",
-      weight: 1,
+      weight: estilo.weight,
       fillColor: color,
-      fillOpacity: 0.9,
+      fillOpacity: estilo.fillOpacity,
     }).addTo(mapa);
 
     marker.bindPopup(crearPopup(item, etapa, color));
     marker.on("click", () => mostrarDetalle(item));
 
+    marcadoresTemporales.push({
+      marker,
+      prioridad: estilo.prioridad,
+    });
+
     markers.push(marker);
     bounds.push([item.latitud, item.longitud]);
   });
+
+  // Los marcadores con mayor avance quedan visualmente encima
+  marcadoresTemporales
+    .sort((a, b) => a.prioridad - b.prioridad)
+    .forEach(({ marker }) => marker.bringToFront());
 
   if (bounds.length > 0) {
     mapa.fitBounds(bounds, {
@@ -681,6 +683,67 @@ function cargarMapa(data) {
   } else {
     mapa.fitBounds(mexicoBounds);
   }
+}
+
+// const marker = L.circleMarker([item.latitud, item.longitud], {
+//   radius: 7,
+//   color: "#ffffff",
+//   weight: 1,
+//   fillColor: color,
+//   fillOpacity: 0.9,
+// }).addTo(mapa);
+
+//   marker.bindPopup(crearPopup(item, etapa, color));
+//   marker.on("click", () => mostrarDetalle(item));
+
+//   markers.push(marker);
+//   bounds.push([item.latitud, item.longitud]);
+// });
+
+// if (bounds.length > 0) {
+//   mapa.fitBounds(bounds, {
+//     padding: [30, 30],
+//     maxZoom: 8,
+//   });
+// } else {
+//   mapa.fitBounds(mexicoBounds);
+// }
+// }
+
+function estiloMarcadorPorAvance(avance) {
+  if (avance >= 75) {
+    return {
+      radius: 5,
+      weight: 2,
+      fillOpacity: 1,
+      prioridad: 4,
+    };
+  }
+
+  if (avance >= 50) {
+    return {
+      radius: 5,
+      weight: 1.8,
+      fillOpacity: 0.95,
+      prioridad: 3,
+    };
+  }
+
+  if (avance >= 25) {
+    return {
+      radius: 5,
+      weight: 1.5,
+      fillOpacity: 0.85,
+      prioridad: 2,
+    };
+  }
+
+  return {
+    radius: 4,
+    weight: 1,
+    fillOpacity: 0.65,
+    prioridad: 1,
+  };
 }
 
 function limpiarMarkers() {
@@ -1705,14 +1768,6 @@ function puntajeCapacitaciones(valor) {
   return 0;
 }
 
-// function puntajeSiNo(valor) {
-//   const v = valorUpper(valor);
-
-//   if (v === "SI" || v === "SÍ") return 1;
-
-//   return 0;
-// }
-
 function puntajeSiNo(valor) {
   const v = valorUpper(valor);
 
@@ -1722,21 +1777,6 @@ function puntajeSiNo(valor) {
 
   return 0;
 }
-
-// function calcularAvanceOperativo(item) {
-//   const total =
-//     puntajeFormatoTics(item.formato_tics_servicios) +
-//     puntajeEntregaEquipos(item.entrega_equipos_red) +
-//     puntajeFormatoRevision(item.formato_pheds) +
-//     puntajeFormatoRevision(item.formato_moce) +
-//     puntajeCargas(item.cargas_pheds) +
-//     puntajeCargas(item.cargas_moce) +
-//     puntajeCapacitaciones(item.capacitaciones) +
-//     puntajeSiNo(item.uso_pheds) +
-//     puntajeSiNo(item.uso_moce);
-
-//   return (total / 9) * 100;
-// }
 
 function calcularAvanceOperativo(item) {
   const total =
@@ -1778,14 +1818,6 @@ function puntajeEntregaEquipos(valor) {
   if (v === "CONCLUIDO") return 1;
   return 0;
 }
-
-// function puntajeFormatoRevision(valor) {
-//   const v = valorUpper(valor);
-//   if (v === "ENVIADO A LA CE/UM") return 1 / 3;
-//   if (v === "EN REVISIÓN CENTRAL") return 2 / 3;
-//   if (v === "CONCLUIDO") return 1;
-//   return 0;
-// }
 
 function puntajeFormatoRevision(valor) {
   const v = valorUpper(valor);
