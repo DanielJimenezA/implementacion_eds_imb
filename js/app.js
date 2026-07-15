@@ -9,18 +9,6 @@ const mexicoBounds = [
   [33.8, -85.0],
 ];
 
-// const etapasOrden = [
-//   "Realizando diagnóstico de infraestructura",
-//   "Diagnóstico de infraestructura concluido",
-//   "Entrega de equipos y config. de red concluida",
-//   "En uso de PHEDS y MoCE",
-//   "Formato PHEDS concluido",
-//   "Formato MoCE concluido",
-//   "Capacitaciones concluidas",
-//   "En uso del PHEDS",
-//   "En uso del MoCE",
-// ];
-
 const etapasOrden = [
   "Realizando diagnóstico de infraestructura",
   "Diagnóstico de infraestructura concluido",
@@ -34,80 +22,6 @@ const etapasOrden = [
   "En uso del MoCE",
   "En uso de PHEDS y MoCE",
 ];
-
-// const etapasDistribucion = [
-//   {
-//     nombre: "Introducción",
-//     corto: "Introducción",
-//     color: "#235B4E",
-//     puntaje: () => 1,
-//     cumple: () => true,
-//   },
-//   {
-//     nombre: "Diagnóstico de infraestructura concluido",
-//     corto: "Diagnóstico",
-//     color: "#E04525",
-//     puntaje: (item) => puntajeFormatoTics(item.formato_tics_servicios),
-//     cumple: (item) =>
-//       valorUpper(item.formato_tics_servicios) === "ENVIADO A TICS",
-//   },
-//   {
-//     nombre: "Entrega de equipos y config. de red concluida",
-//     corto: "Entrega equipos",
-//     color: "#F47C20",
-//     puntaje: (item) => puntajeEntregaEquipos(item.entrega_equipos_red),
-//     cumple: (item) => valorUpper(item.entrega_equipos_red) === "CONCLUIDO",
-//   },
-//   {
-//     nombre: "Formato PHEDS concluido",
-//     corto: "Formato PHEDS",
-//     color: "#F2B52E",
-//     puntaje: (item) => puntajeFormatoRevision(item.formato_pheds),
-//     cumple: (item) => esFormatoCubierto(item.formato_pheds),
-//   },
-//   {
-//     nombre: "Formato MoCE concluido",
-//     corto: "Formato MoCE",
-//     color: "#B7D44A",
-//     puntaje: (item) => puntajeFormatoRevision(item.formato_moce),
-//     cumple: (item) => esFormatoCubierto(item.formato_moce),
-//   },
-//   {
-//     nombre: "Cargas PHEDS concluidas",
-//     corto: "Cargas PHEDS",
-//     color: "#5FA777",
-//     puntaje: (item) => puntajeCargas(item.cargas_pheds),
-//     cumple: (item) => esCargaCubierta(item.cargas_pheds),
-//   },
-//   {
-//     nombre: "Cargas MoCE concluidas",
-//     corto: "Cargas MoCE",
-//     color: "#4B8F6F",
-//     puntaje: (item) => puntajeCargas(item.cargas_moce),
-//     cumple: (item) => esCargaCubierta(item.cargas_moce),
-//   },
-//   {
-//     nombre: "Capacitaciones concluidas",
-//     corto: "Capacitación",
-//     color: "#67B74B",
-//     puntaje: (item) => puntajeCapacitaciones(item.capacitaciones),
-//     cumple: (item) => valorUpper(item.capacitaciones) === "CONCLUIDAS",
-//   },
-//   {
-//     nombre: "Uso PHEDS",
-//     corto: "Uso PHEDS",
-//     color: "#4AA090",
-//     puntaje: (item) => puntajeSiNo(item.uso_pheds),
-//     cumple: (item) => esUsoCubierto(item.uso_pheds),
-//   },
-//   {
-//     nombre: "Uso MoCE",
-//     corto: "Uso MoCE",
-//     color: "#3070C0",
-//     puntaje: (item) => puntajeSiNo(item.uso_moce),
-//     cumple: (item) => esUsoCubierto(item.uso_moce),
-//   },
-// ];
 
 const etapasDistribucion = [
   {
