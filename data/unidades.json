@@ -5659,7 +5659,7 @@
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.6111111111111112,
         "unnamed:_29": 9
     },
@@ -5691,7 +5691,7 @@
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.6111111111111112,
         "unnamed:_29": 9
     },
@@ -5915,7 +5915,7 @@
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.7777777777777778,
         "unnamed:_29": 9
     },
@@ -6043,7 +6043,7 @@
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.6111111111111112,
         "unnamed:_29": 9
     },
@@ -6171,7 +6171,7 @@
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.6111111111111112,
         "unnamed:_29": 9
     },
@@ -7035,7 +7035,7 @@
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.7777777777777778,
         "unnamed:_29": 9
     },
@@ -7067,7 +7067,7 @@
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.7777777777777778,
         "unnamed:_29": 9
     },
@@ -7739,7 +7739,7 @@
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
-        "observaciones": "Primera etapa",
+        "observaciones": "Pendiente feca de entrega de equipo",
         "avance": 0.6111111111111112,
         "unnamed:_29": 9
     },
@@ -8854,13 +8854,13 @@
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "EN PROCESO",
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.5,
+        "avance": 0.5555555555555556,
         "unnamed:_29": 9
     },
     {
@@ -8918,13 +8918,13 @@
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "EN PROCESO",
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.5,
+        "avance": 0.5555555555555556,
         "unnamed:_29": 9
     },
     {
@@ -9014,13 +9014,13 @@
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.5,
+        "avance": 0.6111111111111112,
         "unnamed:_29": 9
     },
     {
@@ -9175,12 +9175,12 @@
         "formato_pheds": "EN REVISIÓN CENTRAL",
         "formato_moce": "EN REVISIÓN CENTRAL",
         "cargas_pheds": "",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.31481481481481477,
+        "avance": 0.25925925925925924,
         "unnamed:_29": 6
     },
     {
@@ -19319,12 +19319,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6111111111111112,
+        "avance": 0.6666666666666666,
         "unnamed:_29": 4
     },
     {
