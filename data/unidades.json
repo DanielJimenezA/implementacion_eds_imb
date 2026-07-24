@@ -3289,10 +3289,10 @@
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
         "observaciones": "Configuraciones iniciales, se hizo el levantamiento de infraestructura de red y de cómputo, sin embargo, se estima un faltante del 40% de equipos para instalar PHEDS y MoCE, principalmente en las áreas de cirugía, medicina interna, ginecología, UCI pediatricos, pediatría, UCI adultos, bareatría y quirofáno.",
-        "avance": 0.7222222222222222,
+        "avance": 0.9444444444444444,
         "unnamed:_29": 7
     },
     {
@@ -5081,10 +5081,10 @@
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
-        "observaciones": "La coordinación estatal reporta que requiere de un switch extreme",
-        "avance": 0.7777777777777778,
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
+        "observaciones": "",
+        "avance": 1.0,
         "unnamed:_29": 4
     },
     {
@@ -5113,10 +5113,10 @@
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
-        "observaciones": "La coordinación estatal reporta que requiere de un switch extreme",
-        "avance": 0.7777777777777778,
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
+        "observaciones": "",
+        "avance": 1.0,
         "unnamed:_29": 4
     },
     {
