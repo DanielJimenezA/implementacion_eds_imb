@@ -372,15 +372,15 @@
         "longitud": -111.364929,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "cargas_pheds": "",
         "cargas_moce": "",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.4259259259259259,
+        "avance": 0.5,
         "unnamed:_29": 2
     },
     {
@@ -532,15 +532,15 @@
         "longitud": -110.31905,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "cargas_pheds": "",
         "cargas_moce": "",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.4259259259259259,
+        "avance": 0.5,
         "unnamed:_29": 2
     },
     {
@@ -596,15 +596,15 @@
         "longitud": -112.2728432,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
         "cargas_pheds": "",
         "cargas_moce": "",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.4259259259259259,
+        "avance": 0.5,
         "unnamed:_29": 2
     },
     {
@@ -8855,12 +8855,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.5555555555555556,
+        "avance": 0.6111111111111112,
         "unnamed:_29": 9
     },
     {
@@ -8983,12 +8983,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "EN PROCESO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.5,
+        "avance": 0.5555555555555556,
         "unnamed:_29": 9
     },
     {
@@ -9046,13 +9046,13 @@
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "EN PROCESO",
         "capacitaciones": "",
         "uso_pheds": "NO",
         "uso_moce": "NO",
         "observaciones": "",
-        "avance": 0.5,
+        "avance": 0.5555555555555556,
         "unnamed:_29": 9
     },
     {
@@ -15704,11 +15704,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "NO APLICA",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO APLICA",
         "uso_moce": "",
         "observaciones": "*",
-        "avance": 0.7777777777777778,
+        "avance": 0.8333333333333334,
         "unnamed:_29": 3
     },
     {
@@ -15736,11 +15736,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15768,11 +15768,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15800,11 +15800,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15832,11 +15832,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15864,11 +15864,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15896,11 +15896,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15928,11 +15928,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15960,11 +15960,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -15992,11 +15992,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -16024,11 +16024,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -16056,11 +16056,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -16088,11 +16088,11 @@
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
-        "capacitaciones": "PROGRAMADAS",
+        "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6666666666666666,
+        "avance": 0.7222222222222222,
         "unnamed:_29": 3
     },
     {
@@ -18999,12 +18999,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6111111111111112,
+        "avance": 0.6666666666666666,
         "unnamed:_29": 4
     },
     {
@@ -19063,12 +19063,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6111111111111112,
+        "avance": 0.6666666666666666,
         "unnamed:_29": 4
     },
     {
@@ -19351,12 +19351,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.6111111111111112,
+        "avance": 0.6666666666666666,
         "unnamed:_29": 4
     },
     {
