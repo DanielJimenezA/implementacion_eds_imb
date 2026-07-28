@@ -1,6 +1,9 @@
-# Avance de Expediente Digital — IMSS-Bienestar — 
+# Avance de Expediente Digital — IMSS-Bienestar —
 
 Proyecto estático para GitHub Pages. No requiere backend.
+
+Excel utilizado: ...\excel\unidades.xlsx
+Hoja utilizada: equipamiento
 
 ## Uso local
 
