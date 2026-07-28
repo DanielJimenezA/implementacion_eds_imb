@@ -1,7 +1,7 @@
 [
     {
         "no": 1,
-        "entidad": "Yucatán",
+        "entidad": "YUCATAN",
         "pc_requerimiento": 395,
         "pc_entregado": 75,
         "aps_requerimiento": 58,
@@ -11,69 +11,69 @@
     },
     {
         "no": 2,
-        "entidad": "Sonora",
+        "entidad": "SONORA",
         "pc_requerimiento": 722,
         "pc_entregado": 722,
-        "aps_requerimiento": 94,
+        "aps_requerimiento": 97,
         "aps_entregado": 0,
         "impresoras_requerimiento": 245,
         "impresoras_entregado": 245
     },
     {
         "no": 3,
-        "entidad": "Hidalgo",
-        "pc_requerimiento": 114,
-        "pc_entregado": 114,
+        "entidad": "HIDALGO ETAPA1",
+        "pc_requerimiento": 0,
+        "pc_entregado": 0,
         "aps_requerimiento": 104,
         "aps_entregado": 104,
-        "impresoras_requerimiento": 158,
-        "impresoras_entregado": 158
+        "impresoras_requerimiento": 106,
+        "impresoras_entregado": 106
     },
     {
         "no": 4,
-        "entidad": "Colima",
+        "entidad": "COLIMA",
         "pc_requerimiento": 0,
         "pc_entregado": 0,
-        "aps_requerimiento": 36,
+        "aps_requerimiento": 21,
         "aps_entregado": 0,
         "impresoras_requerimiento": 60,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 60
     },
     {
         "no": 5,
-        "entidad": "Zona Oriente EDOMEX",
+        "entidad": "ESTADO DE MÉXICO ETAPA1",
         "pc_requerimiento": 1438,
         "pc_entregado": 500,
         "aps_requerimiento": 216,
         "aps_entregado": 0,
         "impresoras_requerimiento": 221,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 221
     },
     {
         "no": 6,
-        "entidad": "CDMX Etapa 1",
+        "entidad": "CIUDAD DE MEXICO ETAPA1",
         "pc_requerimiento": 1249,
         "pc_entregado": 349,
         "aps_requerimiento": 188,
         "aps_entregado": 0,
-        "impresoras_requerimiento": 158,
-        "impresoras_entregado": 12
+        "impresoras_requerimiento": 170,
+        "impresoras_entregado": 170
     },
     {
         "no": 7,
-        "entidad": "Baja California",
+        "entidad": "BAJA CALIFORNIA",
         "pc_requerimiento": 510,
-        "pc_entregado": 0,
-        "aps_requerimiento": 82,
+        "pc_entregado": 200,
+        "aps_requerimiento": 67,
         "aps_entregado": 0,
         "impresoras_requerimiento": 0,
         "impresoras_entregado": 0
     },
     {
         "no": 8,
-        "entidad": "Baja California Sur",
+        "entidad": "BAJA CALIFORNIA SUR",
         "pc_requerimiento": 347,
-        "pc_entregado": 0,
+        "pc_entregado": 347,
         "aps_requerimiento": 35,
         "aps_entregado": 0,
         "impresoras_requerimiento": 0,
@@ -81,17 +81,17 @@
     },
     {
         "no": 9,
-        "entidad": "Morelos",
+        "entidad": "MORELOS",
         "pc_requerimiento": 175,
-        "pc_entregado": 0,
-        "aps_requerimiento": 64,
+        "pc_entregado": 58,
+        "aps_requerimiento": 51,
         "aps_entregado": 0,
         "impresoras_requerimiento": 18,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 18
     },
     {
         "no": 10,
-        "entidad": "Zacatecas",
+        "entidad": "ZACATECAS",
         "pc_requerimiento": 486,
         "pc_entregado": 486,
         "aps_requerimiento": 77,
@@ -101,67 +101,67 @@
     },
     {
         "no": 11,
-        "entidad": "Tlaxcala",
+        "entidad": "TLAXCALA",
         "pc_requerimiento": 332,
         "pc_entregado": 0,
-        "aps_requerimiento": 42,
+        "aps_requerimiento": 25,
         "aps_entregado": 0,
         "impresoras_requerimiento": 20,
         "impresoras_entregado": 20
     },
     {
         "no": 12,
-        "entidad": "Quintana Roo",
+        "entidad": "QUINTANA ROO",
         "pc_requerimiento": 468,
         "pc_entregado": 0,
-        "aps_requerimiento": 82,
+        "aps_requerimiento": 63,
         "aps_entregado": 0,
         "impresoras_requerimiento": 113,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 113
     },
     {
         "no": 13,
-        "entidad": "Campeche",
+        "entidad": "CAMPECHE",
         "pc_requerimiento": 138,
         "pc_entregado": 0,
-        "aps_requerimiento": 30,
+        "aps_requerimiento": 31,
         "aps_entregado": 0,
-        "impresoras_requerimiento": 114,
-        "impresoras_entregado": 103
+        "impresoras_requerimiento": 100,
+        "impresoras_entregado": 100
     },
     {
         "no": 14,
-        "entidad": "Nayarit",
+        "entidad": "NAYARIT",
         "pc_requerimiento": 507,
         "pc_entregado": 0,
         "aps_requerimiento": 61,
         "aps_entregado": 0,
         "impresoras_requerimiento": 36,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 36
     },
     {
         "no": 15,
-        "entidad": "San Luis Potosi",
+        "entidad": "SAN LUIS POTOSI",
         "pc_requerimiento": 742,
         "pc_entregado": 0,
-        "aps_requerimiento": 89,
+        "aps_requerimiento": 26,
         "aps_entregado": 0,
         "impresoras_requerimiento": 197,
         "impresoras_entregado": 0
     },
     {
         "no": 16,
-        "entidad": "Tabasco",
+        "entidad": "TABASCO",
         "pc_requerimiento": 185,
         "pc_entregado": 0,
-        "aps_requerimiento": 154,
+        "aps_requerimiento": 135,
         "aps_entregado": 0,
         "impresoras_requerimiento": 244,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 244
     },
     {
         "no": 17,
-        "entidad": "Michoacán",
+        "entidad": "MICHOACAN DE OCAMPO",
         "pc_requerimiento": 1165,
         "pc_entregado": 30,
         "aps_requerimiento": 162,
@@ -171,7 +171,7 @@
     },
     {
         "no": 18,
-        "entidad": "Sinaloa",
+        "entidad": "SINALOA",
         "pc_requerimiento": 1106,
         "pc_entregado": 0,
         "aps_requerimiento": 154,
@@ -181,37 +181,37 @@
     },
     {
         "no": 19,
-        "entidad": "Tamaulipas",
+        "entidad": "TAMAULIPAS",
         "pc_requerimiento": 396,
         "pc_entregado": 0,
-        "aps_requerimiento": 144,
-        "aps_entregado": 0,
+        "aps_requerimiento": 125,
+        "aps_entregado": 15,
         "impresoras_requerimiento": 48,
         "impresoras_entregado": 0
     },
     {
         "no": 20,
-        "entidad": "Guerrero",
-        "pc_requerimiento": 847,
+        "entidad": "GUERRERO",
+        "pc_requerimiento": 727,
         "pc_entregado": 0,
-        "aps_requerimiento": 226,
+        "aps_requerimiento": 223,
         "aps_entregado": 0,
-        "impresoras_requerimiento": 343,
+        "impresoras_requerimiento": 34,
         "impresoras_entregado": 0
     },
     {
         "no": 21,
-        "entidad": "Oaxaca",
+        "entidad": "OAXACA",
         "pc_requerimiento": 1351,
         "pc_entregado": 0,
-        "aps_requerimiento": 189,
+        "aps_requerimiento": 175,
         "aps_entregado": 0,
-        "impresoras_requerimiento": 336,
+        "impresoras_requerimiento": 86,
         "impresoras_entregado": 0
     },
     {
         "no": 22,
-        "entidad": "Puebla",
+        "entidad": "PUEBLA",
         "pc_requerimiento": 2446,
         "pc_entregado": 0,
         "aps_requerimiento": 317,
@@ -221,27 +221,27 @@
     },
     {
         "no": 23,
-        "entidad": "Veracruz",
-        "pc_requerimiento": 2393,
+        "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+        "pc_requerimiento": 2583,
         "pc_entregado": 0,
-        "aps_requerimiento": 341,
+        "aps_requerimiento": 355,
         "aps_entregado": 0,
-        "impresoras_requerimiento": 577,
+        "impresoras_requerimiento": 324,
         "impresoras_entregado": 0
     },
     {
         "no": 24,
-        "entidad": "CDMX Etapa 2",
+        "entidad": "CIUDAD DE MEXICO ETAPA2",
         "pc_requerimiento": 674,
         "pc_entregado": 0,
         "aps_requerimiento": 82,
         "aps_entregado": 0,
-        "impresoras_requerimiento": 82,
+        "impresoras_requerimiento": 70,
         "impresoras_entregado": 0
     },
     {
         "no": 25,
-        "entidad": "Estado de México (resto)",
+        "entidad": "ESTADO DE MÉXICO ETAPA2",
         "pc_requerimiento": 1873,
         "pc_entregado": 0,
         "aps_requerimiento": 269,
@@ -251,17 +251,27 @@
     },
     {
         "no": 26,
-        "entidad": "Guanajuato",
+        "entidad": "GUANAJUATO",
         "pc_requerimiento": 0,
         "pc_entregado": 0,
-        "aps_requerimiento": 0,
+        "aps_requerimiento": 6,
         "aps_entregado": 0,
         "impresoras_requerimiento": 0,
         "impresoras_entregado": 0
     },
     {
         "no": 27,
-        "entidad": "Chiapas",
+        "entidad": "HIDALGO ETAPA2",
+        "pc_requerimiento": 114,
+        "pc_entregado": 114,
+        "aps_requerimiento": 0,
+        "aps_entregado": 0,
+        "impresoras_requerimiento": 52,
+        "impresoras_entregado": 52
+    },
+    {
+        "no": null,
+        "entidad": "CHIAPAS",
         "pc_requerimiento": 1000,
         "pc_entregado": 1000,
         "aps_requerimiento": 39,

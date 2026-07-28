@@ -167,12 +167,40 @@ print(salida_json)
 # EXPORTAR EQUIPAMIENTO
 # =====================================================
 
-salida_equipamiento = Path("data/equipamiento.json")
+RAIZ_PROYECTO = Path(__file__).resolve().parent.parent
+salida_equipamiento = RAIZ_PROYECTO / "data" / "equipamiento.json"
+salida_equipamiento.parent.mkdir(parents=True, exist_ok=True)
 
 try:
-    df_eq = pd.read_excel(archivo_excel, sheet_name="equipamiento")
+    ruta_excel = Path(archivo_excel).resolve()
 
-    df_eq.columns = [normalizar_columna(c) for c in df_eq.columns]
+    print("\n" + "=" * 70)
+    print("PROCESANDO EQUIPAMIENTO")
+    print("=" * 70)
+    print(f"Excel utilizado: {ruta_excel}")
+    print(f"JSON de salida:  {salida_equipamiento.resolve()}")
+
+    if not ruta_excel.exists():
+        raise FileNotFoundError(f"No se encontró el archivo Excel: {ruta_excel}")
+
+    df_eq = pd.read_excel(
+        ruta_excel,
+        sheet_name="equipamiento",
+        engine="openpyxl",
+        dtype=object,
+    )
+
+    print("\nEncabezados originales:")
+    for columna in df_eq.columns:
+        print(f"  - {repr(columna)}")
+
+    df_eq.columns = [normalizar_columna(columna) for columna in df_eq.columns]
+
+    print("\nEncabezados normalizados:")
+    print(df_eq.columns.tolist())
+
+    if "entidad" not in df_eq.columns:
+        raise KeyError("No se encontró la columna ENTIDAD en la hoja equipamiento.")
 
     columnas_numericas_eq = [
         "pc_requerimiento",
@@ -183,23 +211,84 @@ try:
         "impresoras_entregado",
     ]
 
-    if "entidad" in df_eq.columns:
-        df_eq["entidad"] = df_eq["entidad"].apply(limpiar_texto)
+    # Conservar mayúsculas, acentos y denominación original.
+    # Solo elimina espacios invisibles y espacios repetidos.
+    df_eq["entidad"] = (
+        df_eq["entidad"]
+        .astype("string")
+        .str.replace("\u00a0", " ", regex=False)
+        .str.replace("\u2007", " ", regex=False)
+        .str.replace("\u202f", " ", regex=False)
+        .str.replace(r"[\r\n\t]+", " ", regex=True)
+        .str.replace(r"\s+", " ", regex=True)
+        .str.strip()
+    )
 
-    for col in columnas_numericas_eq:
-        if col in df_eq.columns:
-            df_eq[col] = df_eq[col].apply(limpiar_entero)
+    df_eq["entidad"] = df_eq["entidad"].replace("", pd.NA)
+
+    # Eliminar filas vacías o sin entidad
+    df_eq = df_eq.dropna(how="all")
+    df_eq = df_eq[df_eq["entidad"].notna()].copy()
+
+    for columna in columnas_numericas_eq:
+        if columna not in df_eq.columns:
+            print(
+                f"Advertencia: no existe la columna '{columna}'. "
+                "Se creará con valor 0."
+            )
+            df_eq[columna] = 0
+
+        df_eq[columna] = (
+            df_eq[columna]
+            .astype("string")
+            .str.replace(",", "", regex=False)
+            .str.strip()
+        )
+
+        df_eq[columna] = (
+            pd.to_numeric(
+                df_eq[columna],
+                errors="coerce",
+            )
+            .fillna(0)
+            .astype(int)
+        )
+
+    print("\nEntidades que se exportarán:")
+    for entidad in df_eq["entidad"].tolist():
+        print(f"  - {repr(entidad)}")
+
+    print(
+        f"\nRegistros: {len(df_eq):,}"
+        f"\nEntidades únicas: {df_eq['entidad'].nunique():,}"
+    )
 
     df_eq = df_eq.where(pd.notnull(df_eq), None)
 
     registros_eq = df_eq.to_dict(orient="records")
     registros_eq = limpiar_json(registros_eq)
 
-    with open(salida_equipamiento, "w", encoding="utf-8") as f:
-        json.dump(registros_eq, f, ensure_ascii=False, indent=4, allow_nan=False)
+    with open(
+        salida_equipamiento,
+        "w",
+        encoding="utf-8",
+    ) as archivo:
+        json.dump(
+            registros_eq,
+            archivo,
+            ensure_ascii=False,
+            indent=4,
+            allow_nan=False,
+        )
 
-    print(f"Archivo de equipamiento: {salida_equipamiento}")
-    print(f"Registros equipamiento: {len(registros_eq):,}")
+    print("\nArchivo generado correctamente:")
+    print(salida_equipamiento.resolve())
+    print("=" * 70)
 
-except ValueError:
-    print("No se encontró la hoja 'equipamiento'. Se omite equipamiento.")
+except ValueError as error:
+    print("No se encontró o no pudo leerse la hoja 'equipamiento'.")
+    print(f"Detalle: {error}")
+
+except Exception as error:
+    print(f"Error al generar equipamiento.json: {error}")
+    raise
