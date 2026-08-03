@@ -125,12 +125,20 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
+<<<<<<< HEAD
         "cargas_moce": "CONCLUIDO",
+=======
+        "cargas_moce": "EN PROCESO",
+>>>>>>> 747b3ec280f350b8e4daed3d3b5ead3f59cabf90
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
+<<<<<<< HEAD
         "avance": 0.6111111111111112,
+=======
+        "avance": 0.5555555555555556,
+>>>>>>> 747b3ec280f350b8e4daed3d3b5ead3f59cabf90
         "celula_asignada": 1,
         "distribucion": "Baja California",
         "unnamed:_31": null
@@ -260,13 +268,13 @@
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "EN PROCESO",
         "capacitaciones": "",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "avance": 0.5,
+        "avance": 0.5555555555555556,
         "celula_asignada": 1,
         "distribucion": "Baja California",
         "unnamed:_31": null
@@ -538,7 +546,11 @@
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
+<<<<<<< HEAD
         "avance": 0.7777777777777778,
+=======
+        "avance": 0.5555555555555556,
+>>>>>>> 747b3ec280f350b8e4daed3d3b5ead3f59cabf90
         "celula_asignada": 2,
         "distribucion": "Baja California Sur ",
         "unnamed:_31": null
