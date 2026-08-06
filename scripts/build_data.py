@@ -17,7 +17,6 @@ def normalizar_columna(col):
     col = col.replace("/", "_")
     return col
 
-
 def limpiar_decimal(valor):
     if pd.isna(valor):
         return None
