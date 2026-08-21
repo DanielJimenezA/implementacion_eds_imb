@@ -248,11 +248,29 @@ function esSi(valor) {
   return v === "SI" || v === "SÍ";
 }
 
+// function esUsoParcial(item) {
+//   const pheds = valorUpper(item.uso_pheds);
+//   const moce = valorUpper(item.uso_moce);
+
+//   return (pheds === "SI" && moce === "NO") || (pheds === "NO" && moce === "SI");
+// }
+
 function esUsoParcial(item) {
   const pheds = valorUpper(item.uso_pheds);
   const moce = valorUpper(item.uso_moce);
 
   return (pheds === "SI" && moce === "NO") || (pheds === "NO" && moce === "SI");
+}
+
+function esUsoCompleto(item) {
+  const pheds = valorUpper(item.uso_pheds);
+  const moce = valorUpper(item.uso_moce);
+
+  const phedsCubierto = pheds === "SI" || pheds === "NO APLICA";
+
+  const moceCubierto = moce === "SI" || moce === "NO APLICA";
+
+  return phedsCubierto && moceCubierto;
 }
 
 function esUsoCompleto(item) {
@@ -461,8 +479,11 @@ function cargarIndicadores(data) {
     (d) => d.avance > 0 && !esUsoParcial(d) && !esUsoCompleto(d)
   ).length;
 
-  const usoParcial = data.filter(esUsoParcial).length;
+  // const usoParcial = data.filter(esUsoParcial).length;
 
+  // const usoCompleto = data.filter(esUsoCompleto).length;
+
+  const usoParcial = data.filter(esUsoParcial).length;
   const usoCompleto = data.filter(esUsoCompleto).length;
 
   const promedio = total
@@ -491,6 +512,15 @@ function filtrarKpi(tipo) {
     etiqueta = "En proceso";
   }
 
+  // if (tipo === "alto") {
+  //   unidades = datosGlobales.filter(esUsoParcial);
+  //   etiqueta = "Uso parcial";
+  // }
+
+  // if (tipo === "completo") {
+  //   unidades = datosGlobales.filter(esUsoCompleto);
+  //   etiqueta = "Uso completo";
+  // }
   if (tipo === "alto") {
     unidades = datosGlobales.filter(esUsoParcial);
     etiqueta = "Uso parcial";
