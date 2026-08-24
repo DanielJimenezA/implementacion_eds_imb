@@ -3,11 +3,11 @@
         "no": 1,
         "entidad": "YUCATAN",
         "pc_requerimiento": 395,
-        "pc_entregado": 75,
+        "pc_entregado": 95,
         "aps_requerimiento": 58,
         "aps_entregado": 0,
         "impresoras_requerimiento": 49,
-        "impresoras_entregado": 10
+        "impresoras_entregado": 15
     },
     {
         "no": 2,
@@ -35,7 +35,7 @@
         "pc_requerimiento": 0,
         "pc_entregado": 0,
         "aps_requerimiento": 21,
-        "aps_entregado": 0,
+        "aps_entregado": 15,
         "impresoras_requerimiento": 60,
         "impresoras_entregado": 60
     },
@@ -43,9 +43,9 @@
         "no": 5,
         "entidad": "ESTADO DE MÉXICO ETAPA1",
         "pc_requerimiento": 1438,
-        "pc_entregado": 500,
+        "pc_entregado": 700,
         "aps_requerimiento": 216,
-        "aps_entregado": 0,
+        "aps_entregado": 216,
         "impresoras_requerimiento": 221,
         "impresoras_entregado": 221
     },
@@ -55,7 +55,7 @@
         "pc_requerimiento": 1249,
         "pc_entregado": 349,
         "aps_requerimiento": 188,
-        "aps_entregado": 0,
+        "aps_entregado": 188,
         "impresoras_requerimiento": 170,
         "impresoras_entregado": 170
     },
@@ -83,9 +83,9 @@
         "no": 9,
         "entidad": "MORELOS",
         "pc_requerimiento": 175,
-        "pc_entregado": 58,
+        "pc_entregado": 175,
         "aps_requerimiento": 51,
-        "aps_entregado": 0,
+        "aps_entregado": 51,
         "impresoras_requerimiento": 18,
         "impresoras_entregado": 18
     },
@@ -103,9 +103,9 @@
         "no": 11,
         "entidad": "TLAXCALA",
         "pc_requerimiento": 332,
-        "pc_entregado": 0,
+        "pc_entregado": 332,
         "aps_requerimiento": 25,
-        "aps_entregado": 0,
+        "aps_entregado": 17,
         "impresoras_requerimiento": 20,
         "impresoras_entregado": 20
     },
@@ -127,7 +127,7 @@
         "aps_requerimiento": 31,
         "aps_entregado": 0,
         "impresoras_requerimiento": 100,
-        "impresoras_entregado": 100
+        "impresoras_entregado": 103
     },
     {
         "no": 14,
@@ -147,15 +147,15 @@
         "aps_requerimiento": 26,
         "aps_entregado": 0,
         "impresoras_requerimiento": 197,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 197
     },
     {
         "no": 16,
         "entidad": "TABASCO",
         "pc_requerimiento": 185,
-        "pc_entregado": 0,
+        "pc_entregado": 185,
         "aps_requerimiento": 135,
-        "aps_entregado": 0,
+        "aps_entregado": 99,
         "impresoras_requerimiento": 244,
         "impresoras_entregado": 244
     },
@@ -163,9 +163,9 @@
         "no": 17,
         "entidad": "MICHOACAN DE OCAMPO",
         "pc_requerimiento": 1165,
-        "pc_entregado": 30,
+        "pc_entregado": 0,
         "aps_requerimiento": 162,
-        "aps_entregado": 0,
+        "aps_entregado": 3,
         "impresoras_requerimiento": 0,
         "impresoras_entregado": 0
     },
@@ -187,7 +187,7 @@
         "aps_requerimiento": 125,
         "aps_entregado": 15,
         "impresoras_requerimiento": 48,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 48
     },
     {
         "no": 20,
@@ -197,7 +197,7 @@
         "aps_requerimiento": 223,
         "aps_entregado": 0,
         "impresoras_requerimiento": 34,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 34
     },
     {
         "no": 21,
@@ -207,7 +207,7 @@
         "aps_requerimiento": 175,
         "aps_entregado": 0,
         "impresoras_requerimiento": 86,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 86
     },
     {
         "no": 22,
@@ -215,9 +215,9 @@
         "pc_requerimiento": 2446,
         "pc_entregado": 0,
         "aps_requerimiento": 317,
-        "aps_entregado": 0,
+        "aps_entregado": 301,
         "impresoras_requerimiento": 521,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 521
     },
     {
         "no": 23,
@@ -227,7 +227,7 @@
         "aps_requerimiento": 355,
         "aps_entregado": 0,
         "impresoras_requerimiento": 324,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 324
     },
     {
         "no": 24,
@@ -235,9 +235,9 @@
         "pc_requerimiento": 674,
         "pc_entregado": 0,
         "aps_requerimiento": 82,
-        "aps_entregado": 0,
+        "aps_entregado": 71,
         "impresoras_requerimiento": 70,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 70
     },
     {
         "no": 25,
@@ -245,9 +245,9 @@
         "pc_requerimiento": 1873,
         "pc_entregado": 0,
         "aps_requerimiento": 269,
-        "aps_entregado": 0,
+        "aps_entregado": 119,
         "impresoras_requerimiento": 441,
-        "impresoras_entregado": 0
+        "impresoras_entregado": 224
     },
     {
         "no": 26,
