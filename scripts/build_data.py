@@ -4,9 +4,165 @@ import unicodedata
 import re
 import math
 from pathlib import Path
+import geopandas as gpd
 
 archivo_excel = Path("excel/unidades.xlsx")
 salida_json = Path("data/unidades.json")
+RAIZ_PROYECTO = Path(__file__).resolve().parent.parent
+
+
+def optimizar_geojson_mexico(
+    archivo_entrada,
+    archivo_salida,
+    tolerancia_metros=500,
+):
+    """
+    Optimiza el GeoJSON de entidades federativas de INEGI
+    para su visualización en Leaflet.
+
+    - Conserva únicamente atributos necesarios.
+    - Normaliza el CRS a EPSG:4326.
+    - Simplifica geometrías preservando topología.
+    - Genera un GeoJSON más ligero para GitHub Pages.
+    """
+
+    archivo_entrada = Path(archivo_entrada)
+    archivo_salida = Path(archivo_salida)
+
+    print("\n==========================================")
+    print("OPTIMIZACIÓN DE CARTOGRAFÍA")
+    print("==========================================")
+
+    if not archivo_entrada.exists():
+        print(
+            "No se encontró el GeoJSON original. "
+            "Se omite la generación cartográfica."
+        )
+        return
+
+    tamano_original = archivo_entrada.stat().st_size
+
+    print(f"Entrada: {archivo_entrada}")
+    print(f"Tamaño original: {tamano_original / 1024 / 1024:.2f} MB")
+
+    # -------------------------------------------------
+    # LEER GEOJSON
+    # -------------------------------------------------
+
+    gdf = gpd.read_file(archivo_entrada)
+
+    print(f"Entidades encontradas: {len(gdf):,}")
+    print(f"CRS detectado: {gdf.crs}")
+
+    # -------------------------------------------------
+    # VALIDAR 32 ENTIDADES
+    # -------------------------------------------------
+
+    if len(gdf) != 32:
+        print(
+            f"ADVERTENCIA: se esperaban 32 entidades " f"y se encontraron {len(gdf)}."
+        )
+
+    # -------------------------------------------------
+    # CRS
+    # -------------------------------------------------
+
+    # El archivo de INEGI declara EPSG:6365.
+    # Si GeoPandas no lo detecta, se asigna explícitamente.
+    if gdf.crs is None:
+        print("CRS no detectado. Se asignará EPSG:6365.")
+        gdf = gdf.set_crs(
+            epsg=6365,
+            allow_override=True,
+        )
+
+    # Normalizar salida para Leaflet.
+    gdf = gdf.to_crs(epsg=4326)
+
+    # -------------------------------------------------
+    # CONSERVAR ATRIBUTOS NECESARIOS
+    # -------------------------------------------------
+
+    columnas_utiles = [
+        "cvegeo",
+        "cve_ent",
+        "nomgeo",
+        "nom_abrev",
+        "geometry",
+    ]
+
+    columnas_disponibles = [
+        columna for columna in columnas_utiles if columna in gdf.columns
+    ]
+
+    gdf = gdf[columnas_disponibles]
+
+    # -------------------------------------------------
+    # SIMPLIFICAR EN METROS
+    # -------------------------------------------------
+
+    # EPSG:6372 permite trabajar en una proyección
+    # métrica apropiada para México.
+    gdf_metros = gdf.to_crs(epsg=6372)
+
+    gdf_metros["geometry"] = gdf_metros.geometry.simplify(
+        tolerance=tolerancia_metros,
+        preserve_topology=True,
+    )
+
+    # Volver a WGS84 para Leaflet.
+    gdf = gdf_metros.to_crs(epsg=4326)
+
+    # -------------------------------------------------
+    # VALIDAR GEOMETRÍAS
+    # -------------------------------------------------
+
+    invalidas = (~gdf.geometry.is_valid).sum()
+    vacias = gdf.geometry.is_empty.sum()
+
+    print(f"Geometrías inválidas: {invalidas}")
+    print(f"Geometrías vacías: {vacias}")
+
+    if invalidas > 0 or vacias > 0:
+        raise ValueError("La simplificación produjo geometrías " "inválidas o vacías.")
+
+    # -------------------------------------------------
+    # EXPORTAR
+    # -------------------------------------------------
+
+    archivo_salida.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    gdf.to_file(
+        archivo_salida,
+        driver="GeoJSON",
+    )
+
+    tamano_final = archivo_salida.stat().st_size
+
+    reduccion = (1 - tamano_final / tamano_original) * 100 if tamano_original else 0
+
+    print(f"Salida: {archivo_salida}")
+    print(f"Tamaño final: " f"{tamano_final / 1024 / 1024:.2f} MB")
+    print(f"Reducción: {reduccion:.1f}%")
+    print("Cartografía generada correctamente.")
+
+
+# =====================================================
+# GENERAR CARTOGRAFÍA OPTIMIZADA
+# =====================================================
+
+archivo_geo_original = RAIZ_PROYECTO / "data" / "mexico_estados_original.geojson"
+
+archivo_geo_salida = RAIZ_PROYECTO / "data" / "mexico_estados.geojson"
+
+optimizar_geojson_mexico(
+    archivo_entrada=archivo_geo_original,
+    archivo_salida=archivo_geo_salida,
+    tolerancia_metros=500,
+)
 
 
 def normalizar_columna(col):
@@ -16,6 +172,7 @@ def normalizar_columna(col):
     col = re.sub(r"\s+", "_", col)
     col = col.replace("/", "_")
     return col
+
 
 def limpiar_decimal(valor):
     if pd.isna(valor):
