@@ -206,8 +206,8 @@ function inicializarMapa() {
         pane: "limitesEstados",
 
         style: {
-          color: "#6f6f6f",
-          weight: 0.2,
+          color: "#F3F3E7",
+          weight: 0.25,
           opacity: 0.25,
           fillOpacity: 0,
         },
