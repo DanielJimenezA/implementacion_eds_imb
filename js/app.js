@@ -176,6 +176,71 @@ function normalizarRegistro(item) {
   };
 }
 
+// function inicializarMapa() {
+//   mapa = L.map("map", {
+//     center: [23.6345, -102.5528],
+//     zoom: 5,
+//     minZoom: 5,
+//     maxZoom: 16,
+//     maxBounds: mexicoBounds,
+//     maxBoundsViscosity: 1.0,
+//   });
+
+//   // Fondo cartográfico
+//   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+//     subdomains: ["a", "b", "c"],
+//     maxZoom: 19,
+//     attribution: "&copy; OpenStreetMap contributors",
+//   }).addTo(mapa);
+
+//   fetch("data/mexico_estados.geojson")
+//     .then((response) => {
+//       if (!response.ok) {
+//         throw new Error(`HTTP ${response.status}`);
+//       }
+
+//       return response.json();
+//     })
+//     .then((geojson) => {
+//       L.geoJSON(geojson, {
+//         pane: "limitesEstados",
+
+//         style: {
+//           color: "#FFFFFF",
+//           weight: 0.1,
+//           opacity: 0.1,
+//           fillOpacity: 0,
+//         },
+
+//         interactive: false,
+//       }).addTo(mapa);
+//     })
+//     .catch((error) => {
+//       console.error(
+//         "No fue posible cargar los límites estatales de México:",
+//         error
+//       );
+//     });
+
+//   // Límites oficiales de las entidades de México
+//   fetch("data/mexico_estados.geojson")
+//     .then((response) => response.json())
+//     .then((geojson) => {
+//       L.geoJSON(geojson, {
+//         style: {
+//           color: "#555555",
+//           weight: 1.4,
+//           opacity: 0.9,
+//           fillOpacity: 0,
+//         },
+//         interactive: false,
+//       }); //.addTo(mapa);
+//     })
+//     .catch((error) => {
+//       console.error("No fue posible cargar los límites estatales:", error);
+//     });
+// }
+
 function inicializarMapa() {
   mapa = L.map("map", {
     center: [23.6345, -102.5528],
@@ -186,59 +251,30 @@ function inicializarMapa() {
     maxBoundsViscosity: 1.0,
   });
 
-  // Fondo cartográfico
+  // MAPA BASE: ESTO SE CONSERVA
   L.tileLayer("https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png", {
     maxZoom: 20,
     attribution:
       "&copy; OpenStreetMap contributors, Tiles style by OpenStreetMap France",
   }).addTo(mapa);
 
-  fetch("data/mexico_estados.geojson")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-
-      return response.json();
-    })
-    .then((geojson) => {
-      L.geoJSON(geojson, {
-        pane: "limitesEstados",
-
-        style: {
-          color: "#F3F3E7",
-          weight: 0.25,
-          opacity: 0.25,
-          fillOpacity: 0,
-        },
-
-        interactive: false,
-      }).addTo(mapa);
-    })
-    .catch((error) => {
-      console.error(
-        "No fue posible cargar los límites estatales de México:",
-        error
-      );
-    });
-
-  // Límites oficiales de las entidades de México
+  // GEOJSON INEGI: SOLO ESTO SE COMENTA TEMPORALMENTE
+  /*
   fetch("data/mexico_estados.geojson")
     .then((response) => response.json())
     .then((geojson) => {
       L.geoJSON(geojson, {
+        pane: "limitesEstados",
         style: {
-          color: "#555555",
-          weight: 1.4,
-          opacity: 0.9,
+          color: "#FFFFFF",
+          weight: 0.1,
+          opacity: 0.1,
           fillOpacity: 0,
         },
         interactive: false,
       }).addTo(mapa);
-    })
-    .catch((error) => {
-      console.error("No fue posible cargar los límites estatales:", error);
     });
+  */
 }
 
 function texto(valor) {
