@@ -329,11 +329,21 @@ function esSi(valor) {
 //   return (pheds === "SI" && moce === "NO") || (pheds === "NO" && moce === "SI");
 // }
 
+// function esUsoParcial(item) {
+//   const pheds = valorUpper(item.uso_pheds);
+//   const moce = valorUpper(item.uso_moce);
+
+//   return (pheds === "SI" && moce === "NO") || (pheds === "NO" && moce === "SI");
+// }
+
 function esUsoParcial(item) {
   const pheds = valorUpper(item.uso_pheds);
   const moce = valorUpper(item.uso_moce);
 
-  return (pheds === "SI" && moce === "NO") || (pheds === "NO" && moce === "SI");
+  return (
+    (pheds === "SI" && (moce === "NO" || moce === "")) ||
+    (moce === "SI" && (pheds === "NO" || pheds === ""))
+  );
 }
 
 function esUsoCompleto(item) {
