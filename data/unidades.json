@@ -31,7 +31,7 @@
         "completo": 1.0,
         "celula_asignada": 8,
         "distribucion": "CDMX Primera Etapa (1)",
-        "parcial": 1,
+        "parcial": 0,
         "completo.1": 1
     },
     {
@@ -4156,12 +4156,12 @@
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_moce": "SI",
         "observaciones": "",
-        "completo": 0.7222222222222222,
+        "completo": 0.8333333333333334,
         "celula_asignada": "Ninguna",
         "distribucion": null,
-        "parcial": 0,
+        "parcial": 1,
         "completo.1": 0
     },
     {
@@ -5702,7 +5702,7 @@
         "celula_asignada": 9,
         "distribucion": "Morelos ",
         "parcial": 1,
-        "completo.1": 0
+        "completo.1": 1
     },
     {
         "clues": "OCIMB009660",
