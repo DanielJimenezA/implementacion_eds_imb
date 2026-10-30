@@ -35,7 +35,7 @@
         "completo.1": 1
     },
     {
-        "clues": "BSIMB000766",
+        "clues": "BSIMB000520",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -60,17 +60,17 @@
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
         "observaciones": "Etapa 1",
-        "completo": 0.7777777777777778,
+        "completo": 1.0,
         "celula_asignada": 8,
         "distribucion": "CDMX Primera Etapa (1)",
         "parcial": 0,
-        "completo.1": 0
+        "completo.1": 1
     },
     {
-        "clues": "BSIMB000672",
+        "clues": "BSIMB000783",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -96,12 +96,12 @@
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_moce": "SI",
         "observaciones": "La coordinación estatal reporta que la unidad no cuenta con enlace de internet",
-        "completo": 0.7777777777777778,
+        "completo": 0.8888888888888888,
         "celula_asignada": 4,
         "distribucion": "Hidalgo",
-        "parcial": 0,
+        "parcial": 1,
         "completo.1": 0
     },
     {
@@ -235,14 +235,14 @@
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
         "observaciones": "Pendiente fecha de entrega de equipo",
-        "completo": 0.7777777777777778,
+        "completo": 1.0,
         "celula_asignada": 9,
         "distribucion": "Zona Oriente Estado de México (3)",
         "parcial": 0,
-        "completo.1": 0
+        "completo.1": 1
     },
     {
         "clues": "MCIMB009215",
@@ -270,14 +270,14 @@
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
         "observaciones": "Pendiente fecha de entrega de equipo",
-        "completo": 0.7777777777777778,
+        "completo": 1.0,
         "celula_asignada": 9,
         "distribucion": "Zona Oriente Estado de México (3)",
         "parcial": 0,
-        "completo.1": 0
+        "completo.1": 1
     },
     {
         "clues": "CMIMB001141",
@@ -6335,7 +6335,7 @@
         "completo.1": 0
     },
     {
-        "clues": "BSIMB000812",
+        "clues": "BSIMB000754",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -6360,17 +6360,17 @@
         "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
-        "uso_pheds": "NO",
-        "uso_moce": "NO",
+        "uso_pheds": "SI",
+        "uso_moce": "SI",
         "observaciones": "",
-        "completo": 0.7777777777777778,
+        "completo": 1.0,
         "celula_asignada": 2,
         "distribucion": "Baja California Sur ",
         "parcial": 0,
-        "completo.1": 0
+        "completo.1": 1
     },
     {
-        "clues": "BSIMB000346",
+        "clues": "BSIMB000766",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -6405,7 +6405,7 @@
         "completo.1": 1
     },
     {
-        "clues": "BSIMB000520",
+        "clues": "BSIMB000672",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -6440,7 +6440,7 @@
         "completo.1": 1
     },
     {
-        "clues": "BSIMB000783",
+        "clues": "BSIMB000503",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -6475,7 +6475,7 @@
         "completo.1": 1
     },
     {
-        "clues": "BSIMB000754",
+        "clues": "BSIMB000346",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -6510,7 +6510,7 @@
         "completo.1": 1
     },
     {
-        "clues": "BSIMB000503",
+        "clues": "BSIMB000643",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -6545,7 +6545,7 @@
         "completo.1": 1
     },
     {
-        "clues": "BSIMB000643",
+        "clues": "BSIMB000812",
         "inst": "IMB",
         "entidad": "BAJA CALIFORNIA SUR",
         "tipo_entidad": "ESTATAL",
@@ -7490,9 +7490,9 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB000351",
+        "clues": "DFIMB000830",
         "inst": "IMB",
-        "entidad": "PUEBLA",
+        "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "AYOTOXCO DE GUERRERO",
         "nombre_unidad": "HOSPITAL COMUNITARIO DE AYOTOXCO",
@@ -7525,7 +7525,7 @@
         "completo.1": 0
     },
     {
-        "clues": "DFIMB000830",
+        "clues": "DFIMB002650",
         "inst": "IMB",
         "entidad": "CIUDAD DE MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -7560,9 +7560,9 @@
         "completo.1": 0
     },
     {
-        "clues": "DFIMB002650",
+        "clues": "CMIMB000103",
         "inst": "IMB",
-        "entidad": "CIUDAD DE MÉXICO",
+        "entidad": "COLIMA",
         "tipo_entidad": "ESTATAL",
         "municipio": "IZTAPALAPA",
         "nombre_unidad": "CLÍNICA HOSPITAL EMILIANO ZAPATA",
@@ -7595,7 +7595,7 @@
         "completo.1": 0
     },
     {
-        "clues": "CMIMB000103",
+        "clues": "CMIMB001153",
         "inst": "IMB",
         "entidad": "COLIMA",
         "tipo_entidad": "ESTATAL",
@@ -7630,7 +7630,7 @@
         "completo.1": 1
     },
     {
-        "clues": "CMIMB001153",
+        "clues": "CMIMB001445",
         "inst": "IMB",
         "entidad": "COLIMA",
         "tipo_entidad": "ESTATAL",
@@ -7665,9 +7665,9 @@
         "completo.1": 1
     },
     {
-        "clues": "CMIMB001445",
+        "clues": "TLIMB001412",
         "inst": "IMB",
-        "entidad": "COLIMA",
+        "entidad": "TLAXCALA",
         "tipo_entidad": "ESTATAL",
         "municipio": "COLIMA",
         "nombre_unidad": "INSTITUTO ESTATAL DE CANCEROLOGÍA LIC. CARLOS DE LA MADRID VIRGEN",
@@ -7700,9 +7700,9 @@
         "completo.1": 1
     },
     {
-        "clues": "TLIMB001412",
+        "clues": "GRIMB000024",
         "inst": "IMB",
-        "entidad": "TLAXCALA",
+        "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
         "municipio": "TLAXCO",
         "nombre_unidad": "HOSPITAL COMUNITARIO TLAXCO",
@@ -7735,7 +7735,7 @@
         "completo.1": 1
     },
     {
-        "clues": "GRIMB000024",
+        "clues": "GRIMB000934",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -7770,7 +7770,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB000934",
+        "clues": "GRIMB001120",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -7805,7 +7805,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB001120",
+        "clues": "GRIMB001436",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -7840,7 +7840,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB001436",
+        "clues": "GRIMB002030",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -7875,7 +7875,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB002030",
+        "clues": "GRIMB002170",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -7910,7 +7910,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB002170",
+        "clues": "GRIMB002812",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -7945,7 +7945,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB002812",
+        "clues": "GRIMB003705",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -7980,7 +7980,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB003705",
+        "clues": "GRIMB003961",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8015,7 +8015,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB003961",
+        "clues": "GRIMB004096",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8050,7 +8050,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB004096",
+        "clues": "GRIMB004311",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8085,7 +8085,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB004311",
+        "clues": "GRIMB004562",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8120,7 +8120,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB004562",
+        "clues": "GRIMB004574",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8155,7 +8155,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB004574",
+        "clues": "GRIMB005163",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8190,7 +8190,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB005163",
+        "clues": "GRIMB005320",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8225,7 +8225,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB005320",
+        "clues": "GRIMB005566",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8260,7 +8260,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB005566",
+        "clues": "GRIMB006370",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8295,7 +8295,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB006370",
+        "clues": "GRIMB006930",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8330,7 +8330,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB006930",
+        "clues": "GRIMB006983",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8365,7 +8365,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB006983",
+        "clues": "GRIMB007712",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8400,7 +8400,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB007712",
+        "clues": "GRIMB007753",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8435,7 +8435,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB007753",
+        "clues": "GRIMB007980",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8470,7 +8470,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB007980",
+        "clues": "GRIMB008120",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8505,7 +8505,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB008120",
+        "clues": "GRIMB008890",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8540,7 +8540,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB008890",
+        "clues": "GRIMB008902",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8575,7 +8575,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB008902",
+        "clues": "GRIMB008926",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8610,7 +8610,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB008926",
+        "clues": "GRIMB008931",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8645,7 +8645,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB008931",
+        "clues": "GRIMB009030",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8680,7 +8680,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB009030",
+        "clues": "GRIMB009042",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8715,7 +8715,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB009042",
+        "clues": "GRIMB009054",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8750,7 +8750,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB009054",
+        "clues": "GRIMB009486",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8785,7 +8785,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB009486",
+        "clues": "GRIMB009491",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8820,7 +8820,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB009491",
+        "clues": "GRIMB009742",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8855,7 +8855,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB009742",
+        "clues": "GRIMB009906",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8890,7 +8890,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB009906",
+        "clues": "GRIMB010285",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8925,7 +8925,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB010285",
+        "clues": "GRIMB010290",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8960,7 +8960,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB010290",
+        "clues": "GRIMB010401",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -8995,7 +8995,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB010401",
+        "clues": "GRIMB010495",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -9030,7 +9030,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB010495",
+        "clues": "GRIMB010512",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -9065,7 +9065,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB010512",
+        "clues": "GRIMB010524",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -9100,7 +9100,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB010524",
+        "clues": "GRIMB010536",
         "inst": "IMB",
         "entidad": "GUERRERO",
         "tipo_entidad": "ESTATAL",
@@ -9135,9 +9135,9 @@
         "completo.1": 0
     },
     {
-        "clues": "GRIMB010536",
+        "clues": "GTIMB000015",
         "inst": "IMB",
-        "entidad": "GUERRERO",
+        "entidad": "HRAE",
         "tipo_entidad": "HRAE",
         "municipio": "TLAPA DE COMONFORT",
         "nombre_unidad": "HOSPITAL IMSS BIENESTAR TLAPA",
@@ -9170,7 +9170,7 @@
         "completo.1": 0
     },
     {
-        "clues": "GTIMB000015",
+        "clues": "MCIMB012295",
         "inst": "IMB",
         "entidad": "HRAE",
         "tipo_entidad": "HRAE",
@@ -9205,9 +9205,9 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012295",
+        "clues": "MCIMB002565",
         "inst": "IMB",
-        "entidad": "HRAE",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTAPALUCA",
         "nombre_unidad": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD IXTAPALUCA",
@@ -9240,7 +9240,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB002565",
+        "clues": "MCIMB006181",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9275,7 +9275,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB006181",
+        "clues": "MCIMB008042",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9310,9 +9310,9 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB008042",
+        "clues": "TLIMB001890",
         "inst": "IMB",
-        "entidad": "MÉXICO",
+        "entidad": "TLAXCALA",
         "tipo_entidad": "ESTATAL",
         "municipio": "VALLE DE CHALCO SOLIDARIDAD",
         "nombre_unidad": "H.G. DR. FERNANDO QUIROZ GUTIÉRREZ",
@@ -9345,9 +9345,9 @@
         "completo.1": 0
     },
     {
-        "clues": "TLIMB001890",
+        "clues": "MCIMB010825",
         "inst": "IMB",
-        "entidad": "TLAXCALA",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "APETATITLAN DE ANTONIO CARVAJAL",
         "nombre_unidad": "HOSPITAL INFANTIL DE TLAXCALA",
@@ -9380,9 +9380,9 @@
         "completo.1": 1
     },
     {
-        "clues": "MCIMB010825",
+        "clues": "TLIMB002025",
         "inst": "IMB",
-        "entidad": "MÉXICO",
+        "entidad": "TLAXCALA",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTAPALUCA",
         "nombre_unidad": "HOSPITAL MUNICIPAL IXTAPALUCA LEONA VICARIO BICENTENARIO",
@@ -9415,9 +9415,9 @@
         "completo.1": 0
     },
     {
-        "clues": "TLIMB002025",
+        "clues": "MCIMB012143",
         "inst": "IMB",
-        "entidad": "TLAXCALA",
+        "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "CALPULALPAN",
         "nombre_unidad": "HOSPITAL GENERAL DE CALPULALPAN",
@@ -9450,7 +9450,7 @@
         "completo.1": 1
     },
     {
-        "clues": "MCIMB012143",
+        "clues": "MCIMB012271",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9485,7 +9485,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012271",
+        "clues": "MCIMB001486",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9520,7 +9520,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB001486",
+        "clues": "MCIMB002244",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9555,7 +9555,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB002244",
+        "clues": "MCIMB002331",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9590,7 +9590,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB002331",
+        "clues": "MCIMB002640",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9625,7 +9625,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB002640",
+        "clues": "MCIMB003743",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9660,7 +9660,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB003743",
+        "clues": "MCIMB004344",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9695,7 +9695,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB004344",
+        "clues": "MCIMB004443",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9730,7 +9730,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB004443",
+        "clues": "MCIMB004694",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9765,7 +9765,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB004694",
+        "clues": "MCIMB000890",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9800,7 +9800,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB000890",
+        "clues": "MCIMB000914",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9835,7 +9835,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB000914",
+        "clues": "MCIMB001351",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9870,7 +9870,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB001351",
+        "clues": "MCIMB002874",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9905,7 +9905,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB002874",
+        "clues": "MCIMB005102",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9940,7 +9940,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB005102",
+        "clues": "MCIMB005225",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -9975,7 +9975,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB005225",
+        "clues": "MCIMB005860",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10010,7 +10010,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB005860",
+        "clues": "MCIMB005942",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10045,7 +10045,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB005942",
+        "clues": "MCIMB006275",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10080,7 +10080,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB006275",
+        "clues": "MCIMB006893",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10115,7 +10115,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB006893",
+        "clues": "MCIMB007960",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10150,7 +10150,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB007960",
+        "clues": "MCIMB006946",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10185,7 +10185,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB006946",
+        "clues": "MCIMB006951",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10220,7 +10220,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB006951",
+        "clues": "MCIMB009022",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10255,7 +10255,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009022",
+        "clues": "MCIMB009051",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10290,7 +10290,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009051",
+        "clues": "MCIMB009063",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10325,7 +10325,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009063",
+        "clues": "MCIMB007231",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10360,7 +10360,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB007231",
+        "clues": "MCIMB009162",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10395,7 +10395,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009162",
+        "clues": "MCIMB007465",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10430,7 +10430,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB007465",
+        "clues": "MCIMB007540",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10465,7 +10465,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB007540",
+        "clues": "MCIMB009261",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10500,7 +10500,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009261",
+        "clues": "MCIMB009425",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10535,7 +10535,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009425",
+        "clues": "MCIMB008556",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10570,7 +10570,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB008556",
+        "clues": "MCIMB009734",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10605,7 +10605,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009734",
+        "clues": "MCIMB009775",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10640,7 +10640,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009775",
+        "clues": "MCIMB009145",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10675,7 +10675,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009145",
+        "clues": "MCIMB010236",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10710,7 +10710,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB010236",
+        "clues": "MCIMB009174",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10745,7 +10745,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009174",
+        "clues": "MCIMB010842",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10780,7 +10780,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB010842",
+        "clues": "MCIMB011694",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10815,7 +10815,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB011694",
+        "clues": "MCIMB009186",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10850,7 +10850,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB009186",
+        "clues": "MCIMB012073",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10885,7 +10885,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012073",
+        "clues": "MCIMB010294",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10920,7 +10920,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB010294",
+        "clues": "MCIMB012085",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -10955,8 +10955,8 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012085",
-        "inst": "IMB",
+        "clues": "MCIMB012131",
+        "inst": "pero",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "SAN JOSE DEL RINCON",
@@ -10990,8 +10990,8 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012131",
-        "inst": "pero",
+        "clues": "MCIMB012196",
+        "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
         "municipio": "JIQUIPILCO",
@@ -11025,7 +11025,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012196",
+        "clues": "MCIMB012254",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -11060,7 +11060,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012254",
+        "clues": "MCIMB012114",
         "inst": "IMB",
         "entidad": "MÉXICO",
         "tipo_entidad": "ESTATAL",
@@ -11095,9 +11095,9 @@
         "completo.1": 0
     },
     {
-        "clues": "MCIMB012114",
+        "clues": "MNIMB004734",
         "inst": "IMB",
-        "entidad": "MÉXICO",
+        "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
         "municipio": "TEMASCALTEPEC",
         "nombre_unidad": "HOSPITAL MUNICIPAL TEMASCALTEPEC",
@@ -11130,7 +11130,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB004734",
+        "clues": "MNIMB000230",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11165,7 +11165,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB000230",
+        "clues": "MNIMB000353",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11200,7 +11200,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB000353",
+        "clues": "MNIMB000650",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11235,7 +11235,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB000650",
+        "clues": "MNIMB001292",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11270,7 +11270,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB001292",
+        "clues": "MNIMB001403",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11305,7 +11305,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB001403",
+        "clues": "MNIMB001415",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11340,7 +11340,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB001415",
+        "clues": "MNIMB001420",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11375,7 +11375,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB001420",
+        "clues": "MNIMB001601",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11410,7 +11410,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB001601",
+        "clues": "MNIMB002091",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11445,7 +11445,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB002091",
+        "clues": "MNIMB002190",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11480,7 +11480,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB002190",
+        "clues": "MNIMB002774",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11515,7 +11515,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB002774",
+        "clues": "MNIMB002931",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11550,7 +11550,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB002931",
+        "clues": "MNIMB003013",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11585,7 +11585,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003013",
+        "clues": "MNIMB003532",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11620,7 +11620,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003532",
+        "clues": "MNIMB003544",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11655,7 +11655,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003544",
+        "clues": "MNIMB003590",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11690,7 +11690,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003590",
+        "clues": "MNIMB003660",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11725,7 +11725,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003660",
+        "clues": "MNIMB003911",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11760,7 +11760,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003911",
+        "clues": "MNIMB003923",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11795,7 +11795,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003923",
+        "clues": "MNIMB003935",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11830,7 +11830,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003935",
+        "clues": "MNIMB003940",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11865,7 +11865,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003940",
+        "clues": "MNIMB003952",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11900,7 +11900,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003952",
+        "clues": "MNIMB003964",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11935,7 +11935,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003964",
+        "clues": "MNIMB003976",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -11970,7 +11970,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003976",
+        "clues": "MNIMB003981",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -12005,7 +12005,7 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB003981",
+        "clues": "MNIMB004751",
         "inst": "IMB",
         "entidad": "MICHOACÁN",
         "tipo_entidad": "ESTATAL",
@@ -12040,9 +12040,9 @@
         "completo.1": 0
     },
     {
-        "clues": "MNIMB004751",
+        "clues": "NTIMB002540",
         "inst": "IMB",
-        "entidad": "MICHOACÁN",
+        "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
         "municipio": "AQUILA",
         "nombre_unidad": "HOSPITAL COMUNITARIO MARUATA",
@@ -12075,7 +12075,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002540",
+        "clues": "NTIMB000015",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12110,7 +12110,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB000015",
+        "clues": "NTIMB000020",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12145,7 +12145,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB000020",
+        "clues": "NTIMB000353",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12180,7 +12180,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB000353",
+        "clues": "NTIMB000510",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12215,7 +12215,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB000510",
+        "clues": "NTIMB000551",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12250,7 +12250,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB000551",
+        "clues": "NTIMB001246",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12285,7 +12285,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB001246",
+        "clues": "NTIMB001654",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12320,7 +12320,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB001654",
+        "clues": "NTIMB001724",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12355,7 +12355,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB001724",
+        "clues": "NTIMB001765",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12390,7 +12390,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB001765",
+        "clues": "NTIMB002086",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12425,7 +12425,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002086",
+        "clues": "NTIMB002202",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12460,7 +12460,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002202",
+        "clues": "NTIMB002523",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12495,7 +12495,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002523",
+        "clues": "NTIMB002622",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12530,7 +12530,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002622",
+        "clues": "NTIMB002634",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12565,7 +12565,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002634",
+        "clues": "NTIMB002646",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12600,7 +12600,7 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002646",
+        "clues": "NTIMB002745",
         "inst": "IMB",
         "entidad": "NAYARIT",
         "tipo_entidad": "ESTATAL",
@@ -12635,9 +12635,9 @@
         "completo.1": 0
     },
     {
-        "clues": "NTIMB002745",
+        "clues": "OCIMB000135",
         "inst": "IMB",
-        "entidad": "NAYARIT",
+        "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
         "municipio": "TUXPAN",
         "nombre_unidad": "HOSPITAL COMUNITARIO TUXPAN",
@@ -12670,7 +12670,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB000135",
+        "clues": "OCIMB000350",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12705,7 +12705,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB000350",
+        "clues": "OCIMB000386",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12740,7 +12740,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB000386",
+        "clues": "OCIMB000490",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12775,7 +12775,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB000490",
+        "clues": "OCIMB000876",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12810,7 +12810,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB000876",
+        "clues": "OCIMB000881",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12845,7 +12845,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB000881",
+        "clues": "OCIMB001330",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12867,20 +12867,20 @@
         "entrega_equipos_red": "",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
         "cargas_moce": "EN PROCESO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.5555555555555556,
+        "completo": 0.6111111111111112,
         "celula_asignada": 3,
         "distribucion": "Oaxaca",
         "parcial": 0,
         "completo.1": 0
     },
     {
-        "clues": "OCIMB001330",
+        "clues": "OCIMB001844",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12915,7 +12915,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB001844",
+        "clues": "OCIMB002100",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12950,7 +12950,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB002100",
+        "clues": "OCIMB003133",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -12985,7 +12985,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB003133",
+        "clues": "OCIMB003401",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13020,7 +13020,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB003401",
+        "clues": "OCIMB003500",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13055,7 +13055,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB003500",
+        "clues": "OCIMB003816",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13090,7 +13090,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB003816",
+        "clues": "OCIMB004912",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13125,7 +13125,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB004912",
+        "clues": "OCIMB007012",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13160,7 +13160,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB007012",
+        "clues": "OCIMB007181",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13195,7 +13195,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB007181",
+        "clues": "OCIMB007572",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13230,7 +13230,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB007572",
+        "clues": "OCIMB007625",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13265,7 +13265,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB007625",
+        "clues": "OCIMB007864",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13300,7 +13300,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB007864",
+        "clues": "OCIMB008045",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13335,7 +13335,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008045",
+        "clues": "OCIMB008190",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13370,7 +13370,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008190",
+        "clues": "OCIMB008634",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13405,7 +13405,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008634",
+        "clues": "OCIMB008651",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13440,7 +13440,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008651",
+        "clues": "OCIMB008774",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13475,7 +13475,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008774",
+        "clues": "OCIMB008803",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13510,7 +13510,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008803",
+        "clues": "OCIMB008815",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13545,7 +13545,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008815",
+        "clues": "OCIMB008861",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13580,7 +13580,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008861",
+        "clues": "OCIMB008873",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13615,7 +13615,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB008873",
+        "clues": "OCIMB009071",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13650,7 +13650,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009071",
+        "clues": "OCIMB009100",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13685,7 +13685,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009100",
+        "clues": "OCIMB009416",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13720,7 +13720,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009416",
+        "clues": "OCIMB009445",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13755,7 +13755,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009445",
+        "clues": "OCIMB009462",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13790,7 +13790,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009462",
+        "clues": "OCIMB009561",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13825,7 +13825,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009561",
+        "clues": "OCIMB009631",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13860,7 +13860,7 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009631",
+        "clues": "OCIMB009643",
         "inst": "IMB",
         "entidad": "OAXACA",
         "tipo_entidad": "ESTATAL",
@@ -13895,9 +13895,9 @@
         "completo.1": 0
     },
     {
-        "clues": "OCIMB009643",
+        "clues": "PLIMB000433",
         "inst": "IMB",
-        "entidad": "OAXACA",
+        "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
         "municipio": "IXTLAN DE JUAREZ",
         "nombre_unidad": "IXTLÁN DE JUÁREZ",
@@ -13930,7 +13930,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB000433",
+        "clues": "PLIMB002154",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -13965,7 +13965,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB002154",
+        "clues": "PLIMB002492",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14000,7 +14000,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB002492",
+        "clues": "PLIMB003093",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14035,7 +14035,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB003093",
+        "clues": "PLIMB004073",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14070,7 +14070,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004073",
+        "clues": "PLIMB004085",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14105,7 +14105,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004085",
+        "clues": "PLIMB004860",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14140,7 +14140,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004860",
+        "clues": "PLIMB005205",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14175,7 +14175,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB005205",
+        "clues": "PLIMB005910",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14210,7 +14210,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB005910",
+        "clues": "PLIMB006004",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14245,7 +14245,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB006004",
+        "clues": "PLIMB001780",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14280,7 +14280,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB001780",
+        "clues": "PLIMB001792",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14315,7 +14315,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB001792",
+        "clues": "PLIMB002516",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14350,7 +14350,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB002516",
+        "clues": "PLIMB003706",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14385,7 +14385,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB003706",
+        "clues": "PLIMB004126",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14420,7 +14420,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004126",
+        "clues": "PLIMB004131",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14455,7 +14455,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004131",
+        "clues": "PLIMB004143",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14490,7 +14490,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004143",
+        "clues": "PLIMB004172",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14525,7 +14525,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004172",
+        "clues": "PLIMB004720",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14560,7 +14560,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB004720",
+        "clues": "PLIMB005012",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14595,7 +14595,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB005012",
+        "clues": "PLIMB005321",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14630,7 +14630,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB005321",
+        "clues": "PLIMB005613",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14665,7 +14665,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB005613",
+        "clues": "PLIMB005700",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14700,7 +14700,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB005700",
+        "clues": "PLIMB007083",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14735,7 +14735,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB007083",
+        "clues": "PLIMB007095",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14770,7 +14770,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB007095",
+        "clues": "PLIMB000100",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -14805,7 +14805,7 @@
         "completo.1": 0
     },
     {
-        "clues": "PLIMB000100",
+        "clues": "PLIMB000351",
         "inst": "IMB",
         "entidad": "PUEBLA",
         "tipo_entidad": "ESTATAL",
@@ -17347,13 +17347,13 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.6666666666666666,
+        "completo": 0.7777777777777778,
         "celula_asignada": 5,
         "distribucion": "Sonora",
         "parcial": 0,
@@ -17523,12 +17523,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.7222222222222222,
+        "completo": 0.7777777777777778,
         "celula_asignada": 5,
         "distribucion": "Sonora",
         "parcial": 0,
@@ -17558,12 +17558,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.7222222222222222,
+        "completo": 0.7777777777777778,
         "celula_asignada": 5,
         "distribucion": "Sonora",
         "parcial": 0,
@@ -17662,13 +17662,13 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.6666666666666666,
+        "completo": 0.7777777777777778,
         "celula_asignada": 5,
         "distribucion": "Sonora",
         "parcial": 0,
@@ -17732,13 +17732,13 @@
         "entrega_equipos_red": "CONCLUIDO",
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
-        "cargas_pheds": "EN PROCESO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_pheds": "CONCLUIDO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.6666666666666666,
+        "completo": 0.7777777777777778,
         "celula_asignada": 5,
         "distribucion": "Sonora",
         "parcial": 0,
@@ -20146,14 +20146,14 @@
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
         "formato_pheds": "CONCLUIDO",
-        "formato_moce": "EN REVISIÓN CENTRAL",
+        "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.574074074074074,
+        "completo": 0.7222222222222222,
         "celula_asignada": 3,
         "distribucion": "Veracruz (3)",
         "parcial": 0,
@@ -20323,12 +20323,12 @@
         "formato_pheds": "CONCLUIDO",
         "formato_moce": "CONCLUIDO",
         "cargas_pheds": "CONCLUIDO",
-        "cargas_moce": "EN PROCESO",
+        "cargas_moce": "CONCLUIDO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.6666666666666666,
+        "completo": 0.7222222222222222,
         "celula_asignada": 3,
         "distribucion": "Veracruz (3)",
         "parcial": 0,
@@ -20425,15 +20425,15 @@
         "longitud": -97.4003,
         "formato_tics_servicios": "ENVIADO A TICS",
         "entrega_equipos_red": "EN PROCESO",
-        "formato_pheds": "EN REVISIÓN CENTRAL",
-        "formato_moce": "EN REVISIÓN CENTRAL",
-        "cargas_pheds": "",
-        "cargas_moce": "",
+        "formato_pheds": "CONCLUIDO",
+        "formato_moce": "CONCLUIDO",
+        "cargas_pheds": "EN PROCESO",
+        "cargas_moce": "EN PROCESO",
         "capacitaciones": "CONCLUIDAS",
         "uso_pheds": "",
         "uso_moce": "",
         "observaciones": "",
-        "completo": 0.4259259259259259,
+        "completo": 0.6111111111111112,
         "celula_asignada": 3,
         "distribucion": "Veracruz (3)",
         "parcial": 0,
